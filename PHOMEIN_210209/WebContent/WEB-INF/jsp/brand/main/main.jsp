@@ -55,7 +55,7 @@
 								<span><b style="color:#ab3221;">R</b>ice noodle <b style="color:#ab3221;">E</b>xpress <b style="color:#ab3221;">D</b>elivery</span>
 								
 								</p>
-								<a href="http://www.phomein.com/company/franchisee/red.do" style="display:inline-block; margin-top:50px; padding:13px 24px; background-color:#8a382c; color:#fff; font-size:16px;">브랜드 스토리 확인</a>
+								<a href="/company/franchisee/red.do" style="display:inline-block; margin-top:50px; padding:13px 24px; background-color:#8a382c; color:#fff; font-size:16px;">브랜드 스토리 확인</a>
 
 								<p class="visual-dot-nav">소자본 창업<br>포메인 RED</p>
 							</div>
@@ -160,7 +160,7 @@
 						</div>
 						<div class="bottom-box">
 							<div class="left">
-								<a href="http://www.phomein.com/brand/community/notice/community_view.do?seq=86">
+								<a href="https://gift.kakao.com/brand/2180?input_channel_id=2636" target="_blank">
 									<span class="img01"><img src="../images/icon/ico_phone_01.png" alt=""/></span>
 									<span class="img02"><img src="../images/icon/ico_phone_02.png" alt=""/></span>
 									<p class="txt">포메인 <strong>카카오톡 선물하기</strong></p>

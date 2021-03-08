@@ -134,6 +134,13 @@ select::-ms-expand {display:none;}
 .nav_cate .swiper-button-next.swiper-button-disabled,
 .nav_cate .swiper-button-prev.swiper-button-disabled {opacity:0.2;}
 
+#header_s_form{margin-top: 10px; margin-left: 20px;}
+#header_s_form input{display:inline-block; width:210px; height:30px; font-size:12px; padding: 5px 0; background-color: rgba(140, 149, 151, 0.5); padding: 10px; border: 0; border-radius: 20px; margin-right: 10px; color: #bbb;}
+#header_s_form input::placeholder{color: #bbb; text-align: center;}
+#header_s_form input::placeholder{text-align: center;}
+#header_s_form input::placeholder{text-align: center;}
+#header_s_form input::placeholder{text-align: center;}
+#header_s_form button{display:inline-block; width: 20px; height: 20px; background: url('/company/images/common/h_search.png') no-repeat; background-size: contain; margin-top: 4px;}
 
 /*  아코디언 리스트 */
 .ac_list .ac_tit {display:block;}

@@ -90,13 +90,17 @@
 .rnd .phoseason .intro {position:relative;height: 100px;margin:0 -20px;padding:55px 0;background:url(../images/content/bg_phoseason.jpg) center;background-size:cover;text-align:center;}
 .rnd .phoseason .intro:after {content:'';display:block;position:absolute;top:-30px;;left:50%; width:1px;height:60px;background:#aa8f63;}
 .rnd .phoseason .intro_text {text-align:center; margin:0 -20px; padding:25px 0;}
-.rnd .phoseason .intro_text strong {color:#546222;font-size:24px;line-height:1;font-weight:500;}
+.rnd .phoseason .intro_text strong {color:#546222;font-size:25px;line-height:1;font-weight:500; line-height: 40px;}
+.rnd .phoseason .intro_text strong em{font-weight: 700;}
 .rnd .phoseason .intro_text p {padding:20px 0 5px;color:#333;font-size:13px;line-height:18px;}
+.rnd .phoseason .intro_text p{font-size: 12px; line-height: 18px; color: #666;}
+.rnd .phoseason .intro_text p b{font-weight: 500;}
 .rnd .phoseason .factory_img > img {width: 100%; margin-top:10px;}
+.rnd .phoseason .factory_img .img_sec{font-size: 22.5px;}
 .rnd .phoseason .cont {position:relative;margin:0 -20px -75px;padding:45px 0 75px;background:#fafafa;text-align:center;}
-.rnd .phoseason .cont > strong {color:#546222;font-size:24px;line-height:30px;}
-.rnd .phoseason .cont > strong em {font-weight:500;}
-.rnd .phoseason .cont > p {padding:15px 0 5px;font-size:12px;line-height:17px;}
+.rnd .phoseason .cont > strong {color:#546222;font-size:25px;line-height:40px;}
+.rnd .phoseason .cont > strong em {font-weight:700;}
+.rnd .phoseason .cont > p {padding:15px 0 5px;font-size:12px;line-height:18px;}
 .rnd .phoseason .cont li {padding:20px 20px 0;}
 .rnd .phoseason .cont li div {padding-bottom:30px;background:#fff;overflow:auto;}
 .rnd .phoseason .cont li:nth-child(2) div {padding-bottom:35px;}
@@ -119,6 +123,14 @@
 .rnd .mou .content .txt2 span {display:block;padding-top:15px;font-size:12px;line-height:18px;opacity:0.6;}
 .rnd .mou .content .img {padding-top:25px;}
 .rnd .mou .content .img img {width:186px;}
+
+.rnd .phoseason .box_table{margin-top: 20px;}
+.rnd .phoseason .box_table .tit{text-align: center; font-size: 20px; line-height: 40px; color: #546222; margin-bottom: 20px;}
+.rnd .phoseason .box_table td{border: 1px solid #cbcaca; text-align: center; box-sizing: border-box; font-size: 8px; color: #231815; padding: 10px 0;}
+.rnd .phoseason .box_table td:nth-child(1){background-color: #efefee;}
+.rnd .phoseason .box_table td:nth-child(2){background-color: #e0e0df; color: #444a40;}
+.rnd .phoseason .box_table td:nth-child(3){background-color: #ffffff;}
+
 @media all and (max-width:359px) {
 	.rnd .mou .content {padding-left:7%;padding-right:7%;}
 }

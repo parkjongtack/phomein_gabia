@@ -32,7 +32,7 @@
 }
 </style>
 <div id="resizable" class="ui-widget-content" style="z-index: 1000;">
-	<a href="/mcompany/main/main.do"><img style="margin-bottom:5px;" src="/brand/images/icon/m_right_fixed_ico01.png"></a>
+	<a href="/brand/menu/menu_list.do"><img style="margin-bottom:5px;" src="/brand/images/icon/m_right_fixed_ico04.png"></a>
 	<a href="/mcompany/franchisee/red.do"><img style="margin-bottom:5px;" src="/brand/images/icon/m_right_fixed_ico02.png"></a>
 	<a href="/company/franchisee/terms.do"><img src="/brand/images/icon/m_right_fixed_ico03.png"></a>
 </div>

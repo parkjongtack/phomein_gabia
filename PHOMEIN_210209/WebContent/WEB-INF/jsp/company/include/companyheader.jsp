@@ -10,7 +10,7 @@
 							<a href="/company/company/dailyking.do">COMPANY</a>
 							<ul>
 								<li><a href="/company/company/dailyking.do">(주)데일리킹</a></li>
-								<li><a href="/company/rnd/phoseason.do">PHOSEASON INC.</a></li>
+								<li><a href="/company/rnd/phoseason.do">PHO SEASON INC.</a></li>
 								<li><a href="/company/company/ceo.do">CEO 인사말</a></li>
 								<li><a href="/company/rnd/greenfood.do">현대그린푸드 MOU</a></li>
 								<li><a href="/company/csr/phoever.do">사회공헌활동</a></li>
@@ -94,8 +94,8 @@
 					<a href="/company/franchisee/terms.do" target="_self">가맹문의</a>
 					<!-- <a href="/company/main/main.do" target="_self">기업 사이트</a> -->
 				</div>
-				<form action="" name="search_all" id="header_s_form">
-					<input type="text" placeholder="search"/>
+				<form action="/brand/community/search_list.do" name="search_all" id="header_s_form">
+					<input type="text" placeholder="search" name="search_key" value="${param.search_key}" />
 					<button type="submit"></button>
 				</form>
 				<div class="btn-system2">

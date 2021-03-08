@@ -90,7 +90,7 @@ h1, h2, h3, h4, h5, h6, th {font-weight: 400;}
 .red05-inner{padding-top: 114px; width: 100%; max-width:1200px; margin: 0 auto 160px; box-sizing:border-box;}
 .red05-inner table{width: 100%; box-sizing:border-box; border-top: 2px solid #8a382c; border-spacing: 0;}
 .red05-inner table tr th{border-bottom: 1px solid #ccc;}
-.red05-inner table tr td{border-bottom: 1px solid #ccc;}
+.red05-inner table tr td{border-bottom: 1px solid #ccc; vertical-align: middle;}
 .red05-inner table tr th.th-cen{padding: 50px 0; font-size: 40px; line-height:30px; letter-spacing:0; font-weight: 400; color: #8a382c; background: #f5f5f5; text-align: center; box-sizing:border-box;}
 .red05-inner table tr th.th-pos{padding-top: 43px; background: #f5f5f5; position: relative; text-align: center;}
 .red05-inner table tr th.th-pos img{margin-left: -78px; width: 156px; height: 156px; top: -114px; left: 50%; position: absolute; display: block;}
@@ -253,7 +253,7 @@ h1, h2, h3, h4, h5, h6, th {font-weight: 400;}
 									<span>국내 프랜차이즈 평균 창업비용 대비<br/>
 									<b>약 15% 낮은 비용</b>으로<br/>
 									창업 비용 부담을 줄였습니다.</span>
-									<strong>※ 2015년도 통계청 통계플러스(KOSTAT)<br/><i></i>프랜차이즈 현황 자료 발췌</strong>
+									<strong>※ 2020년도 통계청 통계플러스(KOSTAT)<br/><i></i>프랜차이즈 현황 자료 발췌</strong>
 								</div>
 								<div class="red03-box">
 									<img src="../images/red/red03-icon02.png" alt="안정적인 수익률">
@@ -261,8 +261,8 @@ h1, h2, h3, h4, h5, h6, th {font-weight: 400;}
 									<i class="bar"></i>
 									<span>국내 프랜차이즈 평균 대비<br/>
 									<b>약 242% 이상의 높은 기대수익률</b>과<br/>
-									매출 대비 <b>안정적인 수익률을 창출</b>합니다.</span>
-									<strong>※ 2015년도 통계청 통계플러스(KOSTAT)<br/><i></i>프랜차이즈 현황 자료 발췌</strong>
+									매출 <b>대비 안정적인 수익률을 창출</b>합니다.</span>
+									<strong>※ 2020년도 통계청 통계플러스(KOSTAT)<br/><i></i>프랜차이즈 현황 자료 발췌</strong>
 									<strong>※ 점주 상주 및 총 매출액(3천 만원) 대비<br/><i></i>딜리버리 매출 30% 가정 </strong>
 								</div>
 								<div class="red03-box">
@@ -388,7 +388,7 @@ h1, h2, h3, h4, h5, h6, th {font-weight: 400;}
 										</td>
 										<td class="td-icon">
 											<img src="../images/red/red05-tbl-img12.png" alt="아이콘">
-											<p class="m2"><b>공식 SNS 채널 3개 보유</b><br/>(블로그, 유튜브, 인스타그램, 유튜브)</p>
+											<p class="m2"><b>공식 SNS 채널 3개 보유</b><br/>(블로그, 유튜브, 인스타그램)</p>
 										</td>
 									</tr>
 								</tbody>

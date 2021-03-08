@@ -106,9 +106,18 @@
 #section6 .tit em {display:block;font-weight:700;}
 #section6 .conb .con {margin-top:-65px;padding:0 25px;}
 #section6 ul {margin:-4px;}
-#section6 ul:after {content:'';display:block;clear:both;}
-#section6 li {float:left;width:33.333%;height:110px;box-sizing:border-box;padding:4px;overflow:hidden;}
-#section6 li img {width:100%;height:100%;}
+#section6 .con > ul:after {content:'';display:block;clear:both;}
+#section6 .con > ul li {float:left;width:33.333%;height:110px;box-sizing:border-box;padding:4px;overflow:hidden;}
+#section6 .con > ul li img {width:100%;height:100%;}
+#section6 .sns-ico ul{text-align: center;}
+#section6 .sns-ico ul li {display:inline-block; margin:0 15px; height: auto; width: 25px; margin-top: 75%;}
+#section6 .sns-ico ul li.ico-y{width:25px;}
+#section6 .sns-ico ul li a {display:block; width:20px; height:25px; background:url('/brand/images/icon/ico_footer_sns.png') 0 0 no-repeat; opacity:1;}
+#section6 .img-board-list .img:after {display:none;}
+#section6 .sns-ico ul li a span {display:block; text-indent:-5000px;}
+#section6 .sns-ico ul li.ico-y a {background-position:0 0; width: 30px;}
+#section6 .sns-ico ul li.ico-i a {background-position:-46px 0;}
+#section6 .sns-ico ul li.ico-b a {background-position:-95px 0;}
 
 #section7 .link {display:block;}
 #section7 .tit {display:block;margin-left:35px;padding-right:20px;color:#fff;font-size:18px;line-height:28px;word-break:keep-all;word-wrap:break-word;opacity:0.87;}

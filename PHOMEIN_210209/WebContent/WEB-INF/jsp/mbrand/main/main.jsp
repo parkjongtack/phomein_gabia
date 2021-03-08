@@ -37,7 +37,7 @@
 								<div class="con con1" style="bottom:-10%;">
 									<span class="tit" style="font-size:40px; line-height:52px;"><em style="padding-bottom:15px;">소규모 프리미엄 쌀국수 브랜드</em>포메인 RED 런칭</span>
 									<span class="desc" style="font-size:18px;"><b style="color:#ab3221;">R</b>ice noodle <b style="color:#ab3221;">E</b>xpress <b style="color:#ab3221;">D</b>elivery</span>
-									<a href="http://www.phomein.com/company/franchisee/red.do" style="display:inline-block; margin-top:50px; padding:11px 21px; background-color:#8a382c; color:#fff; font-size:15px;">브랜드 스토리 확인</a>
+									<a href="/company/franchisee/red.do" style="display:inline-block; margin-top:50px; padding:11px 21px; background-color:#8a382c; color:#fff; font-size:15px;">브랜드 스토리 확인</a>
 								</div>
 							</div>
 						</li>
@@ -96,7 +96,7 @@
 			<div class="section con_wrap" id="section3">
 				<div class="cont">
 					<div class="con">
-						<span class="tit">베트남 요리,<em>31가지 감동을 담다.</em></span>
+						<span class="tit">베트남 요리,<em>32가지 감동을 담다.</em></span>
 						<a href="/mbrand/menu/menu_list.do" class="btn">포메인 전체메뉴 보기</a>
 						<span class="caution"><em>*</em> 매장별로 판매 메뉴는 상이 할 수 있습니다.</span>
 					</div>
@@ -116,7 +116,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="section con_wrap" id="section4">
+			<div class="section con_wrap" id="section4" style="background-image: url(/mbrand/common/images/main/mv4.jpg);">
 				<div class="cont">
 					<div class="con">
 						<p class="txt">ENJOY SERVICE</p>
@@ -126,7 +126,7 @@
 				<div class="conb">
 					<div class="con">
 						<ul>
-							<li><a href="https://gift-talk.kakao.com/appredirect?brand_id=2180" class="link_kakao" target="_blank"><span>카카오톡 <em>선물하기</em></span></a></li>
+							<li><a href="https://gift.kakao.com/brand/2180?input_channel_id=2636" class="link_kakao" target="_blank"><span>카카오톡 <em>선물하기</em></span></a></li>
 							<li><a href="/mbrand/store/store_list.do" class="link_delivery"><span><em>딜리버리</em> 매장</span></a></li>
 						</ul>
 					</div>
@@ -170,9 +170,16 @@
 							</c:choose>
 						</ul>
 					</div>
+					<div class="sns-ico">
+						<ul>
+							<li class="ico-y"><a href="https://www.youtube.com/channel/UCWAJe4McbHlhQc_CcHc8Qmw" target="_blank"><span>유튜브</span></a></li>
+							<li class="ico-i"><a href="https://www.instagram.com/phomeinkr/" target="_blank"><span>인스타그램</span></a></li>
+							<li class="ico-b"><a href="https://blog.naver.com/dk_phomein" target="_blank"><span>블로그</span></a></li>
+						</ul>
+					</div>
 				</div>
 			</div>
-			<div class="section con_wrap" id="section7">
+			<div class="section con_wrap" id="section7" style="overflow: hidden;">
 				<div class="cont">
 					<div class="con">
 						<c:choose>

@@ -42,7 +42,7 @@
 					<li class="ico-f"><a href="https://www.youtube.com/channel/UCWAJe4McbHlhQc_CcHc8Qmw" target="_blank"><span>유튜브</span></a></li>
 					<li class="ico-i"><a href="https://www.instagram.com/phomeinkr/" target="_blank"><span>인스타그램</span></a></li>
 					<li class="ico-b"><a href="https://blog.naver.com/dk_phomein" target="_blank"><span>블로그</span></a></li>
-					<li class="ico-p"><a href="/brand/community/notice/community_view.do?seq=86" target="_blank"><span></span></a></li>
+					<li class="ico-p"><a href="https://gift.kakao.com/brand/2180?input_channel_id=2636" target="_blank"><span></span></a></li>
 				</ul>
 			</div>
 			<!-- //sns -->

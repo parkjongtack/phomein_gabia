@@ -408,10 +408,12 @@
 =========================== */
 /* 포시즌 */
 .con_main_img {text-align:center; margin-bottom:100px;}
-.phoseason-box .top-visual-con {position:relative; top:0; left:0; width:100%; height:584px; margin:100px 0 0 0; padding:100px 0; box-sizing:border-box; text-align:center;}
+.phoseason-box .top-visual-con {position:relative; top:0; left:0; width:100%; height:auto; margin:100px 0 0 0; padding:100px 0; box-sizing:border-box; text-align:center;}
 .phoseason-box .top-visual-con:before {content:''; display:block; position:absolute; top:-55px; left:50%; width:1px; height:120px; background-color:#aa8f63; z-index:2;}
-.phoseason-box .top-visual-con .tit {color:#fff; font-size:50px; font-weight:500; line-height:68px;}
-.phoseason-box .top-visual-con .txt {margin-top:21px; color:#222; font-size:19px; line-height:36px;}
+.phoseason-box .top-visual-con .tit {color:#fff; font-size:50px; line-height: 80px;}
+.phoseason-box .top-visual-con .tit span{font-weight: 700;}
+.phoseason-box .top-visual-con .txt {margin-top:21px; color:#666; font-size:19px; line-height:34px;}
+.phoseason-box .top-visual-con .txt b{font-weight: 500;}
 .phoseason-box .top-visual-con .phoseason-visual {position:absolute; top:0; left:50%; width:1800px; margin-left:-900px;}
 .phoseason-box .top-visual-con .phoseason-visual .slick-dots {position:absolute; bottom:40px; left:0; width:100%; z-index:100;}
 .phoseason-box .top-visual-con .phoseason-visual .slick-dots li {display:inline-block; position:relative; width:28px;}
@@ -419,10 +421,32 @@
 .phoseason-box .top-visual-con .phoseason-visual .slick-dots li:before {content:''; display:block; position:absolute; top:50%; left:50%; width:8px; height:8px; margin:-4px 0 0 -4px; border:2px solid rgba(255,255,255,0); background-color:rgba(255,255,255,0.6); border-radius:100%; box-sizing:border-box;}
 .phoseason-box .top-visual-con .phoseason-visual .slick-dots li.slick-active:before {content:''; display:block; position:absolute; top:50%; left:50%; width:12px; height:12px; margin:-6px 0 0 -6px; border:2px solid rgba(255,255,255,1); background-color:rgba(255,255,255,0); border-radius:100%;box-sizing:border-box;}
 
-.phoseason-box .bottom-visual-con {position:relative; top:0; left:50%; width:1200px; margin:0 0 0 -600px; padding:110px 0 200px 0; box-sizing:border-box; text-align:center;}
+.phoseason-box .mid-visual-con{padding: 170px 0 180px;}
+.phoseason-box .mid-visual-con .lr_box{margin-bottom: 140px; overflow: hidden; font-size: 0;}
+.phoseason-box .mid-visual-con .lr_box > div{width: 50%; display: inline-block; vertical-align: middle; box-sizing: border-box;}
+.phoseason-box .mid-visual-con .lr_box > div.fl_right{float: right;}
+.phoseason-box .mid-visual-con .lr_box .tit{font-size: 45px; font-weight: 300; margin-bottom: 40px;}
+.phoseason-box .mid-visual-con .lr_box .tit span{font-weight: 500;}
+.phoseason-box .mid-visual-con .lr_box .txt{font-size: 19px; line-height: 35px; color: #666; letter-spacing: -0.7px;}
+.phoseason-box .mid-visual-con .box_table{margin-top: 20px;}
+.phoseason-box .mid-visual-con .box_table .tit{text-align: center; font-size: 40px; line-height: 75px; color: #546222; margin-bottom: 20px;}
+.phoseason-box .mid-visual-con .box_table td{border: 1px solid #cbcaca; text-align: center; box-sizing: border-box; font-size: 27px; color: #231815; padding: 20px 0;}
+.phoseason-box .mid-visual-con .box_table td:nth-child(1){background-color: #efefee;}
+.phoseason-box .mid-visual-con .box_table td:nth-child(2){background-color: #e0e0df; color: #444a40;}
+.phoseason-box .mid-visual-con .box_table td:nth-child(3){background-color: #ffffff;}
+
+
+.phoseason-box .bottom-visual-con {position:relative; top:0; left:50%; width:1200px; margin:0 0 0 -600px; padding:110px 0 200px 0; box-sizing:border-box; text-align:center; padding-top: 0;}
+.phoseason-box .bottom-visual-con .top_box{    padding-top: 100px;
+    width: 1920px;
+    overflow: hidden;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #fff;}
 .phoseason-box .bottom-visual-con .tit {color:#546222; font-size:50px;}
-.phoseason-box .bottom-visual-con .tit span {font-weight:500;}
-.phoseason-box .bottom-visual-con .txt {margin:20px 0 60px 0; color:#666; font-size:19px; line-height:28px;}
+.phoseason-box .bottom-visual-con .tit span {font-weight: 700;}
+.phoseason-box .bottom-visual-con .txt {margin:60px 0 60px 0; color:#666; font-size:19px; line-height:34px;}
 .phoseason-list {position:relative; width:1740px; margin-left:-270px;}
 .phoseason-list .slick-list {overflow:hidden;}
 .phoseason-list .slick-list:after {content:''; display:block; clear:both;}

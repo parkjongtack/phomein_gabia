@@ -10,7 +10,7 @@
 							<a href="/company/company/dailyking.do">COMPANY</a>
 							<ul>
 								<li><a href="/company/company/dailyking.do">(주)데일리킹</a></li>
-								<li><a href="/company/rnd/phoseason.do">PHOSEASON INC.</a></li>
+								<li><a href="/company/rnd/phoseason.do">PHO SEASON INC.</a></li>
 								<li><a href="/company/company/ceo.do">CEO 인사말</a></li>
 								<li><a href="/company/rnd/greenfood.do">현대그린푸드 MOU</a></li>
 								<li><a href="/company/csr/phoever.do">사회공헌활동</a></li>
@@ -180,7 +180,7 @@
 }
 </style>
 <div id="resizable" class="ui-widget-content" style="z-index: 1001;">
-	<a href="/company/main/main.do"><img style="margin-bottom:10px;" src="/brand/images/icon/right_fixed_ico01.png"></a>
+	<a href="/brand/menu/menu_list.do"><img style="margin-bottom:10px;" src="/brand/images/icon/right_fixed_ico01.png"></a>
 	<a href="/company/franchisee/red.do"><img style="margin-bottom:10px;" src="/brand/images/icon/right_fixed_ico02.png"></a>
 	<a href="/company/franchisee/terms.do"><img src="/brand/images/icon/right_fixed_ico03.png"></a>
 </div>

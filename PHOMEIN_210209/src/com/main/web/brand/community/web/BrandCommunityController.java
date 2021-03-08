@@ -51,12 +51,10 @@ public class BrandCommunityController extends GOdukAbstractController{
 	public String search(@RequestParam Map param, HttpSession session, ModelMap model, HttpServletRequest request,
 			HttpServletResponse response) throws Exception {
 		String deviceType = getDeviceType(request);
-		String pageIndex = "";
+		String pageIndex = "1";
 		
-		if(!deviceType.equals("normal")){
-			return M_NAMESPACE + "search_list";
-		}
 		
+		 
 		param.put("pageUnit", 9999);
 		int startCount = 0;
 
@@ -122,7 +120,11 @@ public class BrandCommunityController extends GOdukAbstractController{
 		param.put("useyn", "Y");
 		totalRecordCount = boardService.selectTotCnt(param);
 		
-		model.addAttribute("resultList_notice", boardService.selectPaging(param));			
+		model.addAttribute("resultList_notice", boardService.selectPaging(param));		
+		
+		if(!deviceType.equals("normal")){
+			return M_NAMESPACE + "search_list";
+		}
 		
 		return NAMESPACE + "search_list";
 	}

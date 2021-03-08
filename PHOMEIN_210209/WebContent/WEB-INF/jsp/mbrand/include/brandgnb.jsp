@@ -8,6 +8,10 @@
 					<li><a href="/mjpn/main/main.do" target="_self">JPN</a></li>
 				</ul>
 			</div> -->
+			<form action="/brand/community/search_list.do" name="search_all" id="header_s_form">
+				<input type="text" placeholder="search" name="search_key" value="${param.search_key}" />
+				<button type="submit"></button>
+			</form>
 		</div>
 		<div class="gnb_container">
 			<div class="inner">
@@ -17,7 +21,7 @@
 							<a href="#none">COMPANY</a>
 							<ul class="gnbs">
 								<li><a href="/mcompany/company/dailyking.do">(주)데일리킹</a></li>
-								<li><a href="/mcompany/rnd/phoseason.do">PHOSEASON INC.</a></li>
+								<li><a href="/mcompany/rnd/phoseason.do">PHO SEASON INC.</a></li>
 								<li><a href="/mcompany/company/ceo.do">CEO 인사말</a></li>
 								<li><a href="/mcompany/rnd/greenfood.do">현대그린푸드 MOU</a></li>
 								<li><a href="/mcompany/csr/phoever.do">사회공헌활동</a></li>
@@ -52,8 +56,9 @@
 								<li style="display:none;"><a href="/mcompany/franchisee/step02.do">가맹 안내</a></li>
 								<li style="display:none;"><a href="/mcompany/franchisee/step03.do">가맹 안내</a></li>
 								<li><a href="/mcompany/franchisee/terms.do">가맹 상담 신청</a></li>
-								<li style="display:none;"><a href="/mcompany/franchisee/info.do">가맹 상담 신청</a></li>
 								<li><a href="/mcompany/rnd/educ.do">교육시스템</a></li>
+								<li style="display:none;"><a href="/mcompany/franchisee/info.do">가맹 상담 신청</a></li>
+								
 							</ul>
 						</li>
 						<li>

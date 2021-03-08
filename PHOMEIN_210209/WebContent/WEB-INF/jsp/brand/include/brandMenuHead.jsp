@@ -15,8 +15,8 @@
 								<li id="STORE"><a href="/brand/store/store_list.do">STORE</a></li>
 								<li id="FRANCHISE"><a href="/company/franchisee/step01.do">FRANCHISE</a></li>
 								<li id="COMMUNITY"><a href="/brand/community/notice/community_list.do">COMMUNITY</a></li>
-								<li id="CS CENTER"><a href="/brand/cs_center/cs_terms.do">CS CENTER</a></li>
-								<li id="POLICY"><a href="/brand/etc/terms.do">POLICY</a></li>
+								<!-- <li id="CS CENTER"><a href="/brand/cs_center/cs_terms.do">CS CENTER</a></li>
+								<li id="POLICY"><a href="/brand/etc/terms.do">POLICY</a></li> -->
 							</ul>
 						</li>
 						<li class="depth02" style="display:none;">
@@ -24,7 +24,7 @@
 							<dd style="display:none;">COMPANY</dd>
 							<ul class="nav-list">
 								<li><a href="/company/company/dailyking.do">(주)데일리킹</a></li>
-								<li><a href="/company/rnd/phoseason.do">PHOSEASON INC.</a></li>
+								<li><a href="/company/rnd/phoseason.do">PHO SEASON INC.</a></li>
 								<li><a href="/company/company/ceo.do">CEO 인사말</a></li>
 								<li><a href="/company/rnd/greenfood.do">현대그린푸드 MOU</a></li>
 								<li><a href="/company/csr/phoever.do">사회공헌활동</a></li>

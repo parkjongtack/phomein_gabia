@@ -170,7 +170,7 @@ h1, h2, h3, h4, h5, h6, th {font-weight: 400;}
 
 .red02-wrap{background-image: url('../images/content/red02-wrap_bg.jpg'); height: 938px; margin-bottom: 320px;}
 .red02-wrap .box{font-size: 0; position: relative; top: 420px;}
-.red02-wrap .box li{box-shadow: 0px 11px 12.87px 0.13px rgb(0 0 0 / 30%);text-align: center;padding: 5% 0%;width: 29%;font-size: 22px;font-weight: lighter;background-color: #fff;box-sizing: border-box;display: inline-block;box-sizing: border-box;margin-left: 3.333333%;}
+.red02-wrap .box li{box-shadow: 0px 11px 12.87px 0.13px rgb(0 0 0 / 30%);text-align: center;padding: 5% 1%;width: 29%;font-size: 22px;font-weight: lighter;background-color: #fff;box-sizing: border-box;display: inline-block;box-sizing: border-box;margin-left: 3.333333%; height: 662px;}
 .red02-wrap .box li p{font-weight: 500; font-size: 45px; margin: 30px 0;}
 .red02-wrap .box li:nth-child(2){}
 .red02-wrap .box li span{letter-spacing: -1px;}

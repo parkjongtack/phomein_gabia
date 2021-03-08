@@ -59,17 +59,20 @@
 		<!-- content -->
 		<div id="content" class="menu search_list list_area">
 			<ul class="nav_cate_wrap">
-				<li class="nav_cate_btn">
-					<a href="javascript: void(0);" id="board_all" class="search_tabs">통합검색</a>
+				<li class="nav_cate_btn search_tabs on" id="board_all">
+					<a href="javascript: void(0);" id="" class="">통합검색</a>
 				</li>
-				<li class="nav_cate_btn">
-					<a href="javascript: void(0);" id="board_menu" class="search_tabs">메뉴</a>
+				<li class="nav_cate_btn search_tabs" id="board_menu1">
+					<a href="javascript: void(0);" id="" class="">메뉴</a>
 				</li>
-				<li class="nav_cate_btn">
-					<a href="javascript: void(0);" id="board_sns" class="search_tabs">SNS</a>
+				<li class="nav_cate_btn search_tabs" id="board_menu2">
+					<a href="javascript: void(0);" id="" class="">메뉴</a>
 				</li>
-				<li class="nav_cate_btn on">
-					<a href="javascript: void(0);" id="board_notice" class="search_tabs">공지 & 언론보도</a>
+				<li class="nav_cate_btn search_tabs" id="board_sns">
+					<a href="javascript: void(0);" id="" class="">SNS</a>
+				</li>
+				<li class="nav_cate_btn search_tabs" id="board_notice">
+					<a href="javascript: void(0);" id="" class="">공지 & 언론보도</a>
 				</li>
 			</ul>
 			
@@ -87,7 +90,7 @@
 						
 							<!-- //셀렉트 박스 -->
 							<div class="search_input">
-								<input type="text" id="searchKeywordTemp" name="searchKeywordTemp" value="" class="text" placeholder="검색어를 입력하세요" title="검색어">
+								<input type="text" id="searchKeywordTemp" name="searchKeywordTemp" value="${param.search_key}" class="text" placeholder="검색어를 입력하세요" title="검색어">
 								<button type="button" onclick="searchBtn();" class="btn_search"><span class="blind">검색</span></button>
 							</div>
 						</div>
@@ -95,10 +98,28 @@
 				</div>
 			</div>
 			<div class="search_list_box">
-				<div class="board_list board_menu">
-					<h3>메뉴</h3>
+				<div class="board_list board_menu1">
+					<h3>포메인</h3>
 					<div class="more_box"><a href="/brand/menu/menu_list.do" target="_blank">더보기</a></div>
 					<ul>
+						<c:forEach items="${resultList }" var="result" varStatus="status" >
+						<li>
+							<div class="left">
+								<img src="${result.f_file1 }" alt="" />
+							</div>
+							<div class="right">
+								<p class="item_title">${result.name }</p>
+								<p class="date">${fn:replace(fn:substring(result.regdt,0,10), '-', '.')}</p>
+								<div class="contents">
+									<p class="tx_ec2">
+										${result.kr_menu }
+									</p>
+									<a href="http://localhost:8080/brand/menu/menu_list.do?only_one_seq=${result.seq}" target="_blank">http://localhost:8080/brand/menu/menu_list.do?only_one_seq=${result.seq}</a>
+								</div>
+							</div>
+						</li>
+						</c:forEach>
+						<!-- 
 						<li>
 							<div class="left">
 								<img src="/upload/sns/board/20210208/20210208131215413014.jpg" alt="" />
@@ -129,52 +150,96 @@
 								</div>
 							</div>
 						</li>
+						 -->
+					</ul>
+				</div>
+				<div class="board_list board_menu2">
+					<h3>포메인 레드</h3>
+					<div class="more_box"><a href="/brand/menu/red_menu_list.do" target="_blank">더보기</a></div>
+					<ul>
+						<c:forEach items="${resultList_red_menu }" var="result" varStatus="status" >
 						<li>
 							<div class="left">
-								<img src="/upload/sns/board/20210208/20210208131215413014.jpg" alt="" />
+								<img src="${result.f_file1 }" alt="" />
 							</div>
 							<div class="right">
-								<p class="item_title">제목입니다.</p>
-								<p class="date">2020.01.01</p>
+								<p class="item_title">${result.name }</p>
+								<p class="date">${fn:replace(fn:substring(result.regdt,0,10), '-', '.')}</p>
 								<div class="contents">
 									<p class="tx_ec2">
-										서브 내용입니다.서브 내용입니다.서브 내용입니다.서브 내용입니다.서브 내용입니다.서브 내용입니다.서브 내용입니다.서브 내용입니다.서브 내용입니다.서브 내용입니다.서브 내용입니다.서브 내용입니다.서브 내용입니다.서브 내용입니다.서브 내용입니다.서브 내용입니다.서브 내용입니다.서브 내용입니다.서브 내용입니다.서브 내용입니다.서브 내용입니다.서브 내용입니다.
+										${result.kr_menu }
 									</p>
-									<a href="" target="_blank">http://localhost:8080/brand/menu/menu_list.do</a>
+									<a href="http://localhost:8080/brand/menu/red_menu_list.do?only_one_seq=${result.seq}" target="_blank">http://localhost:8080/brand/menu/red_menu_list.do?only_one_seq=${result.seq}</a>
 								</div>
 							</div>
 						</li>
+						</c:forEach>
 					</ul>
 				</div>
 				<div class="board_list board_sns">
 					<h3>SNS</h3>
 					<div class="more_box"><a href="/brand/community/sns/community_list.do?cate=109203" target="_blank">더보기</a></div>
 					<ul>
+						<c:forEach items="${resultList_sns }" var="result" varStatus="status" >
 						<li>
-							<p class="no_data">검색 결과가 없습니다.</p>
+							<div class="left">
+								<img src="${result.pc_thimg }" alt="" />
+							</div>
+							<div class="right">
+								<p class="item_title">
+									<c:if test="${result.cate eq '109203' }">
+										인스타그램
+									</c:if>
+									<c:if test="${result.cate eq '109204' }">
+										블로그
+									</c:if>
+									<c:if test="${result.cate eq '109205' }">
+										유튜브
+									</c:if>
+								</p>
+								<p class="date">${fn:replace(fn:substring(result.regdt,0,10), '-', '.')}</p>
+								<div class="contents">
+									<p class="tx_ec2">
+										${result.title }
+									</p>
+									<a href="${result.url }" target="_blank">${result.url }</a>
+								</div>
+							</div>
 						</li>
+						</c:forEach>
 					</ul>
 				</div>
 				<div class="board_list board_notice">
 					<h3>공지 & 언론보도</h3>
 					<div class="more_box"><a href="/brand/community/notice/community_list.do" target="_blank">더보기</a></div>
 					<ul>
+						<c:forEach items="${resultList_notice }" var="result" varStatus="status" >
 						<li>
 							<div class="left">
-								<img src="/upload/sns/board/20210208/20210208131215413014.jpg" alt="" />
+								<img src="${result.pc_thimg }" alt="" />
 							</div>
 							<div class="right">
-								<p class="item_title">제목입니다.</p>
-								<p class="date">2020.01.01</p>
-								
+								<p class="item_title">
+									<c:if test="${result.cate eq '107201' }">
+										공지
+									</c:if>
+									<c:if test="${result.cate eq '107202' }">
+										뉴스
+									</c:if>
+									<c:if test="${result.cate eq '107203' }">
+										언론보도
+									</c:if>
+								</p>
+								<p class="date">${fn:replace(fn:substring(result.regdt,0,10), '-', '.')}</p>
 								<div class="contents">
 									<p class="tx_ec2">
-										서브 내용입니다.서브 내용입니다.서브 내용입니다.서브 내용입니다.서브 내용입니다.서브 내용입니다.서브 내용입니다.서브 내용입니다.서브 내용입니다.서브 내용입니다.서브 내용입니다.서브 내용입니다.서브 내용입니다.서브 내용입니다.서브 내용입니다.서브 내용입니다.서브 내용입니다.서브 내용입니다.서브 내용입니다.서브 내용입니다.서브 내용입니다.서브 내용입니다.
+										${result.title }
 									</p>
-									<a href="" target="_blank">http://localhost:8080/brand/menu/menu_list.do</a>
+									<a href="${result.url }" target="_blank">${result.url }</a>
 								</div>
 							</div>
 						</li>
+						</c:forEach>
 					</ul>
 				</div>
 			</div>
@@ -214,7 +279,11 @@ $(function(){
 		}
 	});
 });
-
+function searchBtn(){
+	var searchKeyWordTemp = $("#searchKeywordTemp").val();
+	$("#searchKeyword").val(searchKeyWordTemp);
+	searchForm.submit();
+}
 // 더보기
 $("#moreBtn").on("click", function(){
 	$("#pageIndex").val(parseInt($("#pageIndex").val()) + 1);

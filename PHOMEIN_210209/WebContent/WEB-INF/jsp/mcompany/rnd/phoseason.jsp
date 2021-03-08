@@ -44,44 +44,145 @@
 		<%@ include file="/WEB-INF/jsp/mcompany/include/companylnb.jsp"%>
 		<!-- //lnb -->
 		<!-- content -->
-		<div id="content" class="rnd">
-			<div class="phoseason">
-				<div class="tit_area">
+		<div id="content" class="rnd" style="background-color: #fafafa;">
+			<div class="phoseason" style="margin-top: 40px;">
+				<!-- <div class="tit_area">
 					<h4>포시즌</h4>
-				</div>
+				</div> -->
 				<div class="intro">
 				</div>
-				<p style="text-align:center; font-size:12px; color:#888;">* 베트남 롱안성에서 운영 중인 포시즌 공장 전경 이미지입니다.</p>
+				<p style="text-align:center; font-size:10px; color:#888; margin-top: 10px">* 베트남 롱안성에서 운영 중인 포시즌 공장 전경 이미지입니다.</p>
 
 				<div class="intro_text">
-					<strong>PHO SEASON</strong>
+					<strong>베트남 현지 법인 쌀국수 공장<br><em>PHO SEASON INC.</em></strong>
 					<p>
-						2015년 ㈜데일리킹에서 설립한 베트남 현지 쌀국수 제조공장<br>
-						포시즌은베트남 쌀국수를 의미하는 포(Pho)와 향신료를 뜻하는<br>
-						시즈닝(Seasoning)의 합성으로 ‘포시즌’에는 사계절 내내 맛있게<br>
-						즐길 수 있는 고품질의 제품을 만든다는 기업 모토가 담겨 있습니다. 
-					</p>
-					<p>
-						포시즌은 3모작이 가능한 베트남 메콩델타 지역에서 1년 내내<br>
-						신선한 쌀을 공급받아 수년간의 연구로 개발한 기계건조 및<br>저온 숙성 기술로 햅쌀 쌀국수면 생산에 성공했습니다.<br>
-						또한 9가지 상급 천연 향신료를 사용한 육수용<br>허브백(Herb-Bags)을 생산하고 있습니다.
-					</p>
-					<p>
-						수입 쌀국수면에 의존해온 국내 쌀국수 시장에서 쌀국수 브랜드가<br>
-						자체 기술개발로 쌀국수면을 생산·사용하는 브랜드는<br> 포메인과 포메인 RED가 유일합니다.<br>
-						포시즌 설립에 따른 포메인의 차별화는 국내뿐 아니라<br>세계 쌀국수 시장의 새로운 기준이 될 것입니다.
+						묵은쌀로 만든 쌀국수면 수입이 고착화 된 쌀국수 시장에서<br/>
+						기존 쌀국수면을 대체할 쌀국수면 생산은 포메인의 오랜 숙제였습니다.<br/>
+						<br/>
+						이에 포메인 본사 ㈜데일리킹은 ‘안전한 식재료 · 정직한 먹거리’라는<br/>
+						이념아래 2015년 베트남 현지 법인 쌀국수 제조공장<br/>
+						포시즌(PHO SEASON)을 설립했습니다. <br/>
+						<br/>
+						‘포시즌’은 베트남 쌀국수를 의미하는 포(Pho)와 향신료를 뜻하는<br/>
+						시즈닝(Seasoning)의 합성어로 <b>사계절(Four seasons) 내내<br/>
+						맛있게 즐길 수 있는 고품질의 제품을 만든다</b>는<br/>
+						기업 모토가 담겨 있습니다.<br/>
+						<br/>
+						‘포시즌’에서는 수년간의 독자기술 개발로 만들어낸 햅쌀면과 <br/>
+						9가지 상급 천연 향신료를 사용한 육수용 허브백(Herb-Bags)을<br/>
+						생산하고 있습니다.<br/>
+						<br/>
+						포메인은 포시즌 설립과 성공적인 햅쌀면 생산 개발에 따라<br/>
+						베트남 쌀국수 프랜차이즈 브랜드 중 유일하게 <br/>
+						<b>‘쌀국수 제조 공장 보유, 국내 유일 햅쌀면’</b>이라는<br/>
+						가치경쟁력을 입증하고 있습니다.<br/>					
 					</p>
 				</div>
 				
 				<div class="factory_img">
-					<img src="../common/images/content/phoseason_factory01.png" alt="">
-					<img src="../common/images/content/phoseason_factory02.png" alt="">
-					<img src="../common/images/content/phoseason_factory03.png" alt="">
+					<img src="../common/images/content/phoseason_factory01_new.png" alt="">
+					<img src="../common/images/content/phoseason_factory02_new.png" alt="">
+					<img src="../common/images/content/phoseason_factory03_new.png" alt="">
 					<img src="../common/images/content/phoseason_factory04.png" alt="">
 				</div>
-
+				
+				<div class="intro_text">
+					<strong>독자기술로 만들어 낸<br/><em>포메인 햅쌀면</em></strong>
+					<p>
+						포시즌은 신선한 원료와 햅쌀면 제조 기계 자체 개발,<br/>
+						수년간의 연구개발로 축적한 까다로운 기술 공정을 바탕으로<br/>
+						한국인의 입맛에 가장 잘 맞는 ‘햅쌀면’을 만들어냈습니다. <br/>
+						<br/>
+						또한 ‘햅쌀’의 특성상 갖추기 어려운 면의 찰기를 구현해내기 위해<br/>
+						수년의 시간과 연구비용을 투입하여 까다로운 공정 기술을<br/>
+						독자 개발해냈습니다.<br/>
+						<br/>
+						건조 시간 1분 1초에 따라 달라지는 빛깔과 향, 저온 숙성 온도<br/>
+						1℃에 따라 달라지는 찰기를 수백 번 테스트 하며 찾아낸<br/>
+						‘햅쌀면 제조 기술’에는 우리의 진심과 열정이 고스란히 담겨있습니다. <br/>
+						 <br/>
+						원료의 출처와 제조과정을 알 수 없는 수입 쌀국수면에 의존해온<br/>
+						국내 쌀국수 시장에서  독자기술로 쌀국수면을 생산 · 사용하는<br/>
+						브랜드는 포메인과 포메인 RED가 유일합니다.<br/>
+						<br/>
+						포시즌 설립에 따른 포메인의 차별화는 국내뿐 아니라<br/>
+						세계 쌀국수 시장의 새로운 기준이 될 것입니다.<br/>					
+					</p>
+				</div>
+				
+				<div class="factory_img">
+					<div class="img_sec">
+						<img src="../common/images/content/phoseason_factory05_new.png" alt="">
+						<div class="intro_text" style="padding-bottom: 50px;">
+							<strong style="color: #222; font-size: 22.5px;">국내최초 국내유일 <em>햅쌀면</em></strong>
+							<p>
+								포메인은 3모작이 가능한 베트남 최대 곡창지대인 메콩 델타<br/>
+								지역에서 1년 365일 햅쌀을 공급받아 ‘햅쌀면’을 생산합니다.<br/> 
+								포메인 햅쌀면은 기존 수입 쌀국수면과 비교할 수 없는<br/>
+								‘깔끔한 향과 맛’으로 건강하고 신선한 쌀국수를 맛보실 수 있습니다.<br/>
+							</p>
+						</div>
+					</div>
+					<div class="img_sec">
+						<img src="../common/images/content/phoseason_factory06_new.png" alt="">
+						<div class="intro_text">
+							<strong style="color: #222; font-size: 22.5px;">9가지 상급 향신료로 만든<br/><em>육수 제조용 허브백</em>(Herb-bags)</strong>
+							<p>
+								포시즌에서 자체 개발한 포메인 육수 제조용 허브백은<br/>
+								스타아니스(팔각회향), 고수 씨, 계피, 너트멕 등 9가지<br/>
+								상급 천연향신료를 엄선해 생산합니다.<br/>
+								포메인 허브백은 육수의 맛을 더 깊고 진하게 해줄 뿐 아니라<br/>
+								면역력 증진, 감기예방 등의 효능 또한 뛰어납니다.<br/>
+								또한 팔각회향은 신종플루 치료제인 타미플루 원료로<br/>
+								널리 알려져 있습니다.<br/>
+							</p>
+						</div>
+					</div>
+					<div class="box_table">
+						<p class="tit load-fadein">포메인 햅쌀면, 어떻게 다를까요?</p>
+						<div class="table_top_img"><img src="../common/images/content/phoseason_main_table_new.jpg" alt="" /></div>
+						<table style="width: 100%;">
+							<colgroup>
+								<col width="44.3%" />
+								<col width="*" />
+								<col width="44.3%" />
+							</colgroup>
+							<tr>
+								<td>묵은쌀</td>
+								<td>원료</td>
+								<td>햅쌀</td>
+							</tr>
+							<tr>
+								<td>공산품  대량 수입</td>
+								<td>생산</td>
+								<td>2015년 설립 자체 법인공장 포시즌</td>
+							</tr>
+							<tr>
+								<td>국내 프랜차이즈 · 개인 사업장 다수</td>
+								<td>유동</td>
+								<td>포메인 · 포메인 레드 독점 제공</td>
+							</tr>
+							<tr>
+								<td>단단하고 질긴 식감</td>
+								<td>맛(식감)</td>
+								<td>부드럽고 쫀득한 식감</td>
+							</tr>
+							<tr>
+								<td>특유의 묵은쌀 냄새</td>
+								<td>향</td>
+								<td>갓 지은 햅쌀밥 향</td>
+							</tr>
+							<tr>
+								<td>아이보리색</td>
+								<td>빛깔</td>
+								<td>맑고 투명한 빛깔</td>
+							</tr>
+						</table>
+					</div>
+				</div>
+				
 				<div class="cont">
-					<strong>쌀 한 톨부터<br><em>쌀국수 한 그릇까지</em></strong>
+					<strong>쌀 한 톨부터 쌀국수 한 그릇까지<br/><em>포메인이 직접 만듭니다</em></strong>
 					<p>
 						햅쌀 쌀국수면은 묵은쌀과 전분 또는 밀가루를 혼합해<br>
 						만든 기존 쌀국수면과는 전혀 다른 투명한 빛깔과<br>갓 지은 햅쌀밥 향을 느낄 수 있습니다.<br>

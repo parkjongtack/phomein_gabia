@@ -9,8 +9,8 @@
 				<li id="STORE"><a href="/mbrand/store/store_list.do">STORE</a></li>
 				<li id="FRANCHISE"><a href="/mcompany/franchisee/step01.do">FRANCHISE</a></li>
 				<li id="COMMUNITY"><a href="/mbrand/community/notice/community_list.do">COMMUNITY</a></li>
-				<li id="CS CENTER"><a href="/mbrand/cs_center/cs_terms.do">CS CENTER</a></li>
-				<li id="POLICY"><a href="/mbrand/etc/terms.do">POLICY</a></li>
+				<!-- <li id="CS CENTER"><a href="/mbrand/cs_center/cs_terms.do">CS CENTER</a></li>
+				<li id="POLICY"><a href="/mbrand/etc/terms.do">POLICY</a></li> -->
 			</ul>
 		</div>
 		<div class="dep dep2" style="display:none;">
@@ -18,7 +18,7 @@
 			<dd style="display:none;">COMPANY</dd>
 			<ul class="dep_list">
 				<li><a href="/mcompany/company/dailyking.do">(주)데일리킹</a></li>
-				<li><a href="/mcompany/rnd/phoseason.do">PHOSEASON INC.</a></li>
+				<li><a href="/mcompany/rnd/phoseason.do">PHO SEASON INC.</a></li>
 				<li><a href="/mcompany/company/ceo.do">CEO 인사말</a></li>
 				<li><a href="/mcompany/rnd/greenfood.do">현대그린푸드 MOU</a></li>
 				<li><a href="/mcompany/csr/phoever.do">사회공헌활동</a></li>
