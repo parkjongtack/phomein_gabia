@@ -63,6 +63,9 @@
 						<li id="board_notice" class="search_tabs">
 							<a href="javascript: void(0);" class="">공지 & 언론보도</a>
 						</li>
+						<li id="board_store" class="search_tabs">
+							<a href="javascript: void(0);" class="">매장찾기</a>
+						</li>
 					</ul>
 				</div>
 				<!-- //page-tab -->
@@ -100,7 +103,7 @@
 										<p class="tx_ec2">
 											${result.kr_menu }
 										</p>
-										<a href="http://localhost:8080/brand/menu/menu_list.do?only_one_seq=${result.seq}" target="_blank">http://localhost:8080/brand/menu/menu_list.do?only_one_seq=${result.seq}</a>
+										<a href="/brand/menu/menu_list.do?only_one_seq=${result.seq}" target="_blank">자세히보기 + </a>
 									</div>
 								</div>
 							</li>
@@ -155,7 +158,7 @@
 										<p class="tx_ec2">
 											${result.kr_menu }
 										</p>
-										<a href="http://localhost:8080/brand/menu/red_menu_list.do?only_one_seq=${result.seq}" target="_blank">http://localhost:8080/brand/menu/red_menu_list.do?only_one_seq=${result.seq}</a>
+										<a href="/brand/menu/red_menu_list.do?only_one_seq=${result.seq}" target="_blank">자세히보기 + </a>
 									</div>
 								</div>
 							</li>
@@ -222,6 +225,29 @@
 											${result.title }
 										</p>
 										<a href="${result.url }" target="_blank">${result.url }</a>
+									</div>
+								</div>
+							</li>
+							</c:forEach>
+						</ul>
+					</div>
+					<div class="board_list board_store">
+						<h3>매장찾기</h3>
+						<div class="more_box"><a href="/brand/menu/red_menu_list.do" target="_blank">더보기</a></div>
+						<ul>
+							<c:forEach items="${resultList_red_menu }" var="result" varStatus="status" >
+							<li>
+								<div class="left">
+									<img src="${result.f_file1 }" alt="" />
+								</div>
+								<div class="right">
+									<p class="item_title">${result.name }</p>
+									<p class="date">${fn:replace(fn:substring(result.regdt,0,10), '-', '.')}</p>
+									<div class="contents">
+										<p class="tx_ec2">
+											영업시간 : 
+										</p>
+										<a href="/brand/menu/red_menu_list.do?only_one_seq=${result.seq}" target="_blank">자세히보기 + </a>
 									</div>
 								</div>
 							</li>
