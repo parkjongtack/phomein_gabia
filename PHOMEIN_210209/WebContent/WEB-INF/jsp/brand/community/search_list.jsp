@@ -235,19 +235,19 @@
 						<h3>매장찾기</h3>
 						<div class="more_box"><a href="/brand/menu/red_menu_list.do" target="_blank">더보기</a></div>
 						<ul>
-							<c:forEach items="${resultList_red_menu }" var="result" varStatus="status" >
+							<c:forEach items="${resultList_store }" var="result" varStatus="status" >
 							<li>
 								<div class="left">
 									<img src="${result.f_file1 }" alt="" />
 								</div>
 								<div class="right">
 									<p class="item_title">${result.name }</p>
-									<p class="date">${fn:replace(fn:substring(result.regdt,0,10), '-', '.')}</p>
+									<p class="date">${result.hp1}-${result.hp2}-${result.hp3}</p>
 									<div class="contents">
 										<p class="tx_ec2">
-											영업시간 : 
+											영업시간 : ${result.bh1}:${result.bh2} ~ ${result.bh3}:${result.bh4}
 										</p>
-										<a href="/brand/menu/red_menu_list.do?only_one_seq=${result.seq}" target="_blank">자세히보기 + </a>
+										<a href="/brand/store/store_list.do?storeName=${result.name }" target="_blank">자세히보기 + </a>
 									</div>
 								</div>
 							</li>

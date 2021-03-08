@@ -24,6 +24,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import com.main.admin.community.service.BoardService;
 import com.main.admin.menu.service.ProductService;
 import com.main.admin.menu.service.RedProductService;
+import com.main.admin.store.service.StoreService;
 import com.main.cmmn.web.GOdukAbstractController;
 
 import egovframework.rte.ptl.mvc.tags.ui.pagination.PaginationInfo;
@@ -46,6 +47,9 @@ public class BrandCommunityController extends GOdukAbstractController{
 	
 	@Resource(name = "redProductService")
 	private RedProductService redProductService;	
+	
+	@Resource(name = "storeService")
+	private StoreService storeService;	
 	
 	@RequestMapping(value = "search_list.do", method = { RequestMethod.GET, RequestMethod.POST })
 	public String search(@RequestParam Map param, HttpSession session, ModelMap model, HttpServletRequest request,
@@ -121,6 +125,12 @@ public class BrandCommunityController extends GOdukAbstractController{
 		totalRecordCount = boardService.selectTotCnt(param);
 		
 		model.addAttribute("resultList_notice", boardService.selectPaging(param));		
+		
+		Map<String, Object> param3 = new HashMap<String, Object>();
+		
+		param3.put("name", param.get("search_key"));
+		
+		model.addAttribute("resultList_store", storeService.selectPaging2(param3));
 		
 		if(!deviceType.equals("normal")){
 			return M_NAMESPACE + "search_list";
