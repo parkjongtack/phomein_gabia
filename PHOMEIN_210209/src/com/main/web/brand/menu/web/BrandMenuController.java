@@ -82,7 +82,7 @@ public class BrandMenuController {
 			return M_NAMESPACE + "menu_list";
 		}
 		return NAMESPACE + "menu_list";
-	}
+	} 
 
 	// 메뉴 리스트 AJAX 조회
 	@RequestMapping(value = "/get_menu_list_ajax.do", method = RequestMethod.POST)
