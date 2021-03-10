@@ -34,6 +34,8 @@ public interface ProductService {
 
 	List<Map> selectMenuList(Map param) throws Exception;
 	
+	List<Map> selectOtherSearchList(Map param) throws Exception;	
+	
 	List<Map> selectCodeList(Map param) throws Exception;
 
 }

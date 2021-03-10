@@ -113,6 +113,13 @@ public class ProductServiceImpl extends EgovAbstractServiceImpl implements Produ
 		return productMapper.duplicateProductCnt(param);
 	}
 
+		
+	@Override
+	public List<Map> selectOtherSearchList(Map param) throws Exception {
+		return productMapper.selectOtherSearchList(param);
+	}
+
+	
 	@Override
 	public List<Map> selectMenuList(Map param) throws Exception {
 		return productMapper.selectMenuList(param);

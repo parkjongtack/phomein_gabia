@@ -277,20 +277,22 @@
 								</div>
 							</li>
 							</c:forEach>
+							<c:forEach items="${resultList_other }" var="result" varStatus="status" >
 							<li>
 								<div class="left">
-									<img src="/brand/images/content/search_result_1.jpg" alt="" />
+									<img src="${result.main_image}" alt="" />
 								</div>
 								<div class="right">
-									<p class="item_title">COMPANY</p>
+									<p class="item_title">${result.subject1}</p>
 									<div class="contents">
 										<p class="tx_ec2">
-											(주)데일리킹
+											${result.subject2}
 										</p>
-										<a href="/company/company/dailyking.do" target="_blank">자세히 보기 + </a>
+										<a href="${result.url}" target="_blank">자세히 보기 + </a>
 									</div>
 								</div>
 							</li>
+							</c:forEach>
 						</ul>
 					</div>
 				</div>

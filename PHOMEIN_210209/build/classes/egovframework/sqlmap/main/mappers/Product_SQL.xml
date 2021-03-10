@@ -198,6 +198,13 @@
 		) A  ) T  LIMIT  #{startCount}, #{pageUnit}
 	</select>
 	
+	<select id="selectOtherSearchList" parameterType="hashmap" resultType="hashmap">
+		SELECT * FROM othersearch WHERE 1=1 
+		<if test="search_key != null and search_key != ''">
+			AND (contents LIKE CONCAT('%' , #{search_key} , '%'))
+		</if>	
+	</select>
+	
 	<select id="selectMenuList" parameterType="hashmap" resultType="hashmap">
 		/* ProgramID=com.main.admin.menu.service.impl.ProductMapper.selectMenuList */
 		SELECT T.* FROM (SELECT A.* FROM ( 

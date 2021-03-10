@@ -142,6 +142,8 @@ public class BrandCommunityController extends GOdukAbstractController{
 		
 		model.addAttribute("resultList_store", storeService.selectPaging2(param3));
 		
+		model.addAttribute("resultList_other", productService.selectOtherSearchList(param));
+		
 		if(!deviceType.equals("normal")){
 			return M_NAMESPACE + "search_list";
 		}
