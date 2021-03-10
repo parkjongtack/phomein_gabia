@@ -9,10 +9,16 @@
 <%@ include file="/WEB-INF/jsp/brand/include/head.jspf"%>
 </head>
 <style>
-	.sns-section .bottom-box .sns-list .sns-ico ul li.ico-y a {background-position:-193px 0; width: 30px;}
 	.sns-section .bottom-box:after{display:none !important;}
 	.sns-section .bottom-box {position:absolute; bottom:0; left:0; width:100%; height:64%; text-align:center; opacity:0; transition:all 5s ease;}
 	.sns-section .top-box {position:absolute; top:18%; left:50%; width:1200px; margin-left:-600px; text-align:center; box-sizing:border-box; opacity:0; transform:translate(0px, -100px); transition:all 1.2s ease;}
+	
+	.sns-section .img-board-list.type02 li .icon {display:block; position:absolute; top:20px; left:20px; width:38px; height:38px; background:rgba(0, 0, 0, 0.4);border-radius:19px;}
+	.sns-section .img-board-list.type02 li .icon:after {content:''; display:block; position:absolute; top:0; left:0; width:38px; height:38px;}
+	.sns-section .img-board-list.type02 li.ico-f .icon:after {background:url('/brand/images/icon/ico_w_f.png') center center no-repeat;}
+	.sns-section .img-board-list.type02 li.ico-y .icon:after {background:url('/brand/images/icon/ico_w_y.png') center center no-repeat;}
+	.sns-section .img-board-list.type02 li.ico-b .icon:after {background:url('/brand/images/icon/ico_w_b.png') center center no-repeat;}
+	.sns-section .img-board-list.type02 li.ico-i .icon:after {background:url('/brand/images/icon/ico_w_i.png') center center no-repeat;}
 </style>
 <body>
 <!-- skip-link -->
@@ -208,7 +214,7 @@
 														<li class=<c:if test="${result.cate == '109201' }">"ico-f"</c:if><c:if test="${result.cate == '109202' }">"ico-b"</c:if><c:if test="${result.cate == '109203' }">"ico-i"</c:if> >
 															<p class="img"><img alt="" src="${result.pc_thimg }"></p>
 															<a href="${result.url}" target="_blank">
-<!-- 																<span class="icon"></span> -->
+																<span class="icon"></span>
 																<span class="txt">${fnc:xssContents(result.title )}</span>
 															</a>
 														</li>

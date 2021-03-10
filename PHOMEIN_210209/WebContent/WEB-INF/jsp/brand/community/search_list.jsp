@@ -66,6 +66,9 @@
 						<li id="board_store" class="search_tabs">
 							<a href="javascript: void(0);" class="">매장찾기</a>
 						</li>
+						<li id="board_all_search" class="search_tabs">
+							<a href="javascript: void(0);" class="">전체 페이지</a>
+						</li>
 					</ul>
 				</div>
 				<!-- //page-tab -->
@@ -252,6 +255,42 @@
 								</div>
 							</li>
 							</c:forEach>
+						</ul>
+					</div>
+					<div class="board_list board_menu2">
+						<h3>전체 페이지</h3>
+						<!-- <div class="more_box"><a href="/brand/menu/red_menu_list.do" target="_blank">더보기</a></div> -->
+						<ul>
+							<c:forEach items="${resultList_red_menu }" var="result" varStatus="status" >
+							<li>
+								<div class="left">
+									<img src="${result.f_file1 }" alt="" />
+								</div>
+								<div class="right">
+									<p class="item_title">${result.name }</p>
+									<div class="contents">
+										<p class="tx_ec2">
+											${result.kr_menu }
+										</p>
+										<a href="/company/company/dailyking.do" target="_blank">자세히 보기 + </a>
+									</div>
+								</div>
+							</li>
+							</c:forEach>
+							<li>
+								<div class="left">
+									<img src="/brand/images/content/search_result_1.jpg" alt="" />
+								</div>
+								<div class="right">
+									<p class="item_title">COMPANY</p>
+									<div class="contents">
+										<p class="tx_ec2">
+											(주)데일리킹
+										</p>
+										<a href="/company/company/dailyking.do" target="_blank">자세히 보기 + </a>
+									</div>
+								</div>
+							</li>
 						</ul>
 					</div>
 				</div>

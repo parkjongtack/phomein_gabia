@@ -9,6 +9,15 @@
 <meta name="keywords" content="">
 <title>포메인</title>
 <%@ include file="/WEB-INF/jsp/mbrand/include/head.jspf"%>
+<style>
+	.sns-section .img-board-list li{position: relative;}
+	.sns-section .img-board-list li .icon {display:block; position:absolute; top:10px; left:10px; width:28px; height:28px; background:rgba(0, 0, 0, 0.4);border-radius:19px;}
+	.sns-section .img-board-list li .icon:after {content:''; display:block; position:absolute; top:5px; left:6px; width:18px; height:18px;}
+	.sns-section .img-board-list li.ico-f .icon:after {background:url('/brand/images/icon/ico_w_f.png') center center no-repeat;}
+	.sns-section .img-board-list li.ico-y .icon:after {background:url('/brand/images/icon/ico_w_y.png') center center no-repeat;}
+	.sns-section .img-board-list li.ico-b .icon:after {background:url('/brand/images/icon/ico_w_b.png') center center no-repeat;}
+	.sns-section .img-board-list li.ico-i .icon:after {background:url('/brand/images/icon/ico_w_i.png') center center no-repeat;}
+</style>
 </head>
 
 <body>
@@ -155,13 +164,15 @@
 					</div>
 				</div>
 				<div class="conb">
-					<div class="con">
-						<ul>
+					<div class="con sns-section">
+						<ul class="img-board-list">
 							<c:choose>
 								<c:when test="${not empty snsList }" >
 									<c:forEach items="${snsList }" var="result" varStatus="status" >
 										<c:if test="${status.index < 9 }">
-											<li><a href="${result.url}"><img alt="" src="${result.m_thimg }"></a></li>
+											<li class=<c:if test="${result.cate == '109201' }">"ico-f"</c:if><c:if test="${result.cate == '109202' }">"ico-b"</c:if><c:if test="${result.cate == '109203' }">"ico-i"</c:if> >
+												<a href="${result.url}"><span class="icon"></span><img alt="" src="${result.m_thimg }"></a>
+											</li>
 										</c:if>
 									</c:forEach>
 								</c:when>

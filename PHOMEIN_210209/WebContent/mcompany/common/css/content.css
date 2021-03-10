@@ -84,6 +84,10 @@
 .company .location .table_data li > span {display:block;margin-left:30px;text-indent:-30px;}
 .company .location .table_data li > span strong {margin-right:7px;}
 
+.f_bg .about_menu {height:210px;margin:147px -20px -147px;background:url(/mbrand/common/images/content/img_about_2_new.jpg) no-repeat center;background-size:cover;text-align:center;}
+.f_bg .about_menu span {display:block;padding-top:46px;color:#fff;font-size:24px;line-height:32px;}
+.f_bg .about_menu span em {color:#c99963;font-weight:500;}
+.f_bg .about_menu .link_menu {display:inline-block;width:110px;margin-top:16px;border-bottom:#fff 2px solid;background:url(/mbrand/common/images/content/arr_about.png) no-repeat 100% 10px;background-size:10px auto;color:rgba(255,255,255,0.6);font-size:12px;font-weight:500;line-height:29px;text-align:left;}
 /* 연구개발 */
 .rnd .phoseason .tit_area {padding-bottom:75px;text-align:center;}
 .rnd .phoseason .tit_area h4 {margin-top:5px;font-size:38px;}

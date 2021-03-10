@@ -160,6 +160,10 @@
 .phomein .coupon_buying_point .cont li.step4 span:before {background-position:-320px -95px;width:83px;}
 .phomein .coupon_buying_point .btn_app {margin:15px 0 30px;height:40px;line-height:39px;font-size:12px;}
 
+.f_bg .about_menu {height:210px;margin:0 -20px -147px;background:url(../images/content/img_about_2.jpg) no-repeat center;background-size:cover;text-align:center;}
+.f_bg .about_menu span {display:block;padding-top:46px;color:#fff;font-size:24px;line-height:32px;}
+.f_bg .about_menu span em {color:#c99963;font-weight:500;}
+.f_bg .about_menu .link_menu {display:inline-block;width:110px;margin-top:16px;border-bottom:#fff 2px solid;background:url(../images/content/arr_about.png) no-repeat 100% 10px;background-size:10px auto;color:rgba(255,255,255,0.6);font-size:12px;font-weight:500;line-height:29px;text-align:left;}
 /* MENU */
 .list_menu {margin-top:30px;}
 .list_menu:after {content:'';display:block;clear:both;}

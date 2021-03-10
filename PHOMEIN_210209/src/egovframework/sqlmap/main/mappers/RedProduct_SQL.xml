@@ -257,12 +257,8 @@
 				</choose>
 			</if>
 			AND useyn = 'Y'
-			<if test="search_key != null and search_key != ''">
-				AND (name LIKE CONCAT('%' , #{search_key} , '%')
-				OR kr_menu LIKE CONCAT('%' , #{search_key} , '%'))
-			</if>			
 		</where>
-		ORDER BY a.seq DESC
+		ORDER BY a.pcode ASC
 		) A  ) T  LIMIT  #{startCount}, #{pageUnit}
 	</select>
 	
@@ -292,7 +288,7 @@
 	</select>
 	
 	<select id="selectProductView" parameterType="hashmap" resultType="hashmap">
-		/* ProgramID=com.main.admin.menu.service.impl.RedProductMapper.selectProductView */
+		/* ProgramID=com.main.admin.menu.service.impl.ProductMapper.selectProductView */
         <![CDATA[
 	        SELECT seq,
 					name, 

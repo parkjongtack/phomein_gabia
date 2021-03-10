@@ -335,7 +335,7 @@
 .sns-section .bottom-box .sns-list .sns-ico ul li a {display:block; width:20px; height:25px; background:url('../../images/icon/ico_footer_sns.png') 0 0 no-repeat; opacity:1;}
 .sns-section .bottom-box .sns-list .img-board-list .img:after {display:none;}
 .sns-section .bottom-box .sns-list .sns-ico ul li a span {display:block; text-indent:-5000px;}
-.sns-section .bottom-box .sns-list .sns-ico ul li.ico-y a {background-position:-193px 0; width: 30px;}
+.sns-section .bottom-box .sns-list .sns-ico ul li.ico-y a {background-position: 0 0; width: 25px;}
 .sns-section .bottom-box .sns-list .sns-ico ul li.ico-i a {background-position:-46px 0;}
 .sns-section .bottom-box .sns-list .sns-ico ul li.ico-b a {background-position:-95px 0;}
 
