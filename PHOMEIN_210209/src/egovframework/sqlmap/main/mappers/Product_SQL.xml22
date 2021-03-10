@@ -149,10 +149,6 @@
 		<where>
 			1 = 1
 			<include refid="getSearch" />
-			<if test="search_key != null and search_key != ''">
-				AND (name LIKE CONCAT('%' , #{search_key} , '%')
-				OR kr_menu LIKE CONCAT('%' , #{search_key} , '%'))
-			</if>			
 		</where>
 	</select>
 
@@ -260,11 +256,11 @@
 		            </when>            	            
 				</choose>
 			</if>
+			AND useyn = 'Y'
 			<if test="search_key != null and search_key != ''">
 				AND (name LIKE CONCAT('%' , #{search_key} , '%')
 				OR kr_menu LIKE CONCAT('%' , #{search_key} , '%'))
-			</if>			
-			AND useyn = 'Y'
+			</if>
 		</where>
 		ORDER BY a.pcode ASC
 		) A  ) T  LIMIT  #{startCount}, #{pageUnit}

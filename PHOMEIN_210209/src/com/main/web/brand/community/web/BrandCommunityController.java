@@ -69,9 +69,13 @@ public class BrandCommunityController extends GOdukAbstractController{
 				startCount = 0;
 			}
 		}
-
 		param.put("startCount", startCount);
 		param.put("search_site_ck", 1);
+		if(param.get("search_key") != null && !param.get("search_key").equals("")) {
+			param.put("all_ck", "Y");
+		} else {
+			param.put("all_ck", "");
+		}
 		param.put("search_useyn", 1);
 		int totalRecordCount = productService.selectTotCnt(param);
 		model.addAttribute("totalRecordCount", totalRecordCount);
@@ -93,6 +97,12 @@ public class BrandCommunityController extends GOdukAbstractController{
 		param.put("startCount", startCount);
 		param.put("search_site_ck", 1);
 		param.put("search_useyn", 1);
+		if(param.get("search_key") != null && !param.get("search_key").equals("")) {
+			param.put("all_ck", "Y");
+		} else {
+			param.put("all_ck", "");
+		} 
+	
 		int totalRecordCount2 = redProductService.selectTotCnt(param);
 		model.addAttribute("totalRecordCount2", totalRecordCount2);
 		model.addAttribute("pageIndex2", pageIndex);

@@ -257,7 +257,7 @@
 							</c:forEach>
 						</ul>
 					</div>
-					<div class="board_list board_menu2">
+					<div class="board_list board_all_search">
 						<h3>전체 페이지</h3>
 						<!-- <div class="more_box"><a href="/brand/menu/red_menu_list.do" target="_blank">더보기</a></div> -->
 						<ul>
