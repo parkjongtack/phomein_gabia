@@ -38,8 +38,8 @@
 		<!-- page-title -->
 		<div class="page-title">
 			<div class="visual" style="background-image:url('../images/content/sub_visual_02.jpg');"></div>
-			<h2 class="h2-type">포시즌 (PHO SEASON)</h2>
-			<span class="txt">‘안전한 식재료∙정직한 먹거리’ 포메인의 약속입니다.</span>
+			<h2 class="h2-type">PHO SEASON INC.</h2>
+			<!-- <span class="txt">‘안전한 식재료∙정직한 먹거리’ 포메인의 약속입니다.</span> -->
 			<!-- <br>건강한 테이블 제공의 노력 -->
 		</div>
 		<!-- //page-title -->

@@ -224,7 +224,7 @@ public class BrandCommunityController extends GOdukAbstractController{
 	
 	
 	// TODO /brand/community/{boardType}/selectCommunityList.do
-	@RequestMapping(value = "{boardType}/selectCommunityList.do", method = { RequestMethod.POST })
+	@RequestMapping(value = "{boardType}/selectCommunityList.do", method = {RequestMethod.GET, RequestMethod.POST })
 	public @ResponseBody Map<String, Object> selectStoreList(@RequestParam Map param, HttpSession session,
 			ModelMap model, HttpServletRequest request, HttpServletResponse response
 			,@RequestParam (required=false, defaultValue="1")  String pageIndex

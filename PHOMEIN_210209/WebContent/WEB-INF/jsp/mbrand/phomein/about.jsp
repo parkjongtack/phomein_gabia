@@ -75,7 +75,7 @@
 				<p class="img"><img src="../common/images/content/img_about_1.jpg" alt=""></p>
 			</div>
 			<div class="about_menu">
-				<span>베트남 요리,<br><em>31가지 감동을 담다!</em></span>
+				<span>베트남 요리,<br><em>32가지 감동을 담다!</em></span>
 				<a href="/mbrand/menu/menu_list.do" class="link_menu">전체메뉴 보기</a>
 			</div>
 		</div>

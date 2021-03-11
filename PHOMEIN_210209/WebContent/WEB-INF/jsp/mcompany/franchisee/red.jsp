@@ -89,7 +89,7 @@ line-height: 1; letter-spacing: -0.5px; font-weight: 400;}
 .red05-inner{padding-top: 36px; width: 92%; margin: 0 auto 18px; box-sizing:border-box;}
 .red05-inner table{width: 100%; box-sizing:border-box; border-top: 2px solid #8a382c; border-spacing: 0;}
 .red05-inner table tr th{border-bottom: 1px solid #ccc;}
-.red05-inner table tr td{border-bottom: 1px solid #ccc; vertical-align: middle;}
+.red05-inner table tr td{border-bottom: 1px solid #ccc;}
 .red05-inner table tr th.th-cen{padding: 28px 0; font-size: 16px; line-height:10px; letter-spacing:0; font-weight: 400; color: #8a382c; background: #f5f5f5; text-align: center; box-sizing:border-box;}
 .red05-inner table tr th.th-pos{padding-top: 17px; background: #f5f5f5; position: relative; text-align: center;}
 .red05-inner table tr th.th-pos img{margin-left: -26px; width: 52px; height: 52px; top: -36px; left: 50%; position: absolute; display: block;}
@@ -228,7 +228,7 @@ line-height: 1; letter-spacing: -0.5px; font-weight: 400;}
 				<div class="red02-wrap red02-bg">
 					<div class="red02-inner">
 						<div class="red02-tit">
-							<p>DAILYKING INC</p>
+							<p class="img" style="width: 100px; margin: auto;"><img src="/company/images/common/dailyking_logo.png" alt="dailyking logo" class="load-fadein active"></p>
 						</div>
 						<div class="red02-in clear">
 							<div class="r-box">
@@ -282,14 +282,14 @@ line-height: 1; letter-spacing: -0.5px; font-weight: 400;}
 								<p>딜리버리 특화</p>
 								<i class="bar"></i>
 								<span><b>2014년 업계 최초 딜리버리서비스<br/>
-								도입</b>으로 쌓은 쌀국수 포장·딜리버리에 대한<br/>노하우와 수 차례 연구로 개발한<br/>특허 받은 패키지로 꾸준한 매출 상승세와<br/>신규 고객을 창출합니다.</span>
+								도입</b>으로 쌓은 쌀국수 포장·딜리버리에 대한<br/>노하우와 수 차례 연구로 개발한<br/>패키지로 꾸준한 매출 상승세와<br/>신규 고객을 창출합니다.</span>
 							</div>
 						</div>
 					</div>
 				</div>
 				<div class="red04-wrap">
 					<div class="red04-inner">
-						<img src="../images/red/red04-bg.jpg" alt="사진">
+						<img src="../images/red/red04-bg_new.jpg" alt="사진">
 						<p>포메인 RED,<br/>트렌드에 녹여낸 15년 노하우</p>
 						<span>메뉴 개발, 인테리어, 입지 선정 등 더욱 엄격해진 기준과<br/>
 						프랜차이즈 브랜드 15년 운영 노하우를 뒷받침으로<br/>

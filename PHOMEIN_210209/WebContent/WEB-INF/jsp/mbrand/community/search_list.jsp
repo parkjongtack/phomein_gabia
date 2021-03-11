@@ -63,10 +63,10 @@
 					<a href="javascript: void(0);" id="" class="">통합검색</a>
 				</li>
 				<li class="nav_cate_btn search_tabs" id="board_menu1">
-					<a href="javascript: void(0);" id="" class="">메뉴</a>
+					<a href="javascript: void(0);" id="" class="">포메인</a>
 				</li>
 				<li class="nav_cate_btn search_tabs" id="board_menu2">
-					<a href="javascript: void(0);" id="" class="">메뉴</a>
+					<a href="javascript: void(0);" id="" class="">포메인 레드</a>
 				</li>
 				<li class="nav_cate_btn search_tabs" id="board_sns">
 					<a href="javascript: void(0);" id="" class="">SNS</a>
@@ -96,7 +96,7 @@
 						
 							<!-- //셀렉트 박스 -->
 							<div class="search_input">
-								<input type="text" id="searchKeywordTemp" name="searchKeywordTemp" value="${param.search_key}" class="text" placeholder="검색어를 입력하세요" title="검색어">
+								<input type="text" id="search_key" name="search_key" value="${param.search_key}" class="text" placeholder="검색어를 입력하세요" title="검색어">
 								<button type="button" onclick="searchBtn();" class="btn_search"><span class="blind">검색</span></button>
 							</div>
 						</div>
@@ -106,205 +106,222 @@
 			<div class="search_list_box">
 				<div class="board_list board_menu1">
 					<h3>포메인</h3>
-					<div class="more_box"><a href="/brand/menu/menu_list.do" target="_blank">더보기</a></div>
+					<c:if test="${not empty resultList }" >
+					<div class="more_box"><a href="/mbrand/menu/menu_list.do" target="_blank">더보기</a></div>
+					</c:if>
 					<ul>
-						<c:forEach items="${resultList }" var="result" varStatus="status" >
-						<li>
-							<div class="left">
-								<img src="${result.f_file1 }" alt="" />
-							</div>
-							<div class="right">
-								<p class="item_title">${result.name }</p>
-								<p class="date">${fn:replace(fn:substring(result.regdt,0,10), '-', '.')}</p>
-								<div class="contents">
-									<p class="tx_ec2">
-										${result.kr_menu }
-									</p>
-									<a href="http://localhost:8080/brand/menu/menu_list.do?only_one_seq=${result.seq}" target="_blank">자세히 보기 + </a>
-								</div>
-							</div>
-						</li>
-						</c:forEach>
-						<!-- 
-						<li>
-							<div class="left">
-								<img src="/upload/sns/board/20210208/20210208131215413014.jpg" alt="" />
-							</div>
-							<div class="right">
-								<p class="item_title">제목입니다.</p>
-								<p class="date">2020.01.01</p>
-								<div class="contents">
-									<p class="tx_ec2">
-										서브 내용입니다.서브 내용입니다.서브 내용입니다.서브 내용입니다.서브 내용입니다.서브 내용입니다.서브 내용입니다.서브 내용입니다.서브 내용입니다.서브 내용입니다.서브 내용입니다.서브 내용입니다.서브 내용입니다.서브 내용입니다.서브 내용입니다.서브 내용입니다.서브 내용입니다.서브 내용입니다.서브 내용입니다.서브 내용입니다.서브 내용입니다.서브 내용입니다.
-									</p>
-									<a href="" target="_blank">http://localhost:8080/brand/menu/menu_list.do</a>
-								</div>
-							</div>
-						</li>
-						<li>
-							<div class="left">
-								<img src="/upload/sns/board/20210208/20210208131215413014.jpg" alt="" />
-							</div>
-							<div class="right">
-								<p class="item_title">제목입니다.</p>
-								<p class="date">2020.01.01</p>
-								<div class="contents">
-									<p class="tx_ec2">
-										서브 내용입니다.서브 내용입니다.서브 내용입니다.서브 내용입니다.서브 내용입니다.서브 내용입니다.서브 내용입니다.서브 내용입니다.서브 내용입니다.서브 내용입니다.서브 내용입니다.서브 내용입니다.서브 내용입니다.서브 내용입니다.서브 내용입니다.서브 내용입니다.서브 내용입니다.서브 내용입니다.서브 내용입니다.서브 내용입니다.서브 내용입니다.서브 내용입니다.
-									</p>
-									<a href="" target="_blank">http://localhost:8080/brand/menu/menu_list.do</a>
-								</div>
-							</div>
-						</li>
-						 -->
+						<c:choose>
+							<c:when test="${not empty resultList }" >
+								<c:forEach items="${resultList }" var="result" varStatus="status" >
+								<li>
+									<div class="left">
+										<img src="${result.f_file1 }" alt="" />
+									</div>
+									<div class="right">
+										<p class="item_title">${result.name }</p>
+										<p class="date">${fn:replace(fn:substring(result.regdt,0,10), '-', '.')}</p>
+										<div class="contents">
+											<p class="tx_ec2">
+												${result.kr_menu }
+											</p>
+											<a href="/brand/menu/menu_list.do?only_one_seq=${result.seq}" target="_blank">자세히보기 + </a>
+										</div>
+									</div>
+								</li>
+								</c:forEach>
+							</c:when>
+							<c:otherwise>
+									<li class="no-list">
+										<p>“검색된 결과가 없습니다”</p>
+									</li>
+							</c:otherwise>
+						</c:choose>
 					</ul>
 				</div>
 				<div class="board_list board_menu2">
 					<h3>포메인 레드</h3>
-					<div class="more_box"><a href="/brand/menu/red_menu_list.do" target="_blank">더보기</a></div>
+					<c:if test="${not empty resultList_red_menu }" >
+					<div class="more_box"><a href="/mbrand/menu/red_menu_list.do" target="_blank">더보기</a></div>
+					</c:if>
 					<ul>
-						<c:forEach items="${resultList_red_menu }" var="result" varStatus="status" >
-						<li>
-							<div class="left">
-								<img src="${result.f_file1 }" alt="" />
-							</div>
-							<div class="right">
-								<p class="item_title">${result.name }</p>
-								<p class="date">${fn:replace(fn:substring(result.regdt,0,10), '-', '.')}</p>
-								<div class="contents">
-									<p class="tx_ec2">
-										${result.kr_menu }
-									</p>
-									<a href="/brand/menu/red_menu_list.do?only_one_seq=${result.seq}" target="_blank">자세히 보기 + </a>
-								</div>
-							</div>
-						</li>
-						</c:forEach>
+						<c:choose>
+							<c:when test="${not empty resultList_red_menu }" >
+								<c:forEach items="${resultList_red_menu }" var="result" varStatus="status" >
+								<li>
+									<div class="left">
+										<img src="${result.f_file1 }" alt="" />
+									</div>
+									<div class="right">
+										<p class="item_title">${result.name }</p>
+										<p class="date">${fn:replace(fn:substring(result.regdt,0,10), '-', '.')}</p>
+										<div class="contents">
+											<p class="tx_ec2">
+												${result.kr_menu }
+											</p>
+											<a href="/brand/menu/red_menu_list.do?only_one_seq=${result.seq}" target="_blank">자세히보기 + </a>
+										</div>
+									</div>
+								</li>
+								</c:forEach>
+							</c:when>
+							<c:otherwise>
+								<li class="no-list">
+									<p>“검색된 결과가 없습니다”</p>
+								</li>
+							</c:otherwise>
+						</c:choose>
 					</ul>
 				</div>
 				<div class="board_list board_sns">
 					<h3>SNS</h3>
-					<div class="more_box"><a href="/brand/community/sns/community_list.do?cate=109203" target="_blank">더보기</a></div>
+					<c:if test="${not empty resultList_sns }" >
+					<div class="more_box"><a href="/mbrand/community/sns/community_list.do?cate=109203" target="_blank">더보기</a></div>
+					</c:if>
 					<ul>
-						<c:forEach items="${resultList_sns }" var="result" varStatus="status" >
-						<li>
-							<div class="left">
-								<img src="${result.pc_thimg }" alt="" />
-							</div>
-							<div class="right">
-								<p class="item_title">
-									<c:if test="${result.cate eq '109203' }">
-										인스타그램
-									</c:if>
-									<c:if test="${result.cate eq '109204' }">
-										블로그
-									</c:if>
-									<c:if test="${result.cate eq '109205' }">
-										유튜브
-									</c:if>
-								</p>
-								<p class="date">${fn:replace(fn:substring(result.regdt,0,10), '-', '.')}</p>
-								<div class="contents">
-									<p class="tx_ec2">
-										${result.title }
-									</p>
-									<a href="${result.url }" target="_blank">${result.url }</a>
-								</div>
-							</div>
-						</li>
-						</c:forEach>
+						<c:choose>
+							<c:when test="${not empty resultList_sns }" >
+								<c:forEach items="${resultList_sns }" var="result" varStatus="status" >
+								<li>
+									<div class="left">
+										<img src="${result.pc_thimg }" alt="" />
+									</div>
+									<div class="right">
+										<p class="item_title">
+											<c:if test="${result.cate eq '109203' }">
+												인스타그램
+											</c:if>
+											<c:if test="${result.cate eq '109204' }">
+												블로그
+											</c:if>
+											<c:if test="${result.cate eq '109205' }">
+												유튜브
+											</c:if>
+										</p>
+										<p class="date">${fn:replace(fn:substring(result.regdt,0,10), '-', '.')}</p>
+										<div class="contents">
+											<p class="tx_ec2">
+												${result.title }
+											</p>
+											<a href="${result.url }" target="_blank">${result.url }</a>
+										</div>
+									</div>
+								</li>
+								</c:forEach>
+							</c:when>
+							<c:otherwise>
+								<li class="no-list">
+									<p>“검색된 결과가 없습니다”</p>
+								</li>
+							</c:otherwise>
+						</c:choose>
 					</ul>
 				</div>
 				<div class="board_list board_notice">
 					<h3>공지 & 언론보도</h3>
-					<div class="more_box"><a href="/brand/community/notice/community_list.do" target="_blank">더보기</a></div>
+					<c:if test="${not empty resultList_notice }" >
+					<div class="more_box"><a href="/mbrand/community/notice/community_list.do?searchKeywordTemp=${param.search_key}" target="_blank">더보기</a></div>
+					</c:if>
 					<ul>
-						<c:forEach items="${resultList_notice }" var="result" varStatus="status" >
-						<li>
-							<div class="left">
-								<img src="${result.pc_thimg }" alt="" />
-							</div>
-							<div class="right">
-								<p class="item_title">
-									<c:if test="${result.cate eq '107201' }">
-										공지
-									</c:if>
-									<c:if test="${result.cate eq '107202' }">
-										뉴스
-									</c:if>
-									<c:if test="${result.cate eq '107203' }">
-										언론보도
-									</c:if>
-								</p>
-								<p class="date">${fn:replace(fn:substring(result.regdt,0,10), '-', '.')}</p>
-								<div class="contents">
-									<p class="tx_ec2">
-										${result.title }
-									</p>
-									<a href="${result.url }" target="_blank">${result.url }</a>
-								</div>
-							</div>
-						</li>
-						</c:forEach>
+						<c:choose>
+							<c:when test="${not empty resultList_notice }" >
+								<c:forEach items="${resultList_notice }" var="result" varStatus="status" >
+								<li>
+									<div class="left">
+										<img src="${result.pc_thimg }" alt="" />
+									</div>
+									<div class="right">
+										<p class="item_title">
+											<c:if test="${result.cate eq '107201' }">
+												공지
+											</c:if>
+											<c:if test="${result.cate eq '107202' }">
+												뉴스
+											</c:if>
+											<c:if test="${result.cate eq '107203' }">
+												언론보도
+											</c:if>
+										</p>
+										<p class="date">${fn:replace(fn:substring(result.regdt,0,10), '-', '.')}</p>
+										<div class="contents">
+											<p class="tx_ec2">
+												${result.title }
+											</p>
+											<a href="${result.url }" target="_blank">${result.url }</a>
+										</div>
+									</div>
+								</li>
+								</c:forEach>
+							</c:when>
+							<c:otherwise>
+								<li class="no-list">
+									<p>“검색된 결과가 없습니다”</p>
+								</li>
+							</c:otherwise>
+						</c:choose>
 					</ul>
 				</div>
 				<div class="board_list board_store">
 					<h3>매장찾기</h3>
-					<div class="more_box"><a href="/brand/menu/red_menu_list.do" target="_blank">더보기</a></div>
+					<c:if test="${not empty resultList_store }" >
+					<div class="more_box"><a href="/mbrand/store/store_list.do?storeName=${param.search_key}" target="_blank">더보기</a></div>
+					</c:if>
 					<ul>
-						<c:forEach items="${resultList_store }" var="result" varStatus="status" >
-						<li>
-							<div class="left">
-								<img src="${result.f_file1 }" alt="" />
-							</div>
-							<div class="right">
-								<p class="item_title">${result.name }</p>
-								<p class="date">${result.hp1}-${result.hp2}-${result.hp3}</p>
-								<div class="contents">
-									<p class="tx_ec2">
-										영업시간 : ${result.bh1}:${result.bh2} ~ ${result.bh3}:${result.bh4}
-									</p>
-									<a href="/mbrand/store/store_list.do?storeName=${result.name }" target="_blank">자세히보기 + </a>
-								</div>
-							</div>
-						</li>
-						</c:forEach>
+						<c:choose>
+							<c:when test="${not empty resultList_store }" >
+								<c:forEach items="${resultList_store }" var="result" varStatus="status" >
+								<li>
+									<div class="left">
+										<img src="${result.f_file1 }" alt="" />
+									</div>
+									<div class="right">
+										<p class="item_title">${result.name }</p>
+										<p class="date">${result.hp1}-${result.hp2}-${result.hp3}</p>
+										<div class="contents">
+											<p class="tx_ec2">
+												영업시간 : ${result.bh1}:${result.bh2} ~ ${result.bh3}:${result.bh4}
+											</p>
+											<a href="/brand/store/store_list.do?storeName=${result.name }" target="_blank">자세히보기 + </a>
+										</div>
+									</div>
+								</li>
+								</c:forEach>
+							</c:when>
+							<c:otherwise>
+								<li class="no-list">
+									<p>“검색된 결과가 없습니다”</p>
+								</li>
+							</c:otherwise>
+						</c:choose>
 					</ul>
 				</div>
-				<div class="board_list board_menu2">
+				<div class="board_list board_all_page">
 					<h3>전체 페이지</h3>
-					<!-- <div class="more_box"><a href="/brand/menu/red_menu_list.do" target="_blank">더보기</a></div> -->
 					<ul>
-						<c:forEach items="${resultList_red_menu }" var="result" varStatus="status" >
-						<li>
-							<div class="left">
-								<img src="${result.f_file1 }" alt="" />
-							</div>
-							<div class="right">
-								<p class="item_title">${result.name }</p>
-								<div class="contents">
-									<p class="tx_ec2">
-										${result.kr_menu }
-									</p>
-									<a href="/company/company/dailyking.do" target="_blank">자세히 보기 + </a>
-								</div>
-							</div>
-						</li>
-						</c:forEach>
-						<li>
-							<div class="left">
-								<img src="/brand/images/content/search_result_1.jpg" alt="" />
-							</div>
-							<div class="right">
-								<p class="item_title">COMPANY</p>
-								<div class="contents">
-									<p class="tx_ec2">
-										(주)데일리킹
-									</p>
-									<a href="/company/company/dailyking.do" target="_blank">자세히 보기 + </a>
-								</div>
-							</div>
-						</li>
+						<c:choose>
+							<c:when test="${not empty resultList_other }" >
+								<c:forEach items="${resultList_other }" var="result" varStatus="status" >
+								<li>
+									<div class="left">
+										<img src="${result.main_image}" alt="" />
+									</div>
+									<div class="right">
+										<p class="item_title">${result.subject1}</p>
+										<div class="contents">
+											<p class="tx_ec2">
+												${result.subject2}
+											</p>
+											<a href="${result.url}" target="_blank">자세히 보기 + </a>
+										</div>
+									</div>
+								</li>
+								</c:forEach>
+							</c:when>
+							<c:otherwise>
+								<li class="no-list">
+									<p>“검색된 결과가 없습니다”</p>
+								</li>
+							</c:otherwise>
+						</c:choose>
 					</ul>
 				</div>
 			</div>

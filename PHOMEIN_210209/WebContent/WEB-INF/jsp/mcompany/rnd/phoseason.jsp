@@ -30,7 +30,7 @@
 	<div id="container">
 		<!-- sub visual -->
 		<div class="sub_visual sv2">
-			<h3>포시즌 (PHO SEASON)</h3>
+			<h3>PHO SEASON INC.</h3>
 		</div>
 		<!-- 상단비쥬얼 영역
 			회사소개	: class="sub_visual sv1"

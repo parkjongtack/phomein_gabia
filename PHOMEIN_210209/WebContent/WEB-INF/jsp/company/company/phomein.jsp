@@ -92,8 +92,8 @@
 						<p class="img"><img src="../images/content/brand_menu_img.jpg" alt="쌀국수 이미지" class="load-fadein"/></p>
 					</div>
 				</div>
-				<div class="all-menu" style="background-image: url(/brand/images/content/before_footer_bg01.jpg); background-size: 100% auto; position: relative; margin-top: -130px; height: 436px; padding-top: 220px;">
-					<p class="txt">베트남 요리, <span><em>31</em>가지 감동을 담다!</span></p>
+				<div class="all-menu" style="background-image: url(/brand/images/content/before_footer_bg01.jpg); background-size: 100% auto; position: relative; margin-top: -130px; height: 430px; padding-top: 220px;">
+					<p class="txt">베트남 요리, <span><em>32</em>가지 감동을 담다!</span></p>
 					<a href="/brand/menu/menu_list.do" class="btn-all-menu">전체메뉴 보기</a>
 				</div>
 			</div>

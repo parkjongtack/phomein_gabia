@@ -373,11 +373,17 @@
 			anchors:['firstPage', 'secondPage', 'thirdPage', 'fourthPage', 'fifthPage', 'sixthPage', 'seventhPage'],
 			menu: '.right-nav',
 			afterLoad: function(anchorLink, index){
+				//console.log(index);
 				if(index == 2){
 					$('.volume').counterUp({delay: 10,time: 600});
 				}
 				if(index == 3){
 					$('.volume2').counterUp({delay: 10,time: 600});
+				}
+				if(index == 8){
+					$('#dHead').addClass('scroll');
+				}else{
+					$('#dHead').removeClass('scroll');
 				}
 			}
 		});

@@ -49,9 +49,9 @@
 				<h4>CEO <em>인사말</em></h4>
 			</div>
 			<div class="ceo_intro">
-				<h5 style="font-size: 14px; font-weight: 500; margin-bottom: 20px;">
+				<!-- <h5 style="font-size: 14px; font-weight: 500; margin-bottom: 20px;">
 					<em>어떻게 만들까</em>에 대한 고민과 열정으로<br/><em>쌀국수 본질</em>을 좇으며 노력하고 있습니다.
-				</h5>
+				</h5> -->
 				<p class="txt01">
 					안녕하십니까?<br/>
 					주식회사 데일리킹 대표 김대일입니다.<br/>

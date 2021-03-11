@@ -41,7 +41,7 @@ h1, h2, h3, h4, h5, h6, th {font-weight: 400;}
 .red02-wrap{width: 100%; max-width:1800px; margin: 0 auto 130px;}
 .red02-bg{height: 586px; background: url(../images/red/red02-bg.jpg) center center no-repeat; background-size: cover;}
 .red02-inner{text-align: center;}
-.red02-tit{padding: 95px 0 90px;}
+.red02-tit{padding: 75px 0 90px;}
 .red02-tit p{font-size: 50px; line-height:32px; letter-spacing:0; font-weight: bold; color: #333;}
 .red02-in{width: 1040px; margin: 43px auto 0;}
 .red02-in > div{width: 460px; height: 320px; margin-right: 120px; float: left; position: relative; background: #fff; text-align: center; font-size: 0; box-shadow:3px 3px 6px 3px rgba(0,0,0,0.1);}
@@ -77,11 +77,11 @@ h1, h2, h3, h4, h5, h6, th {font-weight: 400;}
 
 /* red04 */
 .red04-wrap{}
-.red04-inner{width: 100%; max-width:1200px; margin: 0 auto 47px; overflow: hidden;}
-.red04-inner .red04-left{width: 520px; height: 350px; float: left; background: url(../images/red/red04-bg01.jpg) center center no-repeat; background-size: 100% 100%;}
-.red04-inner .red04-left p{padding: 80px 0 40px; font-size: 39px; line-height:54px; letter-spacing:0; font-weight: bold; color: #333;}
-.red04-inner .red04-left span{font-size: 19px; line-height:30px; letter-spacing:0; font-weight: 400; color: #666; display: block;}
-.red04-inner .red04-right{width: 680px; height: 350px; float: left;}
+.red04-inner{width: 100%; max-width:1200px; margin: 0 auto 47px; overflow: hidden; background-color: #fff;}
+.red04-inner .red04-left{width: 690px; height: 350px; float: left; background: url(../images/red/red04-bg01.jpg) center center no-repeat; background-size: 100% 100%; padding-left: 80px;}
+.red04-inner .red04-left p{padding: 70px 0 40px; font-size: 32px; line-height:54px; letter-spacing:0; font-weight: bold; color: #333;}
+.red04-inner .red04-left span{font-size: 23px; line-height:38px; letter-spacing:0; font-weight: 400; color: #666; display: block;}
+.red04-inner .red04-right{width: 340px; height: auto; float: left; margin-top: 65px;}
 .red04-inner .red04-right img{width: 100%; height: 100%; display: block;}
 /* red04 */
 
@@ -90,7 +90,7 @@ h1, h2, h3, h4, h5, h6, th {font-weight: 400;}
 .red05-inner{padding-top: 114px; width: 100%; max-width:1200px; margin: 0 auto 160px; box-sizing:border-box;}
 .red05-inner table{width: 100%; box-sizing:border-box; border-top: 2px solid #8a382c; border-spacing: 0;}
 .red05-inner table tr th{border-bottom: 1px solid #ccc;}
-.red05-inner table tr td{border-bottom: 1px solid #ccc; vertical-align: middle;}
+.red05-inner table tr td{border-bottom: 1px solid #ccc;}
 .red05-inner table tr th.th-cen{padding: 50px 0; font-size: 40px; line-height:30px; letter-spacing:0; font-weight: 400; color: #8a382c; background: #f5f5f5; text-align: center; box-sizing:border-box;}
 .red05-inner table tr th.th-pos{padding-top: 43px; background: #f5f5f5; position: relative; text-align: center;}
 .red05-inner table tr th.th-pos img{margin-left: -78px; width: 156px; height: 156px; top: -114px; left: 50%; position: absolute; display: block;}
@@ -216,7 +216,7 @@ h1, h2, h3, h4, h5, h6, th {font-weight: 400;}
 					<div class="red02-wrap red02-bg">
 						<div class="red02-inner">
 							<div class="red02-tit">
-								<p>DAILYKING INC</p>
+								<p class="img"><img src="/company/images/common/dailyking_logo.png" alt="dailyking logo" class="load-fadein active"></p>
 							</div>
 							<div class="red02-in clear">
 								<div class="r-box">
@@ -270,7 +270,7 @@ h1, h2, h3, h4, h5, h6, th {font-weight: 400;}
 									<p>딜리버리 특화</p>
 									<i class="bar"></i>
 									<span><b>2014년 업계 최초 딜리버리서비스<br/>
-									도입</b>으로 쌓은 쌀국수 포장·딜리버리에 대한<br/>노하우와 수 차례 연구로 개발한<br/>특허 받은 패키지로 꾸준한 매출 상승세와<br/>신규 고객을 창출합니다.</span>
+									도입</b>으로 쌓은 쌀국수 포장·딜리버리에 대한<br/>노하우와 수 차례 연구로 개발한<br/>패키지로 꾸준한 매출 상승세와<br/>신규 고객을 창출합니다.</span>
 								</div>
 							</div>
 						</div>
@@ -278,13 +278,13 @@ h1, h2, h3, h4, h5, h6, th {font-weight: 400;}
 					<div class="red04-wrap">
 						<div class="red04-inner clear">
 							<div class="red04-left">
-								<p>포메인 RED,<br/>트렌드에 녹여낸 15년 노하우</p>
+								<p>포메인 RED, 트렌드에 녹여낸 15년 노하우</p>
 								<span>메뉴 개발, 인테리어, 입지 선정 등 더욱 엄격해진 기준과<br/>
 								프랜차이즈 브랜드 15년 운영 노하우를 뒷받침으로<br/>
 								가맹점주님들의 성공적인 미래를 준비합니다.</span>
 							</div>
 							<div class="red04-right">
-								<img src="../images/red/red04-bg02.jpg" alt="포메인">
+								<img src="../images/red/red04-bg02_new.jpg" alt="포메인">
 							</div>
 						</div>
 					</div>
@@ -324,19 +324,20 @@ h1, h2, h3, h4, h5, h6, th {font-weight: 400;}
 										</td>
 									</tr>
 									<tr>
-										<td class="td-icon">
+										<td class="td-icon" style="padding-top: 70px;">
 											<img src="../images/red/red05-tbl-img03.png" alt="아이콘">
-											<p>태국·베트남 수입산 쌀국수면</p>
+											<p>태국·베트남 수입산<br/>쌀국수면</p>
 										</td>
-										<td class="td-bg">
+										<td class="td-bg" style="vertical-align: middle;">
 											<p>쌀국수면</p>
 										</td>
-										<td class="td-icon">
+										<td class="td-icon" style="padding-top: 70px;">
 											<img src="../images/red/red05-tbl-img04.png" alt="아이콘">
 											<p class="m2">(주)데일리킹 베트남 법인 쌀국수 공장 '포시즌'<br/><b>자가제면 햅쌀 쌀국수면</b></p>
 											<p style="width: 180px; text-align:left; margin:10px auto 0;">
-												<b>햅쌀 쌀국수면 point!</b><br/>· 갓 지은 햇쌀밥의 향<br/>· 맑고 투명한 빛깔<br/>· 부드럽고 쫀득한 식감
+												<b>햅쌀 쌀국수면 point!</b>
 											</p>
+											<span style="font-size: 12px; color: #666;">· 갓 지은 햇쌀밥의 향&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;· 맑고 투명한 빛깔&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;· 부드럽고 쫀득한 식감</span>
 										</td>
 									</tr>
 									<tr>

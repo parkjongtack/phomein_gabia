@@ -43,7 +43,7 @@
 					<ul class="swiper_wrap">
 						<li class="swiper_slide con_wrap con1" style="background-image:url(../common/images/main/mv1.png); background-position:center bottom;">
 							<div class="cont">
-								<div class="con con1" style="bottom:-10%;">
+								<div class="con con1" style="bottom:-39px;">
 									<span class="tit" style="font-size:40px; line-height:52px;"><em style="padding-bottom:15px;">소규모 프리미엄 쌀국수 브랜드</em>포메인 RED 런칭</span>
 									<span class="desc" style="font-size:18px;"><b style="color:#ab3221;">R</b>ice noodle <b style="color:#ab3221;">E</b>xpress <b style="color:#ab3221;">D</b>elivery</span>
 									<a href="/company/franchisee/red.do" style="display:inline-block; margin-top:50px; padding:11px 21px; background-color:#8a382c; color:#fff; font-size:15px;">브랜드 스토리 확인</a>
@@ -53,10 +53,11 @@
 
 						<li class="swiper_slide con_wrap con2" style="background-image:url(../common/images/main/mv1_2.jpg);">
 							<div class="cont">
-								<div class="con con1" style="bottom:-10%;">
+								<div class="con con5" style="bottom: -85px;">
 									<span class="tit" style="font-size:40px; line-height:52px;"><em style="padding-bottom:15px;">포메인,</em>햅쌀로 자가제면<br> 自家製麵</span>
 									<span class="desc" style="font-size:16px;">갓 지은 햅쌀밥의 향<br><font style="padding-right:15px;">맑고 투명한 빛깔</font>부드럽고 쫀득한 식감</span>
 									<span class="desc" style="padding-top:20px;font-size:13px; line-height:22px;">1년 364일 햅쌀로 직접 만들어 건강한<br> 쌀국수면과 품질개선으로 더 깊어진 명품 육수까지</span>
+									<p style="font-size: 16px; color: #fff; padding-top:22px;">쌀국수는 포메인입니다.</p>
 								</div>
 							</div>
 						</li>
