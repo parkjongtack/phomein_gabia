@@ -394,7 +394,7 @@ line-height: 1; letter-spacing: -0.5px; font-weight: 400;}
 									</td>
 									<td class="td-icon">
 										<img src="../images/red/red05-tbl-img12.png" alt="아이콘">
-										<p class="m2"><b>공식 SNS 채널<br/>3개 보유</b><br/>(블로그, 유튜브,<br/>인스타그램)</p>
+										<p class="m2"><b>공식 SNS 채널<br/>3개 보유</b><br/>(유튜브, 인스타그램,<br/>블로그)</p>
 									</td>
 								</tr>
 							</tbody>

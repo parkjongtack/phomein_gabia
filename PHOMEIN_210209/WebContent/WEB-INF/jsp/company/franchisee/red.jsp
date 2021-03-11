@@ -389,7 +389,7 @@ h1, h2, h3, h4, h5, h6, th {font-weight: 400;}
 										</td>
 										<td class="td-icon">
 											<img src="../images/red/red05-tbl-img12.png" alt="아이콘">
-											<p class="m2"><b>공식 SNS 채널 3개 보유</b><br/>(블로그, 유튜브, 인스타그램)</p>
+											<p class="m2"><b>공식 SNS 채널 3개 보유</b><br/>(유튜브, 인스타그램, 블로그)</p>
 										</td>
 									</tr>
 								</tbody>
