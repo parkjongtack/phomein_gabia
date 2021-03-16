@@ -103,7 +103,7 @@
 					</div>
 				</div>
  			</div>
-			<div class="section con_wrap" id="section3">
+			<div class="section con_wrap" id="section3" style="background-image: url(/brand/images/tmp/main_visual_03.jpg);">
 				<div class="cont">
 					<div class="con">
 						<span class="tit">베트남 요리,<em>32가지 감동을 담다.</em></span>
@@ -136,8 +136,8 @@
 				<div class="conb">
 					<div class="con">
 						<ul>
-							<li><a href="https://gift.kakao.com/brand/2180?input_channel_id=2636" class="link_kakao" target="_blank"><span>카카오톡 <em>선물하기</em></span></a></li>
-							<li><a href="/mbrand/store/store_list.do" class="link_delivery"><span><em>딜리버리</em> 매장</span></a></li>
+							<li><a href="https://gift.kakao.com/brand/2180?input_channel_id=2636" class="link_kakao main_04_mo gift_box_ico" target="_blank"><span>카카오톡 <em>선물하기</em></span></a></li>
+							<li><a href="/mbrand/store/store_list.do" class="link_delivery main_04_mo"><span><em>딜리버리</em> 매장</span></a></li>
 						</ul>
 					</div>
 				</div>
@@ -171,7 +171,7 @@
 								<c:when test="${not empty snsList }" >
 									<c:forEach items="${snsList }" var="result" varStatus="status" >
 										<c:if test="${status.index < 9 }">
-											<li class=<c:if test="${result.cate == '109201' }">"ico-f"</c:if><c:if test="${result.cate == '109202' }">"ico-b"</c:if><c:if test="${result.cate == '109203' }">"ico-i"</c:if> >
+											<li class=<c:if test="${result.cate == '109205' }">"ico-y"</c:if><c:if test="${result.cate == '109204' }">"ico-b"</c:if><c:if test="${result.cate == '109203' }">"ico-i"</c:if> >
 												<a href="${result.url}"><span class="icon"></span><img alt="" src="${result.m_thimg }"></a>
 											</li>
 										</c:if>
@@ -268,7 +268,7 @@
 <script src="../common/js/jquery-1.12.4.min.js"></script>
 <script src="../common/js/swiper.min.js"></script>
 <script src="../common/js/jquery.fullpage.js"></script>
-<script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
 <script src="../common/js/jquery.counterup.min.js"></script>
 <script src="../common/js/common.js"></script>
 <script src="../common/js/main.js"></script>

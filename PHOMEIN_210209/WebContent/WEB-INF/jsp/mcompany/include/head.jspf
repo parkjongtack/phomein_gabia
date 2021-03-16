@@ -6,6 +6,7 @@
 <link rel="stylesheet" type="text/css" href="/mcompany/common/css/content.css">
 <link rel="stylesheet" type="text/css" href="/mcompany/common/css/jquery.fullpage.css">
 <link rel="stylesheet" type="text/css" href="/mcompany/common/css/main.css">
+<script src="/redirect.js"></script>
 <script src="/mcompany/common/js/jquery.js"></script>
 <!--[if lt IE 9]>
 	<script src="../common/js/placeholders.min.js"></script>

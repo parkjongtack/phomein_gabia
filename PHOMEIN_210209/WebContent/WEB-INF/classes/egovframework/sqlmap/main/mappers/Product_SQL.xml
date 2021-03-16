@@ -152,7 +152,7 @@
 			<if test="search_key != null and search_key != ''">
 				AND (name LIKE CONCAT('%' , #{search_key} , '%')
 				OR kr_menu LIKE CONCAT('%' , #{search_key} , '%'))
-			</if>	 			
+			</if>			
 		</where>
 	</select>
 
@@ -196,6 +196,13 @@
 		</where>        
 		ORDER BY seq DESC
 		) A  ) T  LIMIT  #{startCount}, #{pageUnit}
+	</select>
+	
+	<select id="selectOtherSearchList" parameterType="hashmap" resultType="hashmap">
+		SELECT * FROM othersearch WHERE 1=1 
+		<if test="search_key != null and search_key != ''">
+			AND (contents LIKE CONCAT('%' , #{search_key} , '%'))
+		</if>	
 	</select>
 	
 	<select id="selectMenuList" parameterType="hashmap" resultType="hashmap">

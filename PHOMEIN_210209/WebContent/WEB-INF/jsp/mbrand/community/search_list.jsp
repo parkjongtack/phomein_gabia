@@ -85,7 +85,7 @@
 			<!-- //page-tab -->
 			<div class="sch-filter">
 				<div class="sch-input">
-					<form id="searchForm" name="searchForm" method="post" action="/brand/community/search_list.do">
+					<form id="searchForm" name="searchForm" method="get" action="/mbrand/community/search_list.do">
 						<input type="hidden" id="boardType" name="boardType" value="${searchVO.boardType}"/>
 						<input type="hidden" id="cate" name="cate" value="${searchVO.cate}"/>
 						<input type="hidden" id="event_progress" name="event_progress" value="${searchVO.event_progress}"/>
@@ -124,7 +124,7 @@
 											<p class="tx_ec2">
 												${result.kr_menu }
 											</p>
-											<a href="/brand/menu/menu_list.do?only_one_seq=${result.seq}" target="_blank">자세히보기 + </a>
+											<a href="/mbrand/menu/menu_list.do?only_one_seq=${result.seq}" target="_blank">자세히보기 + </a>
 										</div>
 									</div>
 								</li>
@@ -158,7 +158,7 @@
 											<p class="tx_ec2">
 												${result.kr_menu }
 											</p>
-											<a href="/brand/menu/red_menu_list.do?only_one_seq=${result.seq}" target="_blank">자세히보기 + </a>
+											<a href="/mbrand/menu/red_menu_list.do?only_one_seq=${result.seq}" target="_blank">자세히보기 + </a>
 										</div>
 									</div>
 								</li>
@@ -280,7 +280,7 @@
 											<p class="tx_ec2">
 												영업시간 : ${result.bh1}:${result.bh2} ~ ${result.bh3}:${result.bh4}
 											</p>
-											<a href="/brand/store/store_list.do?storeName=${result.name }" target="_blank">자세히보기 + </a>
+											<a href="/mbrand/store/store_list.do?storeName=${result.name }" target="_blank">자세히보기 + </a>
 										</div>
 									</div>
 								</li>

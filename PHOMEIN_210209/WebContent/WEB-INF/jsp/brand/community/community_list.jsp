@@ -472,9 +472,9 @@
 					$.each(data.resultList, function(key, index){
 						$html = '';
 						$html += '<li class=';
-						if(data.resultList[key].cate == '109201'){
-							$html += 'ico-f';
-						}else if(data.resultList[key].cate == '109202'){
+						if(data.resultList[key].cate == '109205'){
+							$html += 'ico-y';
+						}else if(data.resultList[key].cate == '109204'){
 							$html += 'ico-b';
 						}else if(data.resultList[key].cate == '109203'){
 							$html += 'ico-i';

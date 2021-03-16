@@ -33,9 +33,9 @@
 	<section id="dBody" class="franchisee">
 		<!-- page-title -->
 		<div class="page-title">
-			<div class="visual" style="background-image:url('../images/content/sub_visual_03.jpg');"></div>
+			<div class="visual" style="background-image:url('../images/content/sub_visual_03_2.jpg');"></div>
 			<h2 class="h2-type">가맹 상담 신청</h2>
-			<span class="txt">11년의 노하우, 포메인과 함께라면 행복한 미래를 꿈꾸셔도 좋습니다.<br>밝은 미래, 행복한 포메人</span>
+			<%-- <span class="txt">11년의 노하우, 포메인과 함께라면 행복한 미래를 꿈꾸셔도 좋습니다.<br>밝은 미래, 행복한 포메人</span> --%>
 		</div>
 		<!-- //page-title -->
 
@@ -183,7 +183,7 @@
 <!-- //wrap -->
 
 <script src="../common/js/front_ui.js"></script>
-<script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.11.1/jquery.validate.min.js"></script>
+<script src="//ajax.aspnetcdn.com/ajax/jquery.validate/1.11.1/jquery.validate.min.js"></script>
 <script type="text/javascript">
 
 $(".onlyNumber").on("keyup", function(){

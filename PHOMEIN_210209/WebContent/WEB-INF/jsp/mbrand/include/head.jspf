@@ -9,6 +9,7 @@
 <!-- 20190319 추가 s -->
 <link rel="stylesheet" type="text/css" href="/mbrand/common/css/jquery-ui.css">
 <!-- //20190319 추가 e -->
+<script src="/redirect.js"></script>
 <script src="/mbrand/common/js/jquery.js"></script>
 <!--[if lt IE 9]>
 	<script src="../common/js/placeholders.min.js"></script>

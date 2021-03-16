@@ -56,7 +56,7 @@ public class BrandCommunityController extends GOdukAbstractController{
 			HttpServletResponse response) throws Exception {
 		String deviceType = getDeviceType(request);
 		String pageIndex = "1";
-		
+		 
 		
 		 
 		param.put("pageUnit", 9999);
@@ -65,10 +65,10 @@ public class BrandCommunityController extends GOdukAbstractController{
 		if (!StringUtils.equals("normal", deviceType)) {
 			param.put("pageUnit", 6);
 			startCount = (((Integer.parseInt(pageIndex) - 1)) * 6);
-			if (startCount == 0) {
+			if (startCount == 0) { 
 				startCount = 0;
 			}
-		}
+		} 
 		param.put("startCount", startCount);
 		param.put("search_site_ck", 1);
 		if(param.get("search_key") != null && !param.get("search_key").equals("")) {

@@ -7,6 +7,7 @@
 <head>
 <title>포메인</title>
 <%@ include file="/WEB-INF/jsp/brand/include/head.jspf"%>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.5/waypoints.min.js"></script>
 </head>
 <style>
 	.sns-section .bottom-box:after{display:none !important;}
@@ -211,7 +212,7 @@
 											<c:when test="${not empty snsList }" >
 												<c:forEach items="${snsList }" var="result" varStatus="status" >
 													<c:if test="${status.index < 8 }">
-														<li class=<c:if test="${result.cate == '109201' }">"ico-f"</c:if><c:if test="${result.cate == '109202' }">"ico-b"</c:if><c:if test="${result.cate == '109203' }">"ico-i"</c:if> >
+														<li class=<c:if test="${result.cate == '109205' }">"ico-y"</c:if><c:if test="${result.cate == '109204' }">"ico-b"</c:if><c:if test="${result.cate == '109203' }">"ico-i"</c:if> >
 															<p class="img"><img alt="" src="${result.pc_thimg }"></p>
 															<a href="${result.url}" target="_blank">
 																<span class="icon"></span>
