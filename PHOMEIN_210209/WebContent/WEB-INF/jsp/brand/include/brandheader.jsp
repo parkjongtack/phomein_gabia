@@ -74,7 +74,7 @@
 							</ul>
 						</li>
 						<li>
-							<a href="/brand/community/notice/community_list.do">COMMUNITY</a>
+							<a href="/brand/community/sns/community_list.do?cate=109203">COMMUNITY</a>
 							<ul>
 								<li><a href="/brand/community/sns/community_list.do?cate=109203">인스타그램</a></li>
 								<li><a href="/brand/community/sns/community_list.do?cate=109204">블로그</a></li>
@@ -173,7 +173,7 @@
     width: 100px;
     height: 300px;
     z-index: 1000;
-    right: 190px;
+    right: 176px;
     top: 32%;    
     position:fixed;
     background-color: transparent;
