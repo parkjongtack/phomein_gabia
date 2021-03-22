@@ -21,6 +21,13 @@
 					},500);
 				},50);
             }
+
+			if(index != 4){
+                setTimeout(function(){
+					$('.main_04_mo').removeClass('on');
+					$('.gift_box_ico').removeClass('gift_on');
+				},50);
+            }
 		}
 	});
 	// Swiper
