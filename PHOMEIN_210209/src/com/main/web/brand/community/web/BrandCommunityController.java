@@ -1,5 +1,7 @@
 package com.main.web.brand.community.web;
 
+import java.net.URLDecoder;
+import java.net.URLEncoder;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -51,14 +53,27 @@ public class BrandCommunityController extends GOdukAbstractController{
 	@Resource(name = "storeService")
 	private StoreService storeService;	
 	
+	public static String Kor2UTF8(String str) {
+	  if (str== null) {
+	    return null;
+	  }
+	  try {
+	    return new String(str.getBytes("8859_1"), "UTF-8");
+	  } catch (Exception e) {}
+	  return str;
+	}
+	
+	
 	@RequestMapping(value = "search_list.do", method = { RequestMethod.GET, RequestMethod.POST })
 	public String search(@RequestParam Map param, HttpSession session, ModelMap model, HttpServletRequest request,
 			HttpServletResponse response) throws Exception {
 		String deviceType = getDeviceType(request);
 		String pageIndex = "1";
 		
+		//param.put("search_key", Kor2UTF8(param.get("search_key").toString()));
 		
-		 
+		//System.out.println("123123"+Kor2UTF8(param.get("search_key").toString()));
+		
 		param.put("pageUnit", 9999);
 		int startCount = 0;
 
