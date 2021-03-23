@@ -726,5 +726,13 @@
 
 	}
 
+    $(document).ready(function(){
+        if($('#searchStoreName').val() != ""){
+            setTimeout(() => {
+                $('.link_detail').eq(0).trigger("click");    
+                console.log($('.link_detail'));
+            }, 300);
+        }
+    })
 
 </script>

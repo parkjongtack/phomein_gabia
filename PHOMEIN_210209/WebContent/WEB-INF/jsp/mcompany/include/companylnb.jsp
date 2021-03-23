@@ -8,7 +8,7 @@
 				<li id="MENU"><a href="/mbrand/menu/menu_list.do">MENU</a></li>
 				<li id="STORE"><a href="/mbrand/store/store_list.do">STORE</a></li>
 				<li id="FRANCHISE"><a href="/mcompany/franchisee/step01.do">FRANCHISE</a></li>
-				<li id="COMMUNITY"><a href="/mbrand/community/notice/community_list.do">COMMUNITY</a></li>
+				<li id="COMMUNITY"><a href="/mbrand/community/sns/community_list.do?cate=109203">COMMUNITY</a></li>
 				<!-- <li id="CS CENTER"><a href="/mbrand/cs_center/cs_terms.do">CS CENTER</a></li>
 				<li id="POLICY"><a href="/mbrand/etc/terms.do">POLICY</a></li> -->
 			</ul>

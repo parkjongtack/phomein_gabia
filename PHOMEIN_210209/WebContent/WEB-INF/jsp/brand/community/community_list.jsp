@@ -278,7 +278,7 @@
 	<!-- 메인, 매장찾기 페이지 반영 제외 -->
 	<div class="quick-menu">
 		<a href="/company/franchisee/rice.do" class="btn-menu">국내유일<br/>햅쌀면</a>
-		<a href="/company/franchisee/terms.do" target="_blank" class="btn-company">가맹 상담</a>
+		<a href="/brand/community/sns/community_list.do?cate=109203" target="_blank" class="btn-company">SNS</a>
 		<a href="/brand/store/store_list.do" target="_blank" class="btn-franchisee">매장 찾기</a>
 		<a href="javascript:front.common.moveScroll(0, 750);" class="btn-top">TOP</a>
 	</div>
@@ -472,9 +472,9 @@
 					$.each(data.resultList, function(key, index){
 						$html = '';
 						$html += '<li class=';
-						if(data.resultList[key].cate == '109201'){
-							$html += 'ico-f';
-						}else if(data.resultList[key].cate == '109202'){
+						if(data.resultList[key].cate == '109205'){
+							$html += 'ico-y';
+						}else if(data.resultList[key].cate == '109204'){
 							$html += 'ico-b';
 						}else if(data.resultList[key].cate == '109203'){
 							$html += 'ico-i';

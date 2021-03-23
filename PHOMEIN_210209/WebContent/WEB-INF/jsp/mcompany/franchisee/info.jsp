@@ -165,7 +165,7 @@
 <script src="../common/js/jquery-1.12.4.min.js"></script>
 <script src="../common/js/swiper.min.js"></script>
 <script src="../common/js/common.js"></script>
-<script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.11.1/jquery.validate.min.js"></script>
+<script src="ajax.aspnetcdn.com/ajax/jquery.validate/1.11.1/jquery.validate.min.js"></script>
 <script type="text/javascript">
 
 $(".onlyNumber").on("keyup", function(){

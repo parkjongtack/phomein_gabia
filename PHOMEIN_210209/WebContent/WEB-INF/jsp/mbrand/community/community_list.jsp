@@ -9,6 +9,15 @@
 <meta name="keywords" content="">
 <title>포메인</title>
 <%@ include file="/WEB-INF/jsp/mbrand/include/head.jspf"%>
+<style>
+	#snsUl li{position: relative;}
+	#snsUl li .icon {display:block; position:absolute; top:5px; left:5px; width:28px; height:28px; background:rgba(0, 0, 0, 0.4);border-radius:19px;}
+	#snsUl li .icon:after {content:''; display:block; position:absolute; top:7px; left:7px; width:15px; height:15px; background-size: contain;}
+	#snsUl li.ico-f .icon:after {background:url('/brand/images/icon/ico_w_f.png') center center no-repeat; background-size: contain;}
+	#snsUl li.ico-y .icon:after {background:url('/brand/images/icon/ico_w_y.png') center center no-repeat; background-size: contain; top:7px; left:6px;}
+	#snsUl li.ico-b .icon:after {background:url('/brand/images/icon/ico_w_b.png') center center no-repeat; background-size: contain;}
+	#snsUl li.ico-i .icon:after {background:url('/brand/images/icon/ico_w_i.png') center center no-repeat; background-size: contain;}
+</style>
 </head>
 <body>
 <!-- wrap -->
@@ -257,7 +266,9 @@
 							<ul id="snsUl">
 								<c:forEach items="${resultList }" var="result" varStatus="status" >
 									<li class=<c:if test="${result.cate == '109205' }">"ico-y"</c:if><c:if test="${result.cate == '109204' }">"ico-b"</c:if><c:if test="${result.cate == '109203' }">"ico-i"</c:if> >
-									<a href="${result.url}"><img src="${result.m_thimg }" alt="${result.m_alt }"></a>
+									<a href="${result.url}">
+                                    <span class="icon"></span><img src="${result.m_thimg }" alt="${result.m_alt }">
+                                    </a>
 									</li>
 								</c:forEach>
 							</ul>
@@ -480,7 +491,16 @@
 	    	    if(data.resultList.length > 0) {
 					$.each(data.resultList, function(key, index){
 						$html = '';
-						$html += '<li><a href=\''+data.resultList[key].url+'\'><img src=\''+data.resultList[key].m_thimg+'\' alt=\''+data.resultList[key].m_alt+'\'></a></li>';
+						$html += '<li class=';
+						if(data.resultList[key].cate == '109205'){
+							$html += 'ico-y';
+						}else if(data.resultList[key].cate == '109204'){
+							$html += 'ico-b';
+						}else if(data.resultList[key].cate == '109203'){
+							$html += 'ico-i';
+						}
+						$html += '>';
+						$html += '<a href=\''+data.resultList[key].url+'\'><span class="icon"></span><img src=\''+data.resultList[key].m_thimg+'\' alt=\''+data.resultList[key].m_alt+'\'></a></li>';
 						$('#snsUl').append($html);
 	    			});
 				}

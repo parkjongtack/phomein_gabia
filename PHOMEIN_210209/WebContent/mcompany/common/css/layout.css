@@ -24,8 +24,8 @@ body.lock #wrap:after {display:block;}
 #header.fix {position:fixed;background-color:#222;}
 #header h1 a {display:block;width:110px;height:55px;box-sizing:border-box;padding:14px 0 0 20px;}
 #header h1 a:after {content:'';display:block;width:92px;height:40px;background-position:0 -57px;}
-#header .btn_link {position:absolute;top:20px;right:60px;width:82px;height:28px;line-height:28px;color:#fff;font-size:12px;font-weight:100;border:1px solid rgba(255,255,255,0.4);border-radius:30px 30px 30px 30px;text-align:center;}
-#header .btn_link01 {position:absolute;top:20px;right:145px;width:82px;height:28px;line-height:28px;color:#fff;font-size:12px;font-weight:100;border:1px solid rgba(255,255,255,0.4);border-radius:30px 0 0 30px;text-align:center; background-color:#546220;}
+#header .btn_link {position:absolute;top:20px;right:60px;width:70px;height:28px;line-height:28px;color:#fff;font-size:11px;font-weight:100;border:1px solid rgba(255,255,255,0.4);border-radius:30px 30px 30px 30px;text-align:center;}
+#header .btn_link01 {position:absolute;top:20px;right:120px;width:70px;height:28px;line-height:28px;color:#fff;font-size:11px;font-weight:100;border:1px solid rgba(255,255,255,0.4);border-radius:30px 0 0 30px;text-align:center; background-color:#546220;}
 #header .btn_allmenu {position:absolute;top:0;right:0;width:60px;height:70px;}
 #header .btn_allmenu:after {content:'';display:block;width:27px;height:20px;margin:2px auto 0;background-position:-85px 0;}
 

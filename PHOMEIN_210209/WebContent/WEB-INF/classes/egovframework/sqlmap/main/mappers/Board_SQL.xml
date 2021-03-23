@@ -93,6 +93,9 @@
 				AND cate NOT IN ('107202' , '109201' , '109202') 
 			</if>
 			<include refid="getSearch" />
+			<if test="search_key != null and search_key != ''">
+				AND title LIKE CONCAT('%' , #{search_key} , '%')
+			</if>			
 		</where>        
 		ORDER BY seq DESC
 		) A  ) T  LIMIT  #{startCount}, #{pageUnit}

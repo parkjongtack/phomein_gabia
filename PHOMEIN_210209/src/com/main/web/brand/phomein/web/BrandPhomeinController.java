@@ -100,22 +100,22 @@ public class BrandPhomeinController {
 		// 리턴url은 인증 전 인증페이지를 호출하기 전 url과 동일해야 합니다. ex) 인증 전 url : http://www.~
 		// 리턴 url :
 		// http://www.~
-		String sReturnUrl = "http://www.phomein.com/brand/phomein/checkplus_success.do"; // 성공시
+		String sReturnUrl = "https://www.phomein.com/brand/phomein/checkplus_success.do"; // 성공시
 																							// 이동될
 																							// URL
 
 		if (!StringUtils.equals("normal", deviceType)) {
-			sReturnUrl = "http://www.phomein.com/mbrand/phomein/checkplus_success.do"; // 성공시
+			sReturnUrl = "https://www.phomein.com/mbrand/phomein/checkplus_success.do"; // 성공시
 																								// 이동될
 																								// URL
 		}
 
-		String sErrorUrl = "http://www.phomein.com/brand/phomein/checkplus_fail.do"; // 실패시
+		String sErrorUrl = "https://www.phomein.com/brand/phomein/checkplus_fail.do"; // 실패시
 																						// 이동될
 																						// URL
 
 		if (!StringUtils.equals("normal", deviceType)) {
-			sErrorUrl = "http://www.phomein.com/mbrand/phomein/checkplus_fail.do"; // 실패시
+			sErrorUrl = "https://www.phomein.com/mbrand/phomein/checkplus_fail.do"; // 실패시
 																							// 이동될
 																							// URL
 		}
@@ -200,7 +200,7 @@ public class BrandPhomeinController {
 
 			String session_sRequestNumber = (String) session.getAttribute("REQ_SEQ");
 			if (!sRequestNumber.equals(session_sRequestNumber)) {
-				sMessage = "세션값이 다릅니다. 올바른 경로로 접근하시기 바랍니다.";
+				sMessage = "세션값이 다릅니다. 올바른 경로로 접근하시기 바랍니다";
 			}
 			model.addAttribute("name", sName);
 			model.addAttribute("mobileNo", sMobileNo);

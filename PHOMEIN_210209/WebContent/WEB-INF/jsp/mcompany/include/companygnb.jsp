@@ -8,6 +8,10 @@
 					<li><a href="/mjpn/main/main.do" target="_self">JPN</a></li>
 				</ul>
 			</div> -->
+			<form action="/mbrand/community/search_list.do" method="get" name="search_all" id="header_s_form">
+				<input type="text" placeholder="search" name="search_key" value="${param.search_key}" />
+				<button type="submit"></button>
+			</form>
 		</div>
 		<div class="gnb_container">
 			<div class="inner">

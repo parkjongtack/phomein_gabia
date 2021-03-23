@@ -4,11 +4,30 @@
 		menu: '.right-nav',
 		afterLoad: function(anchorLink, index){
 			if(index == 2){
-				$('.volume').counterUp({delay: 10,time: 500});
+				setTimeout(function(){
+					$('.volume').counterUp({delay: 10,time: 500});
+				},50);
 			}
 			if(index == 3){
-				$('.volume2').counterUp({delay: 10,time: 500});
+				setTimeout(function(){
+					$('.volume2').counterUp({delay: 10,time: 500});
+				},50);
 			}
+            if(index == 4){
+                setTimeout(function(){
+					$('.main_04_mo').addClass('on');
+					setTimeout(function(){
+						$('.gift_box_ico').addClass('gift_on');
+					},500);
+				},50);
+            }
+
+			if(index != 4){
+                setTimeout(function(){
+					$('.main_04_mo').removeClass('on');
+					$('.gift_box_ico').removeClass('gift_on');
+				},50);
+            }
 		}
 	});
 	// Swiper

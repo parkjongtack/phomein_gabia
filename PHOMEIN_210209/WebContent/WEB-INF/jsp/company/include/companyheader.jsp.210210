@@ -108,7 +108,7 @@
     width: 100px;
     height: 300px;
     z-index: 1000;
-    right: 130px;
+    right: 176px;
     top: 32%;    
     position:fixed;
     background-color: transparent;

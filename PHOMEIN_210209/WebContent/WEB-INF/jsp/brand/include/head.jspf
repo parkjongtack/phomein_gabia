@@ -19,6 +19,8 @@ for (var i = 0; i < mobilePhones.length; i++){
 	}
 };
 </script>
+
+<script src="/redirect.js"></script>
 <script type="text/javascript" charset="UTF-8" src="//t1.daumcdn.net/adfit/static/kp.js"></script>
 <script type="text/javascript">
       kakaoPixel('3194302410179365621').pageView();
