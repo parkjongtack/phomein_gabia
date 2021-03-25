@@ -1,6 +1,6 @@
  $(document).ready(function() {
 	$('#fullpage').fullpage({
-		anchors:['firstPage', 'secondPage', 'thirdPage', 'fourthPage', 'fifthPage', 'sixthPage', 'seventhPage'],
+		anchors:['firstPage', 'secondPage', 'thirdPage', 'fourthPage', 'fifthPage', 'sixthPage', 'seventhPage', 'footer22'],
 		menu: '.right-nav',
 		afterLoad: function(anchorLink, index){
 			if(index == 2){
@@ -28,6 +28,40 @@
 					$('.gift_box_ico').removeClass('gift_on');
 				},50);
             }
+
+			switch(index){
+				case 1:
+					$('#sc_down_box a').show();
+					$('#sc_down_box a').attr("href", "#secondPage")
+					break;
+				/*case 2:
+					$('#sc_down_box a').show();
+					$('#sc_down_box a').attr("href", "#thirdPage")
+					break;
+				case 3:
+					$('#sc_down_box a').show();
+					$('#sc_down_box a').attr("href", "#fourthPage")
+					break;
+				case 4:
+					$('#sc_down_box a').show();
+					$('#sc_down_box a').attr("href", "#fifthPage")
+					break;
+				case 5:
+					$('#sc_down_box a').show();
+					$('#sc_down_box a').attr("href", "#sixthPage")
+					break;
+				case 6:
+					$('#sc_down_box a').show();
+					$('#sc_down_box a').attr("href", "#seventhPage")
+					break;
+				case 7:
+					$('#sc_down_box a').show();
+					$('#sc_down_box a').attr("href", "#footer22")
+					break;*/
+					
+				/*default:
+					$('#sc_down_box a').hide();*/
+			}
 		}
 	});
 	// Swiper

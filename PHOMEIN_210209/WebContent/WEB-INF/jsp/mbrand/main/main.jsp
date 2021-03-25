@@ -9,6 +9,8 @@
 <meta name="keywords" content="">
 <title>포메인</title>
 <%@ include file="/WEB-INF/jsp/mbrand/include/head.jspf"%>
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
 <style>
 	.sns-section .img-board-list li{position: relative;}
 	.sns-section .img-board-list li .icon {display:block; position:absolute; top:10px; left:10px; width:28px; height:28px; background:rgba(0, 0, 0, 0.4);border-radius:19px;}
@@ -17,6 +19,33 @@
 	.sns-section .img-board-list li.ico-y .icon:after {background:url('/brand/images/icon/ico_w_y.png') center center no-repeat;}
 	.sns-section .img-board-list li.ico-b .icon:after {background:url('/brand/images/icon/ico_w_b.png') center center no-repeat;}
 	.sns-section .img-board-list li.ico-i .icon:after {background:url('/brand/images/icon/ico_w_i.png') center center no-repeat;}
+	#sc_down_box a{    position: absolute;
+    display: inline-block;
+    left: 50%;
+    bottom: 0.8%;
+    transform: translateX(-50%);
+    padding-bottom: 8%;
+    color: #969696;
+    animation: scroll 1.3s infinite;
+    z-index: 3;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10px;
+    line-height: 22px;
+    letter-spacing: normal;}
+	#sc_down_box a:after{    content: "";
+    position: absolute;
+    display: block;
+    width: 1px;
+    height: 60%;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #969696;}
+	@keyframes scroll{
+		0% {opacity: 0.3;}
+		50% {opacity: 1;}
+		100% {opacity: 0.3;}
+	}
 </style>
 </head>
 
@@ -87,6 +116,9 @@
  						</li>
 					</ul>
 					<div class="swiper_pagination"></div>
+				</div>
+				<div id="sc_down_box">
+					<a href="#secondPage">SCROLL DOWN</a>
 				</div>
 			</div>
 			<div class="section con_wrap" id="section2">

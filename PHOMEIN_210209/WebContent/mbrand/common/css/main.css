@@ -116,17 +116,17 @@
 #section5 .ico:before {content:'';display:block;width:1px;height:30px;margin:0 auto;background:#aa8f63;opacity:0.87;}
 #section5 .ico:after {width:73px;height:74px;margin-top:44px;background:url(../images/main/ico_main.png) no-repeat;background-size:360px auto;background-position:-287px -107px;}
 
-#section6 .cont .con {padding-bottom:90px;text-align:center;}
+#section6 .cont .con {padding-bottom:120px;text-align:center;}
 /*#section6 .cont .con:after {content:'';display:inline-block;margin-top:15px;width:48px;height:50px;background:url(../images/main/ico_insta.png) no-repeat;background-size:48px auto;}*/
 #section6 .tit {display:block;color:#fff;font-size:33px;line-height:40px;opacity:0.87;font-weight:400;}
 #section6 .tit em {display:block;font-weight:700;}
-#section6 .conb .con {margin-top:-65px;padding:0 25px;}
+#section6 .conb .con {margin-top:-95px;padding:0 25px;}
 #section6 ul {margin:-4px;}
 #section6 .con > ul:after {content:'';display:block;clear:both;}
 #section6 .con > ul li {float:left;width:33.333%;height:110px;box-sizing:border-box;padding:4px;overflow:hidden;}
 #section6 .con > ul li img {width:100%;height:100%;}
 #section6 .sns-ico ul{text-align: center;}
-#section6 .sns-ico ul li {display:inline-block; margin:0 15px; height: auto; width: 25px; margin-top: 75%;}
+#section6 .sns-ico ul li {display:inline-block; margin:0 15px; height: auto; width: 25px; margin-top: 65%;}
 #section6 .sns-ico ul li.ico-y{width:25px;}
 #section6 .sns-ico ul li a {display:block; width:20px; height:25px; background:url('/brand/images/icon/ico_footer_sns.png') 0 0 no-repeat; opacity:1;}
 #section6 .img-board-list .img:after {display:none;}

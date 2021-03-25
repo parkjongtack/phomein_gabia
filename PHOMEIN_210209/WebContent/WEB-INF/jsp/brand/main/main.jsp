@@ -8,6 +8,8 @@
 <title>포메인</title>
 <%@ include file="/WEB-INF/jsp/brand/include/head.jspf"%>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.5/waypoints.min.js"></script>
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
 </head>
 <style>
 	.sns-section .bottom-box:after{display:none !important;}
@@ -20,6 +22,34 @@
 	.sns-section .img-board-list.type02 li.ico-y .icon:after {background:url('/brand/images/icon/ico_w_y.png') center center no-repeat;}
 	.sns-section .img-board-list.type02 li.ico-b .icon:after {background:url('/brand/images/icon/ico_w_b.png') center center no-repeat;}
 	.sns-section .img-board-list.type02 li.ico-i .icon:after {background:url('/brand/images/icon/ico_w_i.png') center center no-repeat;}
+	#sc_down_box a{    position: absolute;
+    display: inline-block;
+    left: 50%;
+    bottom: 0.8%;
+    transform: translateX(-50%);
+    padding-bottom: 1%;
+    color: #969696;
+    animation: scroll 1.3s infinite;
+    z-index: 3;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    line-height: 22px;
+    font-weight: bold;
+    letter-spacing: normal;}
+	#sc_down_box a:after{    content: "";
+    position: absolute;
+    display: block;
+    width: 1px;
+    height: 60%;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #969696;}
+	@keyframes scroll{
+		0% {opacity: 0.3;}
+		50% {opacity: 1;}
+		100% {opacity: 0.3;}
+	}
 </style>
 <body>
 <!-- skip-link -->
@@ -45,7 +75,7 @@
 		05. cs_center				:	고객의 소리
 		06. etc						:	푸터 컨텐츠
 	-->
-
+	
 	<section id="dBody">
 
 		<!-- full-page -->
@@ -106,6 +136,9 @@
 								<p class="visual-dot-nav">재료부터 건강한<br>포메인다움</p>
 							</div>
 						</div>
+					</div>
+					<div id="sc_down_box">
+						<a href="#secondPage">SCROLL DOWN</a>
 					</div>
 				</div>
 				<!-- //section 1 -->
@@ -324,7 +357,7 @@
 				</div>
 				<!-- //section 7 -->
 				<!-- section 8 -->
-				<div id="section8" class="section fp-auto-height">
+				<div id="section8" class="section fp-auto-height" data-anchor="footer">
 					<!-- dFoot -->
 					<%@ include file="/WEB-INF/jsp/brand/include/brandfooter.jsp"%>
 					<!--// dFoot -->
@@ -385,6 +418,40 @@
 					$('#dHead').addClass('scroll');
 				}else{
 					$('#dHead').removeClass('scroll');
+				}
+				
+				switch(index){
+					case 1:
+						$('#sc_down_box a').show();
+						$('#sc_down_box a').attr("href", "#secondPage")
+						break;
+/* 					case 2:
+						$('#sc_down_box a').show();
+						$('#sc_down_box a').attr("href", "#thirdPage")
+						break;
+					case 3:
+						$('#sc_down_box a').show();
+						$('#sc_down_box a').attr("href", "#fourthPage")
+						break;
+					case 4:
+						$('#sc_down_box a').show();
+						$('#sc_down_box a').attr("href", "#fifthPage")
+						break;
+					case 5:
+						$('#sc_down_box a').show();
+						$('#sc_down_box a').attr("href", "#sixthPage")
+						break;
+					case 6:
+						$('#sc_down_box a').show();
+						$('#sc_down_box a').attr("href", "#seventhPage")
+						break;
+					case 7:
+						$('#sc_down_box a').show();
+						$('#sc_down_box a').attr("href", "#footer")
+						break;
+						 */
+					/* default:
+						$('#sc_down_box a').hide(); */
 				}
 			}
 		});
