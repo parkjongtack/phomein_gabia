@@ -26,13 +26,15 @@
     transform: translateX(-50%);
     padding-bottom: 8%;
     color: #969696;
+    width:20px;
+	height:20px;
     animation: scroll 1.3s infinite;
     z-index: 3;
     font-family: 'Montserrat', sans-serif;
     font-size: 10px;
     line-height: 22px;
     letter-spacing: normal;}
-	#sc_down_box a:after{    content: "";
+	#sc_down_box a:after{   /* content: ""; */
     position: absolute;
     display: block;
     width: 1px;
@@ -118,7 +120,7 @@
 					<div class="swiper_pagination"></div>
 				</div>
 				<div id="sc_down_box">
-					<a href="#secondPage">SCROLL DOWN</a>
+					<a href="#secondPage"><img src="../common/images/main/down_ic.png" alt=""/></a>
 				</div>
 			</div>
 			<div class="section con_wrap" id="section2">

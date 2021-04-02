@@ -27,8 +27,10 @@
     left: 50%;
     bottom: 0.8%;
     transform: translateX(-50%);
-    padding-bottom: 1%;
+    padding-bottom: 0.5%;
     color: #969696;
+    width:40px;
+    height:40px;
     animation: scroll 1.3s infinite;
     z-index: 3;
     font-family: 'Montserrat', sans-serif;
@@ -36,7 +38,7 @@
     line-height: 22px;
     font-weight: bold;
     letter-spacing: normal;}
-	#sc_down_box a:after{    content: "";
+	#sc_down_box a:after{    /*content: "";*/
     position: absolute;
     display: block;
     width: 1px;
@@ -138,7 +140,7 @@
 						</div>
 					</div>
 					<div id="sc_down_box">
-						<a href="#secondPage">SCROLL DOWN</a>
+						<a href="#secondPage"><img src="../images/icon/down_ic.png" alt=""/></a>
 					</div>
 				</div>
 				<!-- //section 1 -->
@@ -152,6 +154,10 @@
 							<p class="txt">쌀국수 누적 판매량</p>
 							<p><img src="../images/icon/ico_sales_volume.png" alt=""/></p>
 						</div>
+						
+					</div>
+					<div id="sc_down_box">
+						<a href="#secondPage"><img src="../images/icon/down_ic.png" alt=""/></a>
 					</div>
 				</div>
 				<!-- //section 2 -->
@@ -189,6 +195,9 @@
 							</ul>
 						</div>
 					</div>
+					<div id="sc_down_box">
+						<a href="#secondPage"><img src="../images/icon/down_ic.png" alt=""/></a>
+					</div>
 				</div>
 				<!-- //section 3 -->
 				<!-- section 4 -->
@@ -214,6 +223,9 @@
 							</div>
 						</div>
 					</div>
+					<div id="sc_down_box">
+						<a href="#secondPage"><img src="../images/icon/down_ic.png" alt=""/></a>
+					</div>
 				</div>
 				<!-- //section 4 -->
 				<!-- section 5 -->
@@ -226,6 +238,9 @@
 						<div class="bottom-box">
 						<p class="img"><a href="/brand/phomein/phoever.do"><img src="../images/icon/ico_csr.png" alt=""/></a></p>
 						</div>
+					</div>
+					<div id="sc_down_box">
+						<a href="#secondPage"><img src="../images/icon/down_ic.png" alt=""/></a>
 					</div>
 				</div>
 				<!-- //section 5 -->
