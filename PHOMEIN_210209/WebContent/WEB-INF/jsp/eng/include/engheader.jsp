@@ -13,7 +13,7 @@
 								<li><a href="/eng/phomein/phoseason.do">PHO SEASON INC.</a></li>
 								<li><a href="/eng/phomein/ceo.do">CEO 인사말</a></li>
 								<li><a href="/eng/phomein/greenfood.do">현대그린푸드 MOU</a></li>
-								<li><a href="/company/csr/phoever.do">사회공헌활동</a></li>
+								<li><a href="/eng/phomein/phoever.do">사회공헌활동</a></li>
 								<!-- <li><a href="/brand/main/main.do">포메인 사이트</a></li>
 								<li><a href="/company/company/phomein.do">포메인</a></li>
 								<li><a href="/company/franchisee/red.do">포메인 RED</a></li> -->
