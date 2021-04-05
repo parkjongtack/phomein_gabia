@@ -64,7 +64,7 @@
 <div id="wrap" class="main">
 
 	<!-- dHead -->
-	<%@ include file="/WEB-INF/jsp/brand/include/brandheader.jsp"%>
+	<%@ include file="/WEB-INF/jsp/eng/include/engheader.jsp"%>
 	<!--// dHead -->
 
 	<!-- dBody -->
@@ -89,53 +89,55 @@
 						
 						<div class="list" style="background-image:url('../images/tmp/main_visual_0.png');">
 							<div class="info-box">
-								<p class="tit"><span>소규모 프리미엄 쌀국수 브랜드</span>포메인 RED 런칭</p>
+								<p class="tit"><span>A Premium Small-scale Pho Brand</span>PhoMein RED</p>
 								<p class="txt main_txt">
 								<span><b style="color:#ab3221;">R</b>ice noodle <b style="color:#ab3221;">E</b>xpress <b style="color:#ab3221;">D</b>elivery</span>
 								
 								</p>
-								<a href="/company/franchisee/red.do" style="display:inline-block; margin-top:50px; padding:13px 24px; background-color:#8a382c; color:#fff; font-size:16px;">브랜드 스토리 확인</a>
+								<a href="/company/franchisee/red.do" style="display:inline-block; margin-top:50px; padding:13px 24px; background-color:#8a382c; color:#fff; font-size:16px;">Check-out Brand Story</a>
 
-								<p class="visual-dot-nav">소자본 창업<br>포메인 RED</p>
+								<p class="visual-dot-nav">PHOMEIN RED</p>
 							</div>
 						</div>
 
 						<div class="list" style="background-image:url('../images/tmp/main_visual_01_02.jpg');">
 							<div class="info-box">
-								<p class="tit"><span>포메인,</span>햅쌀로 자가제면 自家製麵</p>
+								<p class="tit"><span>PhoMein,</span>Self-made Noodles with<br> Freshly Harvested Rice</p>
 								<p class="txt main_txt">
-								<span>갓 지은 햅쌀밥의 향</span>
+								<span>The Fragrance of Freshly Cooked Rice </span>
 								<span class="bar">&nbsp;&nbsp; | &nbsp;&nbsp;</span>
-								<span>맑고 투명한 빛깔</span>
+								<span>Clear and Transparent Color</span>
 								<span class="bar">&nbsp;&nbsp; | &nbsp;&nbsp;</span>
-								<span>부드럽고 쫀득한 식감</span>
+								<span>Soft and Chewy Texture</span>
 								</p>
-								<p class="txt" style="font-weight:lighter; font-size:18px; line-height:35px; margin-top:35px;">1년 365일 햅쌀로 직접 만들어 건강한 쌀국수면과 품질개선으로 더 깊어진 명품 육수까지 -<br> 쌀국수는 포메인입니다.</p>
-								<p class="visual-dot-nav">쌀국수는<br>포메인</p>
+								<p class="txt" style="font-weight:lighter; font-size:18px; line-height:35px; margin-top:35px;">From wholesome rice noodles made from freshly harvested new rice 365 days a year
+									to luxurious meat broth further deepened with quality improvement –<br>The World's Best Korean Vietnamese Restaurant PhoMein
+									</p>
+								<p class="visual-dot-nav">PHOMEIN</p>
 							</div>
 						</div>
 						<div class="list" style="background-image:url('../images/tmp/main_visual_01_01.jpg');">
 							<div class="info-box">
-								<p class="tit"><span>쌀 한 톨부터 다른</span>포메인다움</p>
-								<p class="txt">햅쌀로 직접 만든 쌀국수면으로 깨끗하고 건강한 쌀국수를 선사합니다.</p>
+								<p class="tit"><span></span>PhoMein's Rice Noodles with<br> The Best Rice Grains</p>
+								<p class="txt">Rice noodles made with freshly harvested new rice have good quality and offer rich health benefits.</p>
 								<!-- <p class="visual-dot-nav">매일매일 까다로운 <br>포메인다움</p> -->
 								<!-- 20190318 수정 s -->
-								<p class="visual-dot-nav">쌀 한 톨부터 다른<br>포메인다움</p>
+								<p class="visual-dot-nav">Freshly Harvested<br> Rice Noodles</p>
 								<!-- //20190318 수정 e -->
 							</div>
 						</div>
 						<div class="list" style="background-image:url('../images/tmp/main_visual_01_03.jpg');">
 							<div class="info-box">
-								<p class="tit"><span>매일매일 까다로운</span>포메인다움</p>
-								<p class="txt">엄선한 9가지 상급 천연 향신료로 매일 매장에서 직접 끓여낸 명품 육수를 사용합니다.</p>
-								<p class="visual-dot-nav">매일매일 까다로운<br>포메인다움</p>
+								<p class="tit"><span></span>Daily Fresh PhoMein Dishes</p>
+								<p class="txt">PhoMein’s meat broth is made with 14 hours of boiling everyday at the restaurant with natural flavourings.</p>
+								<p class="visual-dot-nav">Daily Fresh <br>PhoMein Dishes</p>
 							</div>
 						</div>
 						<div class="list" style="background-image:url('../images/tmp/main_visual_01_04.jpg');">
 							<div class="info-box">
-								<p class="tit"><span>재료부터 건강한</span>포메인다움</p>
-								<p class="txt">위해 상품차단 시스템으로 안전하고 우수한 품질의 식자재를 공급 받습니다.</p>
-								<p class="visual-dot-nav">재료부터 건강한<br>포메인다움</p>
+								<p class="tit"><span></span>Healthy PhoMein Ingredients</p>
+								<p class="txt">The hazardous production prevention system ensures the provision of safe and excellent food ingredients.</p>
+								<p class="visual-dot-nav">Healthy PhoMein<br> Ingredients</p>
 							</div>
 						</div>
 					</div>
@@ -148,10 +150,10 @@
 				<div id="section2" class="section" style="background-image:url('../images/tmp/main_visual_02.jpg');">
 					<div class="sales-volume">
 						<p class="label">SINCE 2006</p>
-						<p class="tit">대한민국 쌀국수의 역사, <br>포메인으로부터.</p>
+						<p class="tit">PhoMein, the start of <br>the Korean rice noodle <br>history.</p>
 						<div class="volume-box">
 							<p class="volume">${ mainFieldVO.totalSales }</p>
-							<p class="txt">쌀국수 누적 판매량</p>
+							<p class="txt">Cumulated sales volume of rice noodle</p>
 							<p><img src="../images/icon/ico_sales_volume.png" alt=""/></p>
 						</div>
 					</div>
@@ -161,9 +163,9 @@
 				<div id="section3" class="section" style="background-image:url('../images/tmp/main_visual_03.jpg');">
 					<div class="menu-section">
 						<div class="top-box">
-							<p class="tit">베트남 요리,<span>32가지 감동을 담다.</span></p>
-							<p class="btn"><a href="/brand/menu/menu_list.do">포메인 전체메뉴 보기</a></p>
-							<p class="txt">* 매장별로 판매 메뉴는 상이 할 수 있습니다.</p>
+							<p class="tit"><span>32 kinds of Vietnamese Dishes Will Impress You.</span></p>
+							<p class="btn"><a href="/brand/menu/menu_list.do">PHOMEIN MENU</a></p>
+							<p class="txt">* The menu for each store can be different.</p>
 						</div>
 						<div class="bottom-box">
 							<ul>
@@ -198,32 +200,32 @@
 					<div class="service-section">
 						<div class="top-box">
 							<p class="txt">ENJOY SERVICE</p>
-							<p class="tit">당신의 모든 순간<span>포메인</span></p>
+							<p class="tit">EVERY MOMENT WITH<span>PHOMEIN</span></p>
 						</div>
 						<div class="bottom-box">
 							<div class="left">
 								<a href="https://gift.kakao.com/brand/2180?input_channel_id=2636" target="_blank">
-									<span class="img01"><img src="../images/icon/ico_phone_01.png" alt=""/></span>
-									<span class="img02"><img src="../images/icon/ico_phone_02.png" alt=""/></span>
-									<p class="txt">포메인 <strong>카카오톡 선물하기</strong></p>
+									<span class="img01"><img src="../../brand/images/icon/ico_phone_01.png" alt=""/></span>
+									<span class="img02"><img src="../../brand/images/icon/ico_phone_02.png" alt=""/></span>
+									<p class="txt">PhoMein <strong>KakaoTalk Gift</strong></p>
 								</a>
 							</div>
 							<div class="right">
-								<span class="img01"><a href="/brand/store/store_list.do"><img src="../images/icon/ico_moto_01.png" alt=""/></a></span>
-								<span class="img02"><img src="../images/icon/ico_moto_02.png" alt=""/></span>
-								<span class="img03"><img src="../images/icon/ico_moto_03.png" alt=""/></span>
-								<p class="txt">포메인 <strong>딜리버리 매장</strong></p>
+								<span class="img01"><a href="/brand/store/store_list.do"><img src="../../brand/images/icon/ico_moto_01.png" alt=""/></a></span>
+								<span class="img02"><img src="../../brand/images/icon/ico_moto_02.png" alt=""/></span>
+								<span class="img03"><img src="../../brand/images/icon/ico_moto_03.png" alt=""/></span>
+								<p class="txt">PhoMein <strong>Delivery Store</strong></p>
 							</div>
 						</div>
 					</div>
 				</div>
 				<!-- //section 4 -->
 				<!-- section 5 -->
-				<div id="section5" class="section" style="background-image:url('../images/tmp/main_visual_05_new.jpg');">
+				<div id="section5" class="section" style="background-image:url('../../brand/images/tmp/main_visual_05_new.jpg');">
 					<div class="csr-section">
 						<div class="top-box">
-							<p class="tit"><span>PHOMEIN CSR</span>포메인이 만드는 세상</p>
-							<p class="txt">식지 않는 뜨거운 진심으로 따뜻한 오늘, 따뜻한 세상을 만듭니다.</p>
+							<p class="tit"><span>PHOMEIN CSR</span>The World Created by PhoMein</p>
+							<p class="txt">With its warm rice noodles, PhoMein makes a heart-warming world.</p>
 						</div>
 						<div class="bottom-box">
 						<p class="img"><a href="/brand/phomein/phoever.do"><img src="../images/icon/ico_csr.png" alt=""/></a></p>
@@ -278,7 +280,7 @@
 				</div>
 				<!-- //section 6 -->
 				<!-- section 7 -->
-				<div id="section7" class="section" style="background-image:url('../images/tmp/main_visual_07.jpg');">
+				<div id="section7" class="section" style="background-image:url('../../brand/images/tmp/main_visual_07.jpg');">
 					<div class="commuity-section">
 						<div class="top-box">
 							<div class="news-box">
@@ -302,7 +304,7 @@
 						</div>
 						<div class="bottom-box">
 							<a href="/brand/community/event/community_list.do">
-							<div class="event-box" style="background-image:url('../images/tmp/@img_main_event.jpg');">
+							<div class="event-box" style="background-image:url('../../brand/images/tmp/@img_main_event.jpg');">
 								<div class="con">
 									<span class="label">EVENT</span>
 									<c:choose>
@@ -320,7 +322,7 @@
 							</div>
 							</a>
 							<a href="/company/franchisee/terms.do" target="_blank">
-							<div class="franchisee-box" style="background-image:url('../images/content/main_franchisee.jpg');">
+							<div class="franchisee-box" style="background-image:url('../../brand/images/content/main_franchisee.jpg');">
 								<div class="con">
 									<span class="label">FRANCHISE</span>
 									<p class="img"><img src="../images/content/main_franchisee_02.png" alt="phomein"/></p>
@@ -361,7 +363,7 @@
 				<!-- section 8 -->
 				<div id="section8" class="section fp-auto-height" data-anchor="footer">
 					<!-- dFoot -->
-					<%@ include file="/WEB-INF/jsp/brand/include/brandfooter.jsp"%>
+					<%@ include file="/WEB-INF/jsp/eng/include/engfooter.jsp"%>
 					<!--// dFoot -->
 				</div>
 				<!-- //section 8 -->
@@ -369,13 +371,13 @@
 			<!-- right-nav -->
 			<!-- 20190318 수정 s -->
 			<ul class="right-nav">
-				<li data-menuanchor="firstPage"><a href="#firstPage"><span>홈</span></a></li>
-				<li data-menuanchor="secondPage"><a href="#secondPage"><span>브랜드</span></a></li>
-				<li data-menuanchor="thirdPage"><a href="#thirdPage"><span>메뉴</span></a></li>
-				<li data-menuanchor="fourthPage"><a href="#fourthPage"><span>서비스</span></a></li>
-				<li data-menuanchor="fifthPage"><a href="#fifthPage"><span>사회공헌</span></a></li>
+				<li data-menuanchor="firstPage"><a href="#firstPage"><span>HOME</span></a></li>
+				<li data-menuanchor="secondPage"><a href="#secondPage"><span>BRAND</span></a></li>
+				<li data-menuanchor="thirdPage"><a href="#thirdPage"><span>MENU</span></a></li>
+				<li data-menuanchor="fourthPage"><a href="#fourthPage"><span>SERVICE</span></a></li>
+				<li data-menuanchor="fifthPage"><a href="#fifthPage"><span>CSR</span></a></li>
 				<li data-menuanchor="sixthPage"><a href="#sixthPage"><span>SNS</span></a></li>
-				<li data-menuanchor="seventhPage"><a href="#seventhPage"><span>커뮤니티</span></a></li>
+				<li data-menuanchor="seventhPage"><a href="#seventhPage"><span>COMMUNITY</span></a></li>
 			</ul>
 			<!-- //20190318 수정 e -->
 			<!-- <ul class="right-nav">

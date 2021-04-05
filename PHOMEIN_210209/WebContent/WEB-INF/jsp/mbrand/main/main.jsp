@@ -23,11 +23,11 @@
     display: inline-block;
     left: 50%;
     bottom: 0.8%;
-    transform: translateX(-50%);
+    margin-left: -12.5px;
     padding-bottom: 8%;
     color: #969696;
-    width:20px;
-	height:20px;
+    width:25px;
+	height:25px;
     animation: scroll 1.3s infinite;
     z-index: 3;
     font-family: 'Montserrat', sans-serif;
@@ -136,6 +136,9 @@
 						<span class="txt">쌀국수 누적 판매량</span>
 					</div>
 				</div>
+				<div id="sc_down_box">
+					<a href="#secondPage"><img src="../common/images/main/down_ic.png" alt=""/></a>
+				</div>
  			</div>
 			<div class="section con_wrap" id="section3" style="background-image: url(/brand/images/tmp/main_visual_03.jpg);">
 				<div class="cont">
@@ -159,6 +162,9 @@
 						</div>
 					</div>
 				</div>
+				<div id="sc_down_box">
+					<a href="#secondPage"><img src="../common/images/main/down_ic.png" alt=""/></a>
+				</div>
 			</div>
 			<div class="section con_wrap" id="section4" style="background-image: url(/mbrand/common/images/main/mv4.jpg);">
 				<div class="cont">
@@ -175,6 +181,9 @@
 						</ul>
 					</div>
 				</div>
+				<div id="sc_down_box">
+					<a href="#secondPage"><img src="../common/images/main/down_ic.png" alt=""/></a>
+				</div>
 			</div>
 			<div class="section con_wrap" id="section5">
 				<div class="cont">
@@ -190,6 +199,9 @@
 					<div class="con">
 						<a href="/mbrand/phomein/phoever.do"><span class="ico"><em class="blind">사회공헌</em></span></a>
 					</div>
+				</div>
+				<div id="sc_down_box">
+					<a href="#secondPage"><img src="../common/images/main/down_ic.png" alt=""/></a>
 				</div>
 			</div>
 			<div class="section con_wrap" id="section6">
@@ -302,12 +314,65 @@
 <script src="../common/js/jquery-1.12.4.min.js"></script>
 <script src="../common/js/swiper.min.js"></script>
 <script src="../common/js/jquery.fullpage.js"></script>
-<script src="//cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
 <script src="../common/js/jquery.counterup.min.js"></script>
 <script src="../common/js/common.js"></script>
 <script src="../common/js/main.js"></script>
 <script type="text/javascript">
-
+$(function(){
+    // $('#fullpage').fullpage({
+    //     anchors:['firstPage', 'secondPage', 'thirdPage', 'fourthPage', 'fifthPage', 'sixthPage', 'seventhPage'],
+    //     menu: '.right-nav',
+    //     afterLoad: function(anchorLink, index){
+    //         //console.log(index);
+    //         if(index == 2){
+    //             $('.volume').counterUp({delay: 10,time: 600});
+    //         }
+    //         if(index == 3){
+    //             $('.volume2').counterUp({delay: 10,time: 600});
+    //         }
+    //         if(index == 8){
+    //             $('#dHead').addClass('scroll');
+    //         }else{
+    //             $('#dHead').removeClass('scroll');
+    //         }
+            
+    //         switch(index){
+    //             case 1:
+    //                 $('#sc_down_box a').show();
+    //                 $('#sc_down_box a').attr("href", "#secondPage")
+    //                 break;
+    //                 case 2:
+    //                 $('#sc_down_box a').show();
+    //                 $('#sc_down_box a').attr("href", "#thirdPage")
+    //                 break;
+    //             case 3:
+    //                 $('#sc_down_box a').show();
+    //                 $('#sc_down_box a').attr("href", "#fourthPage")
+    //                 break;
+    //             case 4:
+    //                 $('#sc_down_box a').show();
+    //                 $('#sc_down_box a').attr("href", "#fifthPage")
+    //                 break;
+    //             case 5:
+    //                 $('#sc_down_box a').show();
+    //                 $('#sc_down_box a').attr("href", "#sixthPage")
+    //                 break;
+    //             case 6:
+    //                 $('#sc_down_box a').show();
+    //                 $('#sc_down_box a').attr("href", "#seventhPage")
+    //                 break;
+    //             case 7:
+    //                 $('#sc_down_box a').show();
+    //                 $('#sc_down_box a').attr("href", "#footer")
+    //                 break;
+                    
+    //             /* default:
+    //                 $('#sc_down_box a').hide(); */
+    //         }
+    //     }
+    // });
+});
 	function toggleCheckbox(_target) {
 		var _t = $(_target);
 		setCookie("notToday" + _t.data("seq") + "",'Y', 1);

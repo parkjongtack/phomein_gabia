@@ -1,9 +1,9 @@
  $(document).ready(function() {
-	$('#fullpage').fullpage({
-		anchors:['firstPage', 'secondPage', 'thirdPage', 'fourthPage', 'fifthPage', 'sixthPage', 'seventhPage', 'footer22'],
-		menu: '.right-nav',
-		afterLoad: function(anchorLink, index){
-			if(index == 2){
+    $('#fullpage').fullpage({
+        anchors:['firstPage', 'secondPage', 'thirdPage', 'fourthPage', 'fifthPage', 'sixthPage', 'seventhPage'],
+        menu: '.right-nav',
+        afterLoad: function(anchorLink, index){
+            if(index == 2){
 				setTimeout(function(){
 					$('.volume').counterUp({delay: 10,time: 500});
 				},50);
@@ -28,42 +28,47 @@
 					$('.gift_box_ico').removeClass('gift_on');
 				},50);
             }
-
-			switch(index){
-				case 1:
-					$('#sc_down_box a').show();
-					$('#sc_down_box a').attr("href", "#secondPage")
-					break;
-				/*case 2:
-					$('#sc_down_box a').show();
-					$('#sc_down_box a').attr("href", "#thirdPage")
-					break;
-				case 3:
-					$('#sc_down_box a').show();
-					$('#sc_down_box a').attr("href", "#fourthPage")
-					break;
-				case 4:
-					$('#sc_down_box a').show();
-					$('#sc_down_box a').attr("href", "#fifthPage")
-					break;
-				case 5:
-					$('#sc_down_box a').show();
-					$('#sc_down_box a').attr("href", "#sixthPage")
-					break;
-				case 6:
-					$('#sc_down_box a').show();
-					$('#sc_down_box a').attr("href", "#seventhPage")
-					break;
-				case 7:
-					$('#sc_down_box a').show();
-					$('#sc_down_box a').attr("href", "#footer22")
-					break;*/
-					
-				/*default:
-					$('#sc_down_box a').hide();*/
-			}
-		}
-	});
+            if(index == 8){
+                $('#dHead').addClass('scroll');
+            }else{
+                $('#dHead').removeClass('scroll');
+            }
+            
+            switch(index){
+                case 1:
+                    $('#sc_down_box a').show();
+                    $('#sc_down_box a').attr("href", "#secondPage")
+                    break;
+                    case 2:
+                    $('#sc_down_box a').show();
+                    $('#sc_down_box a').attr("href", "#thirdPage")
+                    break;
+                case 3:
+                    $('#sc_down_box a').show();
+                    $('#sc_down_box a').attr("href", "#fourthPage")
+                    break;
+                case 4:
+                    $('#sc_down_box a').show();
+                    $('#sc_down_box a').attr("href", "#fifthPage")
+                    break;
+                case 5:
+                    $('#sc_down_box a').show();
+                    $('#sc_down_box a').attr("href", "#sixthPage")
+                    break;
+                case 6:
+                    $('#sc_down_box a').show();
+                    $('#sc_down_box a').attr("href", "#seventhPage")
+                    break;
+                case 7:
+                    $('#sc_down_box a').show();
+                    $('#sc_down_box a').attr("href", "#footer")
+                    break;
+                    
+                /* default:
+                    $('#sc_down_box a').hide(); */
+            }
+        }
+    });
 	// Swiper
 	function mSwiper() {
 		var mSwiper = new Swiper('.swiper', {

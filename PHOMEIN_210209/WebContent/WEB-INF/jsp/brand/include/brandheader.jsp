@@ -105,9 +105,9 @@
 					<input type="text" placeholder="search" name="search_key" value="${param.search_key}" />
 					<button type="submit"></button>
 				</form>
-				<div class="btn-system2">
+					<!--<div class="btn-system2">
 				<a href="/admin/login.do">포메인 시스템</a>
-			</div>
+				</div>-->
 			</div>
 			<!-- btn-country -->
 			<!-- <div class="btn-country">
@@ -122,9 +122,9 @@
 			</div> -->
 			<!-- //btn-country -->
 
-			<div class="btn-system">
+			<!--<div class="btn-system">
 				<a href="/admin/login.do">포메인 시스템</a>
-			</div>
+			</div>-->
 		</div>
 		<!-- //header_wrap -->
 	</header>

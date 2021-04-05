@@ -7,7 +7,7 @@
 <head>
 <title>포메인</title>
 <%@ include file="/WEB-INF/jsp/brand/include/head.jspf"%>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.5/waypoints.min.js"></script>
+<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.5/waypoints.min.js"></script> -->
 <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
 </head>
@@ -26,11 +26,11 @@
     display: inline-block;
     left: 50%;
     bottom: 0.8%;
-    transform: translateX(-50%);
+	margin-left: -12.5px;
     padding-bottom: 0.5%;
     color: #969696;
-    width:40px;
-    height:40px;
+    width:25px;
+    height:25px;
     animation: scroll 1.3s infinite;
     z-index: 3;
     font-family: 'Montserrat', sans-serif;
@@ -239,7 +239,7 @@
 						<p class="img"><a href="/brand/phomein/phoever.do"><img src="../images/icon/ico_csr.png" alt=""/></a></p>
 						</div>
 					</div>
-					<div id="sc_down_box">
+						<div id="sc_down_box">
 						<a href="#secondPage"><img src="../images/icon/down_ic.png" alt=""/></a>
 					</div>
 				</div>
@@ -413,7 +413,7 @@
 
 <script src="/brand/common/js/front_ui.js"></script>
 <script src="/brand/common/js/jquery.fullpage.js"></script>
-<script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
 <script src="/brand/common/js/jquery.counterup.min.js"></script>
 <script>
 	// 메인 풀페이지
@@ -440,7 +440,7 @@
 						$('#sc_down_box a').show();
 						$('#sc_down_box a').attr("href", "#secondPage")
 						break;
-/* 					case 2:
+ 					case 2:
 						$('#sc_down_box a').show();
 						$('#sc_down_box a').attr("href", "#thirdPage")
 						break;
@@ -464,7 +464,7 @@
 						$('#sc_down_box a').show();
 						$('#sc_down_box a').attr("href", "#footer")
 						break;
-						 */
+						 
 					/* default:
 						$('#sc_down_box a').hide(); */
 				}
@@ -502,6 +502,11 @@
 		pauseOnHover:false,
 		pauseOnFocus:false
 	});
+ 	
+ 	$('.slick-dots li').each(function(){
+ 		console.log($(this).width());
+ 	});
+ 	//$('.slick-dots li').css({width: ''});
 
  	//sns 슬라이더
  	var swiper = new Swiper('.sns_slider', {

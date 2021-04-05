@@ -22,55 +22,92 @@
 	<!-- dBody -->
 	<!--
 		00. main					:	메인
-		01. phomein					:	phomein
-		02. menu					:	menu
-		03. store					:	store
-		04. community				:	community
-		05. franchisee				:	franchisee
+		01. phomein					:	포메인
+		02. menu					:	메뉴
+		03. store					:	매장안내
+		04. community				:	커뮤니티
+		05. cs_center				:	고객의 소리
+		00. etc						:	푸터 컨텐츠
 	-->
 
-	<section id="dBody" class="phomein">
+	<section id="dBody" class="company">
 		<!-- page-title -->
 		<div class="page-title">
-			<div class="visual" style="background-image:url('../images/content/sub_visual_01.jpg');"></div>
-			<h2 class="h2-type">CEO</h2>
-<!-- 			<span class="txt">대한민국 대표 ‘명품’ 쌀국수, 쌀국수는 포메인 입니다.</span> -->
+			<div class="visual" style="background-image:url('/company/images/content/sub_visual_01_2_new.jpg');"></div>
+			<h2 class="h2-type">CEO greeting</h2>
+			<!-- <span class="txt">따뜻한 세상을 희망하는 포메인의 나눔은 계속 됩니다.<br>포메인이 전하는 따뜻한 온기</span> -->
 		</div>
 		<!-- //page-title -->
 
-		<%@ include file="/WEB-INF/jsp/eng/include/engMenuHead.jsp"%>
+		<%@ include file="/WEB-INF/jsp/company/include/companyMenuHead.jsp"%>
 
 		<!-- contents -->
 		<div id="contents" class="content">
 			<!-- ceo-info -->
 			<div class="ceo-info">
 				<div class="page-logo">
-					<p class="tit">CEO</p>
-					<!-- <p class="txt">We will do our best to satisfy our customers.</p> -->
+					<p class="tit">CEO <span>greeting</span></p>
+					<!-- <p class="txt">고객의 만족을 위해 최선을 다해 노력하겠습니다.</p> -->
 				</div>
 
 				<div class="inner02">
-					<div class="page-box">
-						<p class="txt01">
-							Hello<br>
-							I am Kim Dae-il, CEO of DAILYKING INC.<br>
-							Thank you for visiting Phomein.<br>
-						</p>
-						<p class="txt02">
-							<span>Welcoming the 15th year as of today,<br>We will continue to keep our own principles.</span>
-						</p>
-						<p class="txt03">
-							<span>
-								Since opening of the Head Store in Jeongja in 2006, we have fulfilled our promise of ‘Safe Food Ingredients and Honest Food’. We have steadily worked to honor it with the establishment of &lt;PHO SEASON&gt;, a rice noodle manufacturing factory in Vietnam and business agreement with &lt;Hyundai Green Food&gt;, a comprehensive food company which introduced the hazardous product blocking system in 2016. <br><br>
-
-								As the result of 'our own principle', you will be able to meet Fresh Rice Noodles only at all franchise stores of Phomein in 2019. In the rice noodle market that depends on imported rice noodles mixed with old rice. Making a bowl of rice noodles only with fresh rice requires care and sincerity which heightened as the cooking process became more delicate.<br><br>
-
-								Please experience the appropriate glutinosity, the softness, and the chewiness of Phomein’s Fresh Rice Noodles which were born with Phomein’s exclusive low-temperature ripening technique. This process helps to avoid using unnecessary chemical additives.<br><br>
-
-								Even with our reputation of being the best for a long time, we promise to serve fresh ingredients and healthy table every day without losing modesty. Thank you.
-							</span>
-						</p>
-						<p class="txt04">CEO of DAILYKING INC. Kim Dae-il</p>
+					<div class="inner" style="padding: 0;">
+						<div class="page-box">
+							<!-- <p class="txt01">
+								안녕하십니까? <br>
+								주식회사 데일리킹 대표 김대일입니다.
+							</p> -->
+							<p class="txt02">
+								<span class="sep">“</span>
+								<span>
+									<b>어떻게 만들까</b>에 대한<br/>
+									고민과 열정으로<br/>
+									<b>쌀국수 본질</b>을 좇으며<br/>
+									노력하고 있습니다.
+								</span>
+								<span class="sep" style="margin-top: 20px;">”</span>
+							</p>
+							<p class="txt03">
+								<span>
+									<b>
+									Hello.<br/>
+									I am Kim Dae-il, CEO of Dailyking.<br/>
+									</b>
+									<br/>
+									The whole food service industry had really hard time last year due to the pandemic of COVID-19.<br/>
+									I think all small business owners tried their best to overcome the crisis. <br/>
+									<br/>
+									Recently, people are paying more attention to health and safe foods among many issues such as <br/>
+									quarantine, and there have been sharp increase in the demand of delivery services thanks to the change of eat-out patterns. <br/>
+									<br/>
+									<br/>
+									With the expertise that has been accumulated by the pho delivery service since 2014<br/>
+									harmful food blocking system through MOU with Hyundai Green Food in 2016, <br/>
+									PhoMein has practiced honest foods and perfect services, <br/>
+									making efforts to maintain initial resolution in the crisis.<br/>
+									<br/>
+									Especially in 2015, as we established PHO SEASON, local corporation pho factory, and released <br/>
+									‘Freshly Harvested Rice Noodles’, the only pho made with fresh new rice by our exclusive R&D, <br/>
+									we proved solid brand competitiveness in the domestic pho market, <br/>
+									which was full of rice noodles made with imported old rice. <br/>
+									<br/>
+									The savor with no odor of pho’s noodles, <br>
+									plus the chewy texture completed with our exclusive technology.<br/>
+									Now, enjoy Pho with PhoMein’s ‘Freshly Harvested Rice Noodles’.<br/>
+									<br/>
+									Since the Bundang Jeongja Headquarters in 2006,<br/>
+									PhoMein has led the Vietnamese food industry <br/>
+									in Korea, and we celebrate the 15th anniversary this year.<br/>
+									<br/>
+									Today, we try our best pursuing ‘the essence of pho’ with enthusiasm and<br/>
+									passion on ‘how to make’ instead of marketing strategies on ‘how to sell’.<br/>
+									<br/>
+									In 2021, we will lead the change and challenge of the domestic pho market as Korea’s representative pho brand.<br/>
+									We wish you good health and happiness. Thank you. <br/>
+								</span>
+							</p>
+							<p class="txt04">Kim Dae-il, CEO of DailyKing </p>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -81,13 +118,30 @@
 	</section>
 	<!--// dBody -->
 
+	<!-- quick-menu -->
+	<!-- 20190318 수정 s -->
+	<!-- 메인 페이지 반영 제외 -->
+	<div class="quick-menu">
+		<a href="/company/franchisee/rice.do" class="btn-menu quick01">Freshly<br/>Harvested<br/>Rice Noodles</a>
+		<!--<a href="/brand/community/sns/community_list.do?cate=109203" target="_blank" class="btn-company">SNS</a>-->
+		<a href="/brand/community/sns/community_list.do?cate=109203" target="_blank" class="btn-company quick02">SNS</a>
+		<a href="/brand/store/store_list.do" target="_blank" class="btn-franchisee quick03">FIND<br>STORES</a>
+		<a href="javascript:front.common.moveScroll(0, 750);" class="btn-top">TOP</a>
+	</div>
+	<!-- //20190318 수정 e -->
+	<!-- //quick-menu -->
+
 	<!-- dFoot -->
-	<%@ include file="/WEB-INF/jsp/eng/include/engfooter.jsp"%>
+	<%@ include file="/WEB-INF/jsp/eng/include/companyfooter.jsp"%>
 	<!--// dFoot -->
 
 </div>
 <!-- //wrap -->
 
 <script src="../common/js/front_ui.js"></script>
+<script type="text/javascript">
+$(function(){
+});
+</script>
 </body>
 </html>
