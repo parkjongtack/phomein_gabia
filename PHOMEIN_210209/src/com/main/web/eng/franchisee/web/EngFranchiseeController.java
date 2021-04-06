@@ -192,5 +192,71 @@ public class EngFranchiseeController {
 		}
 		return deviceType;
 	}
+	
+	@RequestMapping(value = { "step01.do", "status.do" }, method = { RequestMethod.GET, RequestMethod.POST })
+	public String step01(@RequestParam Map param, HttpSession session, ModelMap model, HttpServletRequest request,
+			HttpServletResponse response) throws Exception {
+		String deviceType = getDeviceType(request);
+
+		if(!deviceType.equals("normal")){
+			return M_NAMESPACE + "status";
+		}
+		return NAMESPACE + "step01";
+	}
+	
+	@RequestMapping(value = { "step02.do", "system.do" }, method = { RequestMethod.GET, RequestMethod.POST })
+	public String step02(@RequestParam Map param, HttpSession session, ModelMap model, HttpServletRequest request,
+			HttpServletResponse response) throws Exception {
+		String deviceType = getDeviceType(request);
+
+		if(!deviceType.equals("normal")){
+			return M_NAMESPACE + "system";
+		}
+		return NAMESPACE + "step02";
+	}
+
+	@RequestMapping(value = { "step03.do", "step.do" }, method = { RequestMethod.GET, RequestMethod.POST })
+	public String step03(@RequestParam Map param, HttpSession session, ModelMap model, HttpServletRequest request,
+			HttpServletResponse response) throws Exception {
+		String deviceType = getDeviceType(request);
+
+		if(!deviceType.equals("normal")){
+			return M_NAMESPACE + "step";
+		}
+		return NAMESPACE + "step03";
+	}
+	
+	@RequestMapping(value = "rice.do", method = { RequestMethod.GET, RequestMethod.POST })
+	public String rice(@RequestParam Map param, HttpSession session, ModelMap model, HttpServletRequest request,
+			HttpServletResponse response) throws Exception {
+		String deviceType = getDeviceType(request);
+
+		if(!deviceType.equals("normal")){
+			return M_NAMESPACE + "rice";
+		}
+		return NAMESPACE + "rice";
+	}
+	
+	@RequestMapping(value = { "red.do" }, method = { RequestMethod.GET, RequestMethod.POST })
+	public String red(@RequestParam Map param, HttpSession session, ModelMap model, HttpServletRequest request,
+			HttpServletResponse response) throws Exception {
+		String deviceType = getDeviceType(request);
+
+		if(!deviceType.equals("normal")){
+			return M_NAMESPACE + "red";
+		}
+		return NAMESPACE + "red";
+	}
+	
+	@RequestMapping(value = "delivery.do", method = { RequestMethod.GET, RequestMethod.POST })
+	public String delivery(@RequestParam Map param, HttpSession session, ModelMap model, HttpServletRequest request,
+			HttpServletResponse response) throws Exception {
+		String deviceType = getDeviceType(request);
+
+		if(!deviceType.equals("normal")){
+			return M_NAMESPACE + "delivery";
+		}
+		return NAMESPACE + "delivery";
+	}
 
 }
