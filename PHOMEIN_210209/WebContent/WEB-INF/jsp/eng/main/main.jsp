@@ -163,7 +163,7 @@
 				<div id="section3" class="section" style="background-image:url('../images/tmp/main_visual_03.jpg');">
 					<div class="menu-section">
 						<div class="top-box">
-							<p class="tit"><span>32 kinds of Vietnamese Dishes Will Impress You.</span></p>
+							<p class="tit"><span>32 kinds of Vietnamese Dishes <br>Will Impress You.</span></p>
 							<p class="btn"><a href="/brand/menu/menu_list.do">PHOMEIN MENU</a></p>
 							<p class="txt">* The menu for each store can be different.</p>
 						</div>

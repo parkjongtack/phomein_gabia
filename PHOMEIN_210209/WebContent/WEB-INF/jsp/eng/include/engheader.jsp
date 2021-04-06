@@ -9,11 +9,11 @@
 						<li>
 							<a href="/eng/phomein/dailyking.do">COMPANY</a>
 							<ul>
-								<li><a href="/eng/phomein/dailyking.do">(주)데일리킹</a></li>
+								<li><a href="/eng/phomein/dailyking.do">DAILYKING</a></li>
 								<li><a href="/eng/phomein/phoseason.do">PHO SEASON INC.</a></li>
-								<li><a href="/eng/phomein/ceo.do">CEO 인사말</a></li>
-								<li><a href="/eng/phomein/greenfood.do">현대그린푸드 MOU</a></li>
-								<li><a href="/eng/phomein/phoever.do">사회공헌활동</a></li>
+								<li><a href="/eng/phomein/ceo.do">CEO GREETING</a></li>
+								<li><a href="/eng/phomein/greenfood.do">Hyundai Green Food MOU</a></li>
+								<li><a href="/eng/phomein/phoever.do">CSR</a></li>
 								<!-- <li><a href="/brand/main/main.do">포메인 사이트</a></li>
 								<li><a href="/company/company/phomein.do">포메인</a></li>
 								<li><a href="/company/franchisee/red.do">포메인 RED</a></li> -->
@@ -23,10 +23,10 @@
 							</ul>
 						</li>
 						<li>
-							<a href="/company/company/phomein.do">BRAND</a>
+							<a href="/eng/menu/menu_list.do">BRAND</a>
 							<ul>
-								<li><a href="/company/company/phomein.do">포메인</a></li>
-								<li><a href="/company/franchisee/red.do">포메인 레드</a></li>
+								<li><a href="/eng/menu/menu_list.do">PHOMEIN</a></li>
+								<li><a href="/company/franchisee/red.do">PHOMEIN RED</a></li>
 							</ul>
 						</li>
 						<!-- <li>
@@ -46,29 +46,28 @@
 							</ul>
 						</li> -->
 						<li>
-							<a href="/brand/menu/menu_list.do">MENU</a>
+							<a href="/eng/menu/menu_list.do">MENU</a>
 							<ul>
-								<li><a href="/brand/menu/menu_list.do">메뉴</a></li>
-								<li style="display: none;"><a href="/brand/menu/red_menu_list.do">메뉴</a></li>
-								<li><a href="/company/franchisee/rice.do">국내유일 햅쌀면</a></li>
+								<li><a href="/eng/menu/menu_list.do">MENU</a></li>
+								<li><a href="/company/franchisee/rice.do">Rice Noodle</a></li>
 							</ul>
 						</li>
 						<li>
-							<a href="/brand/store/store_list.do">STORE</a>
+							<a href="/eng/store/store_list.do">STORE</a>
 							<ul>
-<!-- 								<li><a href="/brand/store/store_best.do">2018 모범매장</a></li>
+<!-- 							<!--<li><a href="/brand/store/store_best.do">2018 모범매장</a></li>
 								<li><a href="/brand/store/interview.do">우수매장</a></li> -->
-								<li><a href="/brand/store/store_list.do">매장찾기</a></li>
-								<li><a href="/company/franchisee/delivery.do">딜리버리 서비스</a></li>
+								<li><a href="/eng/store/store_list.do">FIND STORE</a></li>
+								<li><a href="/eng/franchisee/delivery.do">딜리버리 서비스</a></li>
 							</ul>
 						</li>
 						<li>
 							<a href="/company/franchisee/step01.do">FRANCHISE</a>
 							<ul>
-								<li><a href="/company/franchisee/step01.do">가맹 안내</a></li>
+								<li><a href="/eng/franchisee/interior.do">FRANCHISE GUIDANCE</a></li>
 								<!-- <li><a href="/company/franchisee/estimate.do">가맹 비용</a></li> -->
-								<li><a href="/company/franchisee/terms.do">가맹 상담 신청</a></li>
-								<li><a href="/company/rnd/educ.do">교육시스템</a></li>
+								<li><a href="/eng/franchisee/terms.do">FRANCHISE INQUIRY</a></li>
+								<li><a href="/company/rnd/educ.do">EDUCATION SYSTEM</a></li>
 								<!-- <li><a href="/company/franchisee/interview.do">우수매장</a></li> -->
 								
 							</ul>
@@ -76,11 +75,11 @@
 						<li>
 							<a href="/brand/community/sns/community_list.do?cate=109203">COMMUNITY</a>
 							<ul>
-								<li><a href="/brand/community/sns/community_list.do?cate=109203">인스타그램</a></li>
-								<li><a href="/brand/community/sns/community_list.do?cate=109204">블로그</a></li>
-								<li><a href="/brand/community/sns/community_list.do?cate=109205">유튜브</a></li>
-								<li><a href="/brand/community/notice/community_list.do">공지 & 언론보도</a></li>
-								<li><a href="/brand/phomein/coupon_01.do">상품권</a></li>
+								<li><a href="/brand/community/sns/community_list.do?cate=109203">INSTAGRAM</a></li>
+								<li><a href="/brand/community/sns/community_list.do?cate=109204">BLOG</a></li>
+								<li><a href="/brand/community/sns/community_list.do?cate=109205">YOUTUBE</a></li>
+								<li><a href="/brand/community/notice/community_list.do">NOTICE & PRESS</a></li>
+								<!-- <li><a href="/brand/phomein/coupon_01.do">상품권</a></li>
 								<li style="display:none;"><a href="/brand/phomein/coupon_02.do">상품권</a></li>
 								<li style="display:none;"><a href="/brand/phomein/coupon_03.do">상품권</a></li>
 								<li><a href="/brand/phomein/member_ship.do">멤버십</a></li>
@@ -98,13 +97,13 @@
 					</ul>
 				</nav>
 				<div class="btn-franchisee">
-					<a href="/company/franchisee/terms.do" target="_self">FRANCHISING</a>
+					<a href="/eng/franchisee/terms.do" target="_self">FRANCHISING</a>
 					<%-- <a href="/company/main/main.do" target="_self">기업 사이트</a> --%>
 				</div>
-				<form action="/brand/community/search_list.do" name="search_all" id="header_s_form">
+				<!-- <form action="/brand/community/search_list.do" name="search_all" id="header_s_form">
 					<input type="text" placeholder="search" name="search_key" value="${param.search_key}" />
 					<button type="submit"></button>
-				</form>
+				</form> -->
 					<!--<div class="btn-system2">
 				<a href="/admin/login.do">포메인 시스템</a>
 				</div>-->

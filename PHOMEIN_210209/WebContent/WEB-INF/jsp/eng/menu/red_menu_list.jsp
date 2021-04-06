@@ -43,7 +43,12 @@
 		<!-- contents -->
 		<div id="contents" class="content">
 			<div class="inner">
-
+				<div class="page-tab">
+					<ul>
+               			<li><a href="/eng/menu/menu_list.do">phomain</a></li>
+               			<li class="actived"><a href="/eng/menu/red_menu_list.do">phomain red</a></li>
+					</ul>
+				</div>
 				<div class="search-option">
 					<div class="option">
 						<P class="all-menu"><a id="reset_btn" name="reset_btn" class="btn-03 type-01">ALL MENU</a></p>

@@ -44,7 +44,7 @@
 		</div>
 		<!-- //page-title -->
 
-		<%@ include file="/WEB-INF/jsp/company/include/companyMenuHead.jsp"%>
+		<%@ include file="/WEB-INF/jsp/eng/include/engMenuHead.jsp"%>
 
 		<!-- contents -->
 		<div id="contents" class="content">
