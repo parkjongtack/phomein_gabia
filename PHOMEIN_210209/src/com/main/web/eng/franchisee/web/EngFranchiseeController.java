@@ -258,5 +258,16 @@ public class EngFranchiseeController {
 		}
 		return NAMESPACE + "delivery";
 	}
+	
+	@RequestMapping(value = "educ.do", method = { RequestMethod.GET, RequestMethod.POST })
+	public String educ(@RequestParam Map param, HttpSession session, ModelMap model, HttpServletRequest request,
+			HttpServletResponse response) throws Exception {
+		String deviceType = getDeviceType(request);
+
+		if(!deviceType.equals("normal")){
+			return M_NAMESPACE + "educ";
+		}
+		return NAMESPACE + "educ";
+	}
 
 }

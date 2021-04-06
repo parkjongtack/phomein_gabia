@@ -54,19 +54,19 @@ h1, h2, h3, h4, h5, h6, th {font-weight: 400;}
 <div id="wrap">
 
 	<!-- dHead -->
-	<%@ include file="/WEB-INF/jsp/company/include/companyheader.jsp"%>
+	<%@ include file="/WEB-INF/jsp/eng/include/engheader.jsp"%>
 	<!--// dHead -->
 
 	<section id="dBody" class="franchisee">
 		<!-- page-title -->
 		<div class="page-title">
 			<div class="visual" style="background-image:url('/company/images/content/sub_visual_08.jpg');"></div>
-			<h2 class="h2-type">딜리버리 서비스</h2>
+			<h2 class="h2-type">DELIVERY SERVICE</h2>
 			<!-- <span class="txt">소자본 쌀국수 창업 프랜차이즈의 새로운 패러다임을 제시합니다.</span> -->
 		</div>
 		<!-- //page-title -->
 
-		<%@ include file="/WEB-INF/jsp/company/include/companyMenuHead.jsp"%>
+		<%@ include file="/WEB-INF/jsp/eng/include/engMenuHead.jsp"%>
 
 		<div id="contents" class="content">
 			<div class="video_con">
@@ -80,21 +80,22 @@ h1, h2, h3, h4, h5, h6, th {font-weight: 400;}
 						</h2>
 						<div class="red01-inner">
 							<span>
-								2014년 업계 최초로 쌀국수 배달을 시행한 베트남 쌀국수 전문점 포메인은<br/>
-								언제 어디서든 쌀국수를 즐길 수 있는 환경을 조성하고자 딜리버리 사업에 뛰어들었습니다.<br/>
+								PhoMein, a Vietnamese pho restaurant that practiced the delivery service for the first time in 2014 <br/>
+								in this field, started the delivery business to establish an environment where anyone can enjoy <br/>
+								pho anytime and anywhere.<br/>
 								<br/>
-								분명 쉬운 길은 아니었지만 쌀국수 배달을 위해 포메인은 지난 7년 동안<br/>
-								여러 차례의 시범운영을 통한 패키지 리뉴얼 작업, 딜리버리 매뉴얼 제작으로<br/>
-								경쟁력을 쌓으며 가파르게 성장하는 딜리버리 시장에 성공적으로 안착했습니다.<br/>
+								It wasn’t easy at all, but PhoMein has successfully settled in the rapidly growing delivery market <br/>
+								by building competitiveness with the package renewal work through multiple test operations for <br/>
+								last 7 years and the delivery manual work. <br/>
 								<br/>
-								이제는 너도나도 쌀국수 배달에 뛰어드는 시대<br/>
-								포메인의 경쟁력은 하루아침에 만들어진 게 아니라는 걸 증명하듯<br/>
-								자체 개발 쌀국수 전용 패키지와 우리만의 노하우로 독보적인 서비스를 선보이고 있습니다.<br/>
-								특히 배달을 받아보았을 때 쌀국수면에서 느낄 수 있는 향긋한 햅쌀밥의 향은<br/>
-								애써 말하지 않아도 고객이 먼저 느끼는 포메인의 강점입니다.<br/>
+								Now, many people jump into the pho market. <br/>
+								As the competitiveness of PhoMein hasn’t been established in a day, we provide the <br/>
+								independently developed pho specialized package and our own exclusive services.<br/>
+								The taste of savory freshly cooked rice delivered <br/>
+								 to you is the strength of PhoMein noticed by customers. <br/>
 								<br/>
-								포메인만의 레시피로 재해석한 32가지의 베트남 요리를<br/>
-								언제, 어디서든 매장에서 즐기던 맛 그대로 만나보세요.
+								Enjoy 32 Vietnamese dishes reinterpreted with PhoMein’s exclusive recipe <br/>
+								anytime and anywhere like eating at the restaurant. 
 							</span>
 						</div>
 						<div class="img_wrap">

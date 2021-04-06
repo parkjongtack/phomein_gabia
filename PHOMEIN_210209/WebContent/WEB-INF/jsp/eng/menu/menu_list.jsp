@@ -115,6 +115,15 @@
 		<!-- //contents -->
 
 	</section>
+	
+	<div class="quick-menu">
+		<a href="/company/franchisee/rice.do" class="btn-menu quick01">Freshly<br/>Harvested<br/>Rice Noodles</a>
+		<!--<a href="/brand/community/sns/community_list.do?cate=109203" target="_blank" class="btn-company">SNS</a>-->
+		<a href="/brand/community/sns/community_list.do?cate=109203" target="_blank" class="btn-company quick02">SNS</a>
+		<a href="/brand/store/store_list.do" target="_blank" class="btn-franchisee quick03">FIND<br>STORES</a>
+		<a href="javascript:front.common.moveScroll(0, 750);" class="btn-top">TOP</a>
+	</div>
+	
 	<!--// dBody -->
 
 	<!-- dFoot -->

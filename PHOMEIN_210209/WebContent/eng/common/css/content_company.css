@@ -78,7 +78,7 @@
 .location-menu .nav > ul > li.open:after,
 .location-menu .nav > ul > li.open:last-child:before {opacity:0;}
 .location-menu .nav > ul > li.depth01 {left:60px;}
-.location-menu .nav > ul > li.depth02 {left:268px; width:216px;}
+.location-menu .nav > ul > li.depth02 {left:268px; width:263px;}
 .location-menu .nav > ul > li > a {position:relative; display:block; width:100%; height:58px; padding:0 30px; color:#999; font-size:15px; line-height:58px; box-sizing:border-box; transition:color 0.45s ease;}
 .location-menu .nav > ul > li > a:after {content:''; position:absolute; top:50%; right:30px; width:14px; height:9px; margin-top:-4px; background:url('../../images/common/btn_location_arrow.png') left top no-repeat; opacity:0.31;  transition:opacity 0.45s, transform 0.45s ease;}
 .location-menu .nav > ul > li:hover > a,

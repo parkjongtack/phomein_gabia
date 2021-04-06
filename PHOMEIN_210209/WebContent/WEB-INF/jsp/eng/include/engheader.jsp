@@ -23,10 +23,10 @@
 							</ul>
 						</li>
 						<li>
-							<a href="/eng/menu/menu_list.do">BRAND</a>
+							<a href="/eng/phomein/about.do">BRAND</a>
 							<ul>
-								<li><a href="/eng/menu/menu_list.do">PHOMEIN</a></li>
-								<li><a href="/company/franchisee/red.do">PHOMEIN RED</a></li>
+								<li><a href="/eng/phomein/about.do">PHOMEIN</a></li>
+								<li><a href="/eng/franchisee/red.do">PHOMEIN RED</a></li>
 							</ul>
 						</li>
 						<!-- <li>
@@ -49,7 +49,7 @@
 							<a href="/eng/menu/menu_list.do">MENU</a>
 							<ul>
 								<li><a href="/eng/menu/menu_list.do">MENU</a></li>
-								<li><a href="/company/franchisee/rice.do">Rice Noodle</a></li>
+								<li><a href="/eng/franchisee/rice.do">Rice Noodle</a></li>
 							</ul>
 						</li>
 						<li>
@@ -58,16 +58,16 @@
 <!-- 							<!--<li><a href="/brand/store/store_best.do">2018 모범매장</a></li>
 								<li><a href="/brand/store/interview.do">우수매장</a></li> -->
 								<li><a href="/eng/store/store_list.do">FIND STORE</a></li>
-								<li><a href="/eng/franchisee/delivery.do">딜리버리 서비스</a></li>
+								<li><a href="/eng/franchisee/delivery.do">DELIVERY SERVICE</a></li>
 							</ul>
 						</li>
 						<li>
-							<a href="/company/franchisee/step01.do">FRANCHISE</a>
+							<a href="/eng/franchisee/step01.do">FRANCHISE</a>
 							<ul>
-								<li><a href="/eng/franchisee/interior.do">FRANCHISE GUIDANCE</a></li>
+								<li><a href="/eng/franchisee/step01.do">FRANCHISE GUIDANCE</a></li>
 								<!-- <li><a href="/company/franchisee/estimate.do">가맹 비용</a></li> -->
 								<li><a href="/eng/franchisee/terms.do">FRANCHISE INQUIRY</a></li>
-								<li><a href="/company/rnd/educ.do">EDUCATION SYSTEM</a></li>
+								<li><a href="/eng/franchisee/educ.do">EDUCATION SYSTEM</a></li>
 								<!-- <li><a href="/company/franchisee/interview.do">우수매장</a></li> -->
 								
 							</ul>

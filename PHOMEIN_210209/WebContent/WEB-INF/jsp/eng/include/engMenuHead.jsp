@@ -9,58 +9,68 @@
 						<li class="depth01">
 							<a href="javascript:;" class="nav-title"></a>
 							<ul class="nav-list">
-								<li id="PHOMEIN"><a href="/eng/phomein/dailyking.do">PHOMEIN</a></li>
+								<li id="COMPANY"><a href="/eng/phomein/dailyking.do">COMPANY</a></li>
+								<li id="BRAND"><a href="/eng/phomein/about.do">BRAND</a></li>
 								<li id="MENU"><a href="/eng/menu/menu_list.do">MENU</a></li>
 								<li id="STORE"><a href="/eng/store/store_list.do">STORE</a></li>
+								<li id="FRANCHISE"><a href="/eng/franchisee/step01.do">FRANCHISE</a></li>
 								<li id="COMMUNITY"><a href="#">COMMUNITY</a></li>
-								<li id="FRANCHISE"><a href="/eng/franchisee/interior.do">FRANCHISE</a></li>
 							</ul>
 						</li>
 						<li class="depth02" style="display:none;">
-							<a href="javascript:;" class="nav-title">PHOMEIN</a>
-							<dd style="display:none;">PHOMEIN</dd>
+							<a href="javascript:;" class="nav-title">COMPANY</a>
+							<dd style="display:none;">COMPANY</dd>
 							<ul class="nav-list">
 								<li><a href="/eng/phomein/dailyking.do">DAILYKING</a></li>
-								<li><a href="/eng/phomein/about.do">About Phomein</a></li>
-								<!-- 20190426 메뉴 추가 s -->
-								<li><a href="/eng/phomein/ceo.do">CEO</a></li>
-								<li><a href="/eng/phomein/greenfood.do">Relief Phomein</a></li>
-								<li><a href="/eng/phomein/phoseason.do">PHO SEASON</a></li>
-								 <!-- //20190426 메뉴 추가 e -->
+								<li><a href="/eng/phomein/phoseason.do">PHO SEASON INC.</a></li>
+								<li><a href="/eng/phomein/ceo.do">CEO GREETING</a></li>
+								<li><a href="/eng/phomein/greenfood.do">Hyundai Green Food MOU</a></li>
 								<li><a href="/eng/phomein/phoever.do">CSR</a></li>
+							</ul>
+						</li>
+							<li class="depth02" style="display:none;">
+							<a href="javascript:;" class="nav-title">BRAND</a>
+							<dd style="display:none;">BRAND</dd>
+							<ul class="nav-list">
+								<li><a href="/eng/phomein/about.do">PHOMEIN</a></li>
+								<li><a href="/eng/franchisee/red.do">PHOMEIN RED</a></li>
 							</ul>
 						</li>
 						<li class="depth02" style="display:none;">
 							<a href="javascript:;" class="nav-title">MENU</a>
 							<dd style="display:none;">MENU</dd>
 							<ul class="nav-list">
-								<li><a href="/eng/menu/menu_list.do">PHOMEIN</a></li>
-								<li><a href="/eng/menu/red_menu_list.do">PHOMEIN RED</a></li>
+								<li><a href="/eng/menu/menu_list.do">MENU</a></li>
+								<li><a href="/eng/franchisee/rice.do">Rice Noodle</a></li>
 							</ul>
 						</li>
 						<li class="depth02" style="display:none;">
 							<a href="javascript:;" class="nav-title">STORE</a>
 							<dd style="display:none;">STORE</dd>
 							<ul class="nav-list">
-								<li><a href="/eng/store/store_list.do">STORE</a></li>
+								<li><a href="/eng/store/store_list.do">FIND STORE</a></li>
+								<li><a href="/eng/franchisee/delivery.do">DELIVERY SERVICE</a></li>
+							</ul>
+						</li>					
+						<li class="depth02" style="display:none;">
+							<a href="javascript:;" class="nav-title">FRANCHISE</a>
+							<dd style="display:none;">FRANCHISE</dd>
+							<ul class="nav-list">
+								<li><a href="/eng/franchisee/step01.do">FRANCHISE GUIDANCE</a></li>
+								<!-- <li><a href="/company/franchisee/estimate.do">가맹 비용</a></li> -->
+								<li><a href="/eng/franchisee/terms.do">FRANCHISE INQUIRY</a></li>
+								<li><a href="/eng/franchisee/educ.do">EDUCATION SYSTEM</a></li>
+								<!-- <li><a href="/company/franchisee/interview.do">우수매장</a></li> -->
 							</ul>
 						</li>
 						<li class="depth02" style="display:none;">
 							<a href="javascript:;" class="nav-title">COMMUNITY</a>
 							<dd style="display:none;">COMMUNITY</dd>
 							<ul class="nav-list">
-								<li><a href="/eng/community/sns/community_list.do">SNS</a></li>
-								<li><a href="/eng/community/cs_terms.do">CS Center</a></li>
-								<li style="display:none;"><a href="/eng/community/cs_info.do">CS Center</a></li>
-							</ul>
-						</li>
-						<li class="depth02" style="display:none;">
-							<a href="javascript:;" class="nav-title">FRANCHISE</a>
-							<dd style="display:none;">FRANCHISE</dd>
-							<ul class="nav-list">
-								<li><a href="/eng/franchisee/interior.do">INTERIOR</a></li>
-								<li><a href="/eng/franchisee/terms.do">Counseling Request</a></li>
-								<li style="display:none;"><a href="/eng/franchisee/info.do">Counseling Request</a></li>
+								<li><a href="/brand/community/sns/community_list.do?cate=109203">INSTAGRAM</a></li>
+								<li><a href="/brand/community/sns/community_list.do?cate=109204">BLOG</a></li>
+								<li><a href="/brand/community/sns/community_list.do?cate=109205">YOUTUBE</a></li>
+								<li><a href="/brand/community/notice/community_list.do">NOTICE & PRESS</a></li>
 							</ul>
 						</li>
 					</ul>
