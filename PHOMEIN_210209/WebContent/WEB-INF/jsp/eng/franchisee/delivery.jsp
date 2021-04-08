@@ -90,7 +90,7 @@ h1, h2, h3, h4, h5, h6, th {font-weight: 400;}
 								<br/>
 								Now, many people jump into the pho market. <br/>
 								As the competitiveness of PhoMein hasn’t been established in a day, we provide the <br/>
-								independently developed pho specialized package and our own exclusive services.<br/>
+								independently developed pho specialized package and our own exclusive services.<br/><br/>
 								The taste of savory freshly cooked rice delivered <br/>
 								 to you is the strength of PhoMein noticed by customers. <br/>
 								<br/>

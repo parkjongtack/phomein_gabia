@@ -29,40 +29,31 @@
 	<!-- container -->
 	<div id="container">
 		<!-- sub visual -->
-		<div class="sub_visual sv1">
+		<div class="sub_visual sv4">
 			<h3>CSR</h3>
 		</div>
 		<!-- 상단비쥬얼 영역
-			PHOMEIN   : class="sub_visual sv1"
-			MENU	  : class="sub_visual sv2"
-			STORE 	  : class="sub_visual sv3"
-			COMMUNITY : class="sub_visual sv4"
-			FRANCHISE : class="sub_visual sv5"
+			회사소개	: class="sub_visual sv1"
+			연구개발	: class="sub_visual sv2"
+			가맹개설정보 : class="sub_visual sv3"
+			사회공헌 	: class="sub_visual sv4"
+			POLICY	   : class="sub_visual sv5"
 		-->
 		<!-- //sub visual -->
 		<!-- lnb -->
 		<%@ include file="/WEB-INF/jsp/meng/include/englnb.jsp"%>
 		<!-- //lnb -->
 		<!-- content -->
-		<div id="content" class="phomein">
+		<div id="content" class="csr">
 			<div class="csr_intro">
 				<h4><em>PHOEVER CSR</em></h4>
-				<p class="desc">
-					With undying sincerity, <br>
-					PHOMEIN brings warmth to your today <br>
-					and to your world.
-				</p>
+				<p class="desc">With undying sincerity, PhoMein brings warmth to your today and to your world. </p>
 				<p class="txt">
-					Under the strong resolution of<br>
-					"The exemplary company with trusts"<br>
-					 and based on the firm ethical management,<br>
-					Phomein is supporting aids to<br>
-					 underprivileged groups and<br>
-					 to children in developing countries. 
+					Under the strong resolution of "The exemplary company with trusts" and based on the firm ethical management, PhoMein is supporting aids to underprivileged groups and to children in developing countries. 
 				</p>
 			</div>
 			<div class="csr_cont">
-				<h5>Introduction of activities</h5>
+				<h5>CSR ACTIVITY</h5>
 				<div class="swiper_area">
 					<div class="swiper">
 						<ul class="swiper_wrap">
@@ -70,9 +61,9 @@
 								<div class="thum"><img src="../common/images/content/csr_activity_img_09.jpg" alt=""></div>
 								<div class="cont">
 									<span class="logo"><img src="../common/images/content/csr_activity_img_logo_09.jpg" alt=""></span>
-									<span class="tit">Phomein donated 4,536 boxes of newly harvested rice noodles. </span>
+									<span class="tit">PhoMein donated 4,536 boxes of Freshly Harvested Rice Noodles. </span>
 									<p class="txt">
-										Before showing the newly harvested rice noodles that have been successfully developed by using only newly harvested rice, the head office of Phomein donated 4,536 boxes of rice noodles worth 180 million won for the underprivileged of welfare.
+										Before showing the freshly harvested rice noodles that have been successfully developed by using only newly harvested rice, the head office of PhoMein donated 4,536 boxes of rice noodles worth 180 million won for the underprivileged of welfare. 
 									</p>
 								</div>
 							</li>
@@ -80,9 +71,9 @@
 								<div class="thum"><img src="../common/images/content/csr_activity_img_01.jpg" alt=""></div>
 								<div class="cont">
 									<span class="logo"><img src="../common/images/content/csr_activity_img_logo_01.jpg" alt=""></span>
-									<span class="tit">'PHO EVER 2018' Job Experience Mentoring</span>
+									<span class="tit">PHO EVER 2018' Job Experience Mentoring </span>
 									<p class="txt">
-										Together with Global Vision, Phomein conducted the job experience mentoring, 'PHO EVER 2018' to learn/practice the job that can be experienced in Phomein, targeting the adolescents in need of employment support.
+									Together with Global Vision, PhoMein conducted the job experience mentoring, 'PHO EVER 2018' to learn/practice the job that can be experienced in Phomein, targeting the adolescents in need of employment support. 
 									</p>
 								</div>
 							</li>
@@ -90,9 +81,9 @@
 								<div class="thum"><img src="../common/images/content/csr_activity_img_02.jpg" alt=""></div>
 								<div class="cont">
 									<span class="logo"><img src="../common/images/content/csr_activity_img_logo_02.jpg" alt=""></span>
-									<span class="tit">Donation for 'Helping the Pohang Earthquake Victims'</span>
+									<span class="tit">Donation for 'Helping the Pohang Earthquake Victims' </span>
 									<p class="txt">
-										'PHO x 4', a donation campaign to help the Pohang earthquake victims, was conducted in the Official Facebook Page of Phomein and consequently, a quadruple of the collected fund was donated to the Pohang earthquake victims.
+										PHO x 4', a donation campaign to help the Pohang earthquake victims, was conducted in the Official Facebook Page of PhoMein and consequently, a quadruple of the collected fund was donated to the Pohang earthquake victims. 
 									</p>
 								</div>
 							</li>
@@ -100,9 +91,9 @@
 								<div class="thum"><img src="../common/images/content/csr_activity_img_03.jpg" alt=""></div>
 								<div class="cont">
 									<span class="logo"><img src="../common/images/content/csr_activity_img_logo_03.jpg" alt=""></span>
-									<span class="tit">'Participation in Save the Children's Hat-knitting Campaign 'Knit One Save One'</span>
+									<span class="tit">Participation in Save the Children's Hat-knitting Campaign 'Knit One Save One' </span>
 									<p class="txt">
-										The staff at Phomein's head office and all franchisees knitted over 200 hats, which were donated to Save the Children for underweight or malnourished newborn babies.
+										The staff at PhoMein's headquarters and all franchisees knitted over 200 hats, which were donated to Save the Children for underweight or malnourished newborn babies. 
 									</p>
 								</div>
 							</li>
@@ -110,9 +101,9 @@
 								<div class="thum"><img src="../common/images/content/csr_activity_img_04.jpg" alt=""></div>
 								<div class="cont">
 									<span class="logo"><img src="../common/images/content/csr_activity_img_logo_04.jpg" alt=""></span>
-									<span class="tit">'Happy Gift Box' Delivery to Seongnam Regional Children's Center</span>
+									<span class="tit">Happy Gift Box' Delivery to Seongnam Regional Children's Center </span>
 									<p class="txt">
-										Our head office executives and employees packaged Happy Gift Boxes and delivered them to three Regional Children's Centers in Seongnam and shared warm meals with children by preparing Phomein's summer rolls together.
+										Our headquarters executives and employees packaged Happy Gift Boxes and delivered them to three Regional Children's Centers in Seongnam and shared warm meals with children by preparing PhoMein's summer rolls together. 
 									</p>
 								</div>
 							</li>
@@ -120,9 +111,9 @@
 								<div class="thum"><img src="../common/images/content/csr_activity_img_05.jpg" alt=""></div>
 								<div class="cont">
 									<span class="logo"><img src="../common/images/content/csr_activity_img_logo_05.jpg" alt=""></span>
-									<span class="tit">Habitat 'Hopeful House Building' Fund Sponsorship</span>
+									<span class="tit">Habitat 'Hopeful House Building' Fund Sponsorship </span>
 									<p class="txt">
-										The Phomein staff members delivered funds to Habitat to give back to the local communities and be of help to non-homeowners with low income.
+										The PhoMein staff members delivered funds to Habitat to give back to the local communities and be of help to non-homeowners with low income. 
 									</p>
 								</div>
 							</li>
@@ -130,9 +121,9 @@
 								<div class="thum"><img src="../common/images/content/csr_activity_img_06.jpg" alt=""></div>
 								<div class="cont">
 									<span class="logo"><img src="../common/images/content/csr_activity_img_logo_06.jpg" alt=""></span>
-									<span class="tit">Habitat 'Hopeful House Building' Fund sponsorship</span>
+									<span class="tit">Habitat 'Hopeful House Building' Architecture Volunteering </span>
 									<p class="txt">
-										The Phomein staff members conducted a Habitat program to build houses and present them to non-homeowners with low income so that they have a warm place to live in.
+										The PhoMein staff members conducted a Habitat program to build houses and present them to non-homeowners with low income so that they have a warm place to live in. 
 									</p>
 								</div>
 							</li>
@@ -140,9 +131,9 @@
 								<div class="thum"><img src="../common/images/content/csr_activity_img_07.jpg" alt=""></div>
 								<div class="cont">
 									<span class="logo"><img src="../common/images/content/csr_activity_img_logo_07.jpg" alt=""></span>
-									<span class="tit">Sharing Love with Briquettes' Volunteering</span>
+									<span class="tit">Sharing Love with Briquettes' Volunteering </span>
 									<p class="txt">
-										All Phomein staff members participated in 'Sharing Love with Briquettes' campaign and donated 5,000 briquettes to LOVECOAL corporation's briquette delivering campaign, and we've visited underprivileged families' homes in Geumto-dong, Seongnam-si, Gyeonggi-do and delivered 1,500 briquettes.
+										All PhoMein staff members participated in 'Sharing Love with Briquettes' campaign and donated 5,000 briquettes to LOVECOAL corporation's briquette delivering campaign, and we've visited underprivileged families' homes in Geumto-dong, Seongnam-si, Gyeonggi-do and delivered 1,500 briquettes. 
 									</p>
 								</div>
 							</li>
@@ -152,7 +143,7 @@
 									<span class="logo"><img src="../common/images/content/csr_activity_img_logo_08.jpg" alt=""></span>
 									<span class="tit">Deliverance of Fund for the World Children's Aid </span>
 									<p class="txt">
-										Phomein was the first in the field to have an agreement with UNICEF for fund donation. And with UNICEF, we held a meaningful event where our company delivered donation funds to aid the world children in hopes to present children in poverty with a beacon of light.
+										PhoMein was the first in the field to have an agreement with UNICEF for fund donation. And with UNICEF, we held a meaningful event where our company delivered donation funds to aid the world children in hopes to present children in poverty with a beacon of light. 
 									</p>
 								</div>
 							</li>
@@ -167,9 +158,11 @@
 		<!-- //content -->
 	</div>
 	<!-- //container -->
+
 	<!-- footer -->
 	<%@ include file="/WEB-INF/jsp/meng/include/engfooter.jsp"%>
 	<!-- //footer -->
+
 </div>
 <!-- //wrap -->
 

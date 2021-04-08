@@ -10,7 +10,13 @@
 <title>포메인</title>
 <%@ include file="/WEB-INF/jsp/meng/include/head.jspf"%>
 </head>
-
+<style>
+	.nav_cate_wrap{margin-bottom: 40px; text-align: center;}
+	.nav_cate_wrap li{display: inline-block; padding: 5px;}
+	.nav_cate_wrap li a{color: #666;}
+	.nav_cate_wrap li.on{border-bottom: 2px solid #333;}
+	.nav_cate_wrap li.on a{color: #333;}
+</style>
 <body>
 <!-- wrap -->
 <div id="wrap">
@@ -48,6 +54,10 @@
 
 		<!-- content -->
 		<div id="content" class="menu">
+			<ul class="nav_cate_wrap">
+				<li class="nav_cate_btn on"><a href="/meng/menu/menu_list.do">포메인</a></li>
+				<li class="nav_cate_btn"><a href="/meng/menu/red_menu_list.do">포메인레드</a></li>
+			</ul>
 			<input type="hidden" id="pageIndex" name="pageIndex" value="${pageIndex }"/>
 			<div class="select_cate">
 				<!-- 셀렉트 박스 -->

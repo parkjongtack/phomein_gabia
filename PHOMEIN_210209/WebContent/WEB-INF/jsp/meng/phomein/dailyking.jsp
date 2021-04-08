@@ -44,69 +44,56 @@
 		<%@ include file="/WEB-INF/jsp/meng/include/englnb.jsp"%>
 		<!-- //lnb -->
 		<!-- content -->
-		<div id="content" class="phomein">
+		<div id="content" class="company">
 			<div class="dailyking">
 				<div class="tit_area">
 					<h4><span class="blind">DAILYKING INC.</span></h4>
 				</div>
 				<div class="intro">
 					<p class="txt1">
-						Founded in 2006, DAILYKING INC. is an incorporated enterprise which settled the rice noodle
-						franchise brand 'Phomein’ in Korea and popularized the dining culture of Vietnamese cuisine.
+					 
+						Founded in 2006, Daily King Co., Ltd. is an incorporated enterprise which settled the rice noodle franchise brand 'PhoMein’ and 'PhoMein RED' in Korea and popularized the Vietnamese cuisine dining culture.
 					</p>
 					<p class="txt2">
-						Under the motto of 'Safe Food Ingredients and Honest Food', DAILYKING INC. has signed
-						a business agreement with 'Hyundai Green Food', supplying safe and fresh food ingredients to each franchise stores.
+						Under the motto of 'Safe Food Ingredients and Honest Food', Daily King Co., Ltd. has signed a business agreement with 'Hyundai Green Food', supplying safe and fresh food ingredients to each franchise stores.
 					</p>
 					<p class="txt2">
-						Also DAILYKING INC. has established ‘PHO SEASON’ which is a rice noodle manufacturing factory in Vietnam in 2015. DAILYKING INC., the inventor of PHO SEASON, has invested 2,000,000 USD for a new machine and technology to produce ‘Fresh Rice Noodles’. In consideration of continuous improvement, we succeeded in producing rice noodles made of clear and transparent fresh rice harvested in Mekong Delta, Vietnam. And we also produce herb-bags for meat broth using 9 kinds of high quality natural spices.
+					Also establishing ‘PHO SEASON’, a Vietnam local corporation rice noodle factory in 2015, we produced herb-bags for meat stock using 9 premium natural spices and succeeded in developing ‘Freshly Harvested Rice Noodles’ after many years of research and development.
+In the rice noodle market, which depends on imported rice noodles made of an old rice, the cleanliness and wholesomeness of ‘Freshly Harvested Rice Noodles’ are the fulfillment of customer promises as well as brand power.
 					</p>
-					<p class="txt2" style="color:#333;">
-						Successful development of Fresh Rice Noodle is the fulfillment of customer promises as well as brand power.<br>
-						- Does not contain unnecessary chemical additives other than fresh rice and water.<br>
-						- Does not have the particular odor of imported rice noodles mixed with old rice, starch, and flour.<br>
-						- Provides the fragrance of freshly cooked new rice, clear and transparent color, and chewy food texture.
-
-					</p>
-					<p class="txt2">
-						The domestic rice noodle market relies on imported rice noodles mixed with old rice, starch, and flour. However, the concept shift of making rice noodles only with fresh rice and purified water may have seemed reckless to some people or as an unnecessary path of suffering.<br>
-						It seems impossible to change what is already there, until you decide to take the first step.
-
-					</p>
-					<p class="txt2">
-						For DAILYKING INC., however, the establishment of ‘PHO SEASON’ and the production of ‘Fresh Rice Noodle’ were part of a heartfelt journey towards customers to provide ‘safe and honest food‘ as a leader in the rice noodle market.
-						You can find Phomein’s ‘Fresh Rice Noodle’, the result of years of challenge, only at Phomein.
-
-					</p>
-					<p class="txt2">
-						We will lead changes at the center of the rice noodle market without losing the essence of principle
-						and honesty so that changes and challenges starting from Phomein.
-						We will become a new standard not only in Korea but also in the global rice noodle market.
-					</p>
-					<div class="con">
+					
+					<div class="rice-noodle">
+						<p class="tit">포메인 ‘햅쌀 쌀국수면’은</p>
 						<ul>
 							<li>
-								<div>
-									<strong>味</strong>
-									<em>Diverse tastes</em>
-									<!-- <p>Pleasure of various selections<br>depending on mood and preference</p> -->
-								</div>
+								<p class="img"><img src="/mcompany/common/images/content/dailyking_img_01.png" alt=""/></p>
+								<p class="txt">Does not contain unnecessary chemical<br> additives other than fresh rice and water.</p>
 							</li>
 							<li>
-								<div>
-									<strong>樂</strong>
-									<em>Pleasure</em>
-									<!-- <p>It could be enjoyed by everyone regardless<br>of sex or age without burdens</p> -->
-								</div>
+								<p class="img"><img src="/mcompany/common/images/content/dailyking_img_02.png" alt=""/></p>
+								<p class="txt">Does not have the particular odor of <br>imported rice noodles mixed with <br>an old rice, starch, and flour.</p>
 							</li>
 							<li>
-								<div>
-									<strong>新</strong>
-									<em>Newness</em>
-									<!-- <p>It always researches and challenges for<br>the newness with no fear</p> -->
-								</div>
+								<p class="img"><img src="/mcompany/common/images/content/dailyking_img_03.png" alt=""/></p>
+								<p class="txt">Provides the flavor of freshly cooked rice,<br> clear and transparent color,<br> and chewy food texture.</p>
 							</li>
 						</ul>
+					</div>
+
+					<p class="txt2">
+						There is a way to go even if no one wants to go.<br>
+						In the domestic rice noodle market using imported rice noodles made by mixing an old rice, starch, and flour, the concept shift of making rice noodles only with fresh rice and purified water may have seemed reckless to some people or as an unnecessary path of suffering.
+						<br><br>
+						
+						For Daily King, however, the establishment of ‘PHO SEASON’ and the production of ‘Freshly Harvested Rice Noodles' were a part of a heartfelt journey towards customers to provide ‘Safe and Honest Food’ as a leader in the rice noodle market.<br><br>
+
+						You can find ‘Freshly Harvested Rice Noodles', the result of years of challenge, only at PhoMein and PhoMein RED.<br><br>
+
+						We will lead changes at the center of the rice noodle market without losing the essence of principle and honesty so that changes and challenges starting from PhoMein become the standard of the rice noodle market.
+					</p>
+					<div class="pho-season">
+						<span><em>Safe Ingredients Honest food, </em><br>PHO SEASON</span>
+						<a href="/mcompany/rnd/phoseason.do" class="btn-pho-season">Check-out PHO SEASON</a>
 					</div>
 				</div>
 			</div>

@@ -9,6 +9,14 @@
 <meta name="keywords" content="">
 <title>포메인</title>
 <%@ include file="/WEB-INF/jsp/meng/include/head.jspf"%>
+<style>
+.company .phomein_intro:after{display:none;}
+.company .phomein_title:after{display:none;}
+.company .phomein_intro{padding-top: 0;}
+.company .phomein_title{padding-bottom: 120px;}
+.video_con{text-align: center; margin-bottom: 0; position: relative; top: -60px;}
+.company .phomein_intro .txt2{padding-top: 0;}
+</style>
 </head>
 
 <body>
@@ -29,61 +37,66 @@
 	<!-- container -->
 	<div id="container">
 		<!-- sub visual -->
-		<div class="sub_visual sv1">
-			<h3>About phomein</h3>
+		<div class="sub_visual sv1_0">
+			<h3>포메인</h3>
 		</div>
 		<!-- 상단비쥬얼 영역
-			PHOMEIN   : class="sub_visual sv1"
-			MENU	  : class="sub_visual sv2"
-			STORE 	  : class="sub_visual sv3"
-			COMMUNITY : class="sub_visual sv4"
-			FRANCHISE : class="sub_visual sv5"
+			회사소개	: class="sub_visual sv1"
+			연구개발	: class="sub_visual sv2"
+			가맹개설정보 : class="sub_visual sv3"
+			사회공헌 	: class="sub_visual sv4"
+			POLICY	   : class="sub_visual sv5"
 		-->
 		<!-- //sub visual -->
 		<!-- lnb -->
 		<%@ include file="/WEB-INF/jsp/meng/include/englnb.jsp"%>
 		<!-- //lnb -->
 		<!-- content -->
-		<div id="content" class="phomein">
- 			<div class="about_title">
-				<h4>The Best Rice <br>Noodle Restaurant<br><em>Phomein</em></h4>
+		<div id="content" class="company f_bg">
+			
+			<div class="phomein_title">
+				<h4>The World’s Best Korean Vietnamese <br><em>Restaurant PhoMein </em></h4>
 				<p class="desc">The World’s Best Korean<br>Vietnamese Restaurant Phomein</p>
 			</div>
-			<div class="about_intro">
-				<p class="txt1">
-					Starting at Jeongja Restaurant in 2006,<br>
-					Phomein has had many <br>
-					experiences, big and small. 
-					<strong><span>With stronger<br>competitiveness in 2021,</span><em>Phomein has accomplished<br> great growth. </em></strong>
-				</p>
-				<p class="txt2">	
-					All menus of Phomein use <br>“freshly harvested rice noodles” self-made at the
-					rice noodle<br>  manufacturing factory “PHO SEASON’ in Vietnam.<br>In a rice noodle market relying on imported<br>  rice noodles made of old rice, you can meet the<br> clean and healthy “Fresh Rice Noodles” only at Phomein.<br><br>
-					Wholesome rice noodles made from freshly<br> harvested rice 365 days a year to
-					luxurious meat<br> broth further deepened with quality improvement<br>
-					<em style="padding-top:0;">Phomein is it for rice noodles.</em><br><br>
-					Other brands in the foodservice industry are busy <br>chasing trends without exception.
-					On the basis of principles<br> and honesty, Phomein has taken challenges and strengthened<br> its competitiveness.
-					Thanks to these efforts, Phomein possesses <br>unrivalled competitiveness as of now.
-
-
-	
-
-					<em>Now and here, the one and only Phomein is with you.</em>
+			
+			<div class="phomein_intro">
+				<div class="video_con" style="text-align:center; margin-bottom:0;">
+					<iframe width="330" height="200" src="https://www.youtube.com/embed/ez0V9lfBnBU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+				<!-- <p class="txt1">
+					올해 15주년을 맞이한 포메인은<br>
+					한국인의 입맛에 맞는 레시피 개발로<br>
+					국내 베트남 쌀국수 대중화를 이끈<br>
+					대한민국 대표 쌀국수 전문 브랜드입니다.
+				</p> -->
+				<p class="txt2" style="font-size: 12px; line-height: 24px; padding: 0 20px">	
+					PhoMein has led the domestic pho market by combining the traditional Vietnamese pho with PhoMein’s specialty since the headquarter was opened at Jeongja-dong, Seongnam in 2006.
+					PhoMein is establishing the healthy restaurant culture and is leading the change of pho market under the philosophy of ‘Safe Food Ingredients, Honest Foods’. 
+					<br/><br/>
+					PhoMein has repeated challenges and changes for rich broth and healthy noodles with the sincerity to provide helathy dishes to customers. 
+					In the center of the change is our pride and expertise in pho.  
+					<br/><br/>
+					PhoMein that established Pho Season, a Vietnamese manufacturing factory, and created the original taste of freshly harvested new rice has proved its strong competitiveness as the top Vietnamese pho restaurant franchise in Korea with ‘Freshly Harvested Rice Noodles’ completed by the state-of-the-art manufacturing facility and its exclusive technology. 
+					<br/><br/>
+					We will provide customers with new experiences of our own technology and our own expertise by coping with the rapidly changing trend as we developed the unprecedent freshly harvested rice noodles with our enthusiasm and in-depth research on pho.
+					<br/><br/>
+					PhoMein is a place where the best Vietnamese pho is served as a result of persistent enthusiastic challenges without being afraid of failure. 
 				<p>
-				<p class="img"><img src="../common/images/content/img_about_1.jpg" alt=""></p>
+				<p class="img"><img src="/mcompany/common/images/content/img_phomein.jpg" alt=""></p>
 			</div>
 			<div class="about_menu">
-				<span>31 kinds of<br>Vietnamese dishes<br><em>give you impression.</em></span>
-				<a href="/meng/menu/menu_list.do" class="link_menu">ALL MENU VIEW</a>
+				<span>32 kinds of Vietnamese dishes,<br><em>give you impression.</em></span>
+				<a href="/mbrand/menu/menu_list.do" class="link_menu">ALL MENU VIEW</a>
 			</div>
-		</div>
+ 		</div>
 		<!-- //content -->
 	</div> 
 	<!-- //container -->
+	
 	<!-- footer -->
 	<%@ include file="/WEB-INF/jsp/meng/include/engfooter.jsp"%>
 	<!-- //footer -->
+	
 </div>
 <!-- //wrap -->
 

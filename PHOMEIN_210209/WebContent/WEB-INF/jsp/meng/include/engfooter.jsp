@@ -1,5 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 	<footer id="footer">
+		<!-- family-site -->
 		<!-- <div class="family-site">
 			<a href="#">FAMILY SITE</a>
 			<div class="list">
@@ -10,18 +11,19 @@
 				</ul>
 			</div>
 		</div> -->
+		<!-- //family-site -->
 		<ul class="foot_menu">
-			<li><a href="/mbrand/main/main.do" target="_blank">BRAND</a></li>
-			<li><a href="/mcompany/main/main.do" target="_blank">FRANCHISEE</a></li>
- 			<li><a href="/mjpn/main/main.do" target="_blank">JPN</a></li>
-<!-- 			<li><a href="/mjpn/main/main.do" target="_blank"><span class="sys">JPN</span></a></li> -->
+			<li><a href="/mbrand/cs_center/cs_terms.do">Contact Us</a></li>
+			<li><a href="/mbrand/phomein/mileage_01.do">Mileage Inquiry</a></li>
+			<li><a href="/mbrand/phomein/coupon_01.do">Gift Vouchers</a></li>
+			<li><a href="http://www.phomein.com/store/login.do">Intranet</a></li>
 		</ul>
 		<p class="copyright">
-			TEL : 1899-2422 (NUMBER 1) <br>
-			DIRECT : 031-780-1500 | E-mail : help@phomein.com<br>
+			가맹문의  대표번호: 1899-2422(연결 1번)<br>
+			직통번호: 031-780-1500 | 이메일: help@phomein.com<br>
 			COPYRIGHT© DAILYKING INC. ALL RIGHT RESERVED.
 		</p>
- 	</footer>
+	</footer>
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-135650389-1"></script>
@@ -31,4 +33,17 @@
   gtag('js', new Date());
 
   gtag('config', 'UA-135650389-1');
+</script>
+<script>
+var host = window.location.host;
+var total_url = window.location.href;
+if ( host.indexOf(".com") > 0 ){
+}else{
+	 if ( host.indexOf("www.") > 0 ) {
+	}else{
+		if( domain.indexOf("dev") < 0 ){
+			location.href="http://www.phomein.com";
+		}
+	}
+}
 </script>

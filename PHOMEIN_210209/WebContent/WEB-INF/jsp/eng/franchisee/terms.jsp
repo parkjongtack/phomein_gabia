@@ -64,7 +64,7 @@
 					<div class="con-title">
 						<h3 class="h3-type" style="margin-bottom:70px;">Online Consultation</h3>
 						<h3 class="h3-type" style="font-size:25px;">개인정보 수집 및 이용동의</h3>
-						<span class="txt">포메인은 정확한 상담 처리를 위해 최소한의 개인정보를 수집하고 있습니다. <br>아래의 내용을 확인하신 후 개인정보 제공 및 활용에 동의하여 주시기 바랍니다. </span>
+						<span class="txt">Phomein collects minimum personal information for accurate consultation processing. <br>Please confirm the following and agree to the provision and use of personal information. </span>
 					</div>
 
 					<div class="agree-con">

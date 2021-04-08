@@ -179,8 +179,8 @@
 }
 </style>
 <div id="resizable" class="ui-widget-content" style="z-index: 1001;">
-	<a href="/brand/menu/menu_list.do"><img style="margin-bottom:10px;" src="/brand/images/icon/right_fixed_ico01.png"></a>
-	<a href="/company/franchisee/red.do"><img style="margin-bottom:10px;" src="/brand/images/icon/right_fixed_ico02.png"></a>
-	<a href="/company/franchisee/terms.do"><img src="/brand/images/icon/right_fixed_ico03.png"></a>
+	<a href="/eng/menu/menu_list.do"><img style="margin-bottom:10px;" src="/eng/images/icon/right_fixed_ico01.png"></a>
+	<a href="/eng/franchisee/red.do"><img style="margin-bottom:10px;" src="/eng/images/icon/right_fixed_ico02.png"></a>
+	<a href="/eng/franchisee/terms.do"><img src="/eng/images/icon/right_fixed_ico03.png"></a>
 </div>
 	

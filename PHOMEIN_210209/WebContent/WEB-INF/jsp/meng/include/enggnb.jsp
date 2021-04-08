@@ -1,59 +1,59 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 	<div id="gnb">
 		<div class="gnb_head">
-			<div class="lang">
-				<ul>
-					<li><a href="/mbrand/main/main.do" target="_self">BRAND</a></li>
-					<li><a href="/mcompany/main/main.do" target="_self">FRANCHISE</a></li>
-<!-- 					<li class="on"><a href="/meng/main/main.do">ENG</a></li> -->
-					<li><a href="/mjpn/main/main.do" target="_self">JPN</a></li>
-				</ul>
-			</div>
 		</div>
 		<div class="gnb_container">
 			<div class="inner">
 				<nav class="gnb_menu">
 					<ul>
 						<li class="on"><!-- 현재 뎁스 표시 : class="on" -->
-							<a href="#none">Phomein</a>
+							<a href="#none">COMPANY</a>
 							<ul class="gnbs">
 								<li><a href="/meng/phomein/dailyking.do">DAILYKING</a></li><!-- 현재 뎁스 표시 : class="on" -->
-								<li><a href="/meng/phomein/about.do">About Phomein</a></li>
-								<!-- 20190426 메뉴 추가 s -->
-								<li><a href="/meng/phomein/ceo.do">CEO</a></li>
-								<li><a href="/meng/phomein/greenfood.do">Relief Phomein</a></li>
-								<li><a href="/meng/phomein/phoseason.do">PHO SEASON</a></li>
-								<!-- //20190426 메뉴 추가 e -->
+								<li><a href="/meng/phomein/phoseason.do">PHO SEASON INC.</a></li>
+								<li><a href="/meng/phomein/ceo.do">CEO GREETING</a></li>
+								<li><a href="/meng/phomein/greenfood.do" style="font-size:13px;">Hyundai Green Food MOU</a></li>
 								<li><a href="/meng/phomein/phoever.do">CSR</a></li>
+							</ul>
+						</li>
+						<li>
+							<a href="#none">BRAND</a>
+							<ul class="ea1 gnbs">
+								<li><a href="/meng/phomein/about.do">PHOMEIN</a></li>
+								<li><a href="/meng/franchisee/red.do">PHOMEIN RED</a></li>
 							</ul>
 						</li>
 						<li>
 							<a href="#none">MENU</a>
 							<ul class="ea1 gnbs">
-								<li><a href="/meng/menu/menu_list.do">PHOMEIN</a></li>
-								<li><a href="/meng/menu/red_menu_list.do">PHOMEIN RED</a></li>
+								<li><a href="/meng/menu/menu_list.do">MENU</a></li>
+								<li><a href="/meng/franchisee/rice.do">Rice Noodle</a></li>
 							</ul>
 						</li>
 						<li>
 							<a href="#none">STORE</a>
 							<ul class="ea1 gnbs">
 								<li><a href="/meng/store/store_list.do">STORE</a></li>
-							</ul>
-						</li>
-						<li>
-							<a href="#none">COMMUNITY</a>
-							<ul class="gnbs">
-								<li><a href="/meng/community/sns/community_list.do">SNS</a></li>
-								<li><a href="/meng/community/cs_terms.do">CS Center</a></li>
-								<li style="display:none;"><a href="/meng/community/cs_info.do">CS Center</a></li>
+								<li><a href="/meng/franchisee/delivery.do">DELIVERY SERVICE</a></li>
 							</ul>
 						</li>
 						<li>
 							<a href="#none">FRANCHISE</a>
 							<ul class="gnbs">
-								<li><a href="/meng/franchisee/interior.do">INTERIOR</a></li>
-								<li><a href="/meng/franchisee/terms.do">Counseling Request</a></li>
-								<li style="display:none;"><a href="/meng/franchisee/info.do">Counseling Request</a></li>
+								<li><a href="/meng/franchisee/terms.do">FRANCHISE GUIDANCE</a></li>
+								<li><a href="/meng/franchisee/terms.do">FRANCHISE INQUIRY</a></li>
+								<li><a href="/meng/franchisee/terms.do">EDUCATION SYSTEM</a></li>
+							</ul>
+						</li>
+							<li>
+							<a href="#none">COMMUNITY</a>
+							<ul class="gnbs">
+								<li><a href="/meng/community/sns/community_list.do">INSTAGRAM</a></li>
+								<li><a href="/meng/community/sns/community_list.do">BLOG</a></li>
+								<li><a href="/meng/community/sns/community_list.do">YOUTUBE</a></li>
+								<li><a href="/meng/community/sns/community_list.do">NOTICE & PRESS</a></li>
+								<li><a href="/meng/community/sns/community_list.do">GIFT CARD</a></li>
+								<li><a href="/meng/community/sns/community_list.do">MEMBERSHIP</a></li>
 							</ul>
 						</li>
 					</ul>

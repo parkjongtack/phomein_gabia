@@ -44,35 +44,43 @@
 		<%@ include file="/WEB-INF/jsp/meng/include/englnb.jsp"%>
 		<!-- //lnb -->
 		<!-- content -->
-		<div id="content" class="phomein">
- 			<div class="ceo_title">
-				<h4>CEO</h4>
-				<!-- <p class="desc">고객의 만족을 위해 <br>최선을 다해 노력하겠습니다.</p> -->
+			<div id="content" class="company">
+			<div class="ceo_title">
+				<h4>CEO <em>인사말</em></h4>
 			</div>
 			<div class="ceo_intro">
+				<!-- <h5 style="font-size: 14px; font-weight: 500; margin-bottom: 20px;">
+					<em>어떻게 만들까</em>에 대한 고민과 열정으로<br/><em>쌀국수 본질</em>을 좇으며 노력하고 있습니다.
+				</h5> -->
 				<p class="txt01">
-					Hello<br>
-					I am Kim Dae-il, CEO of DAILYKING INC.<br>
-					Thank you for visiting Phomein.<br>
+					Hello.<br/>
+					I am Kim Dae-il, CEO of Dailyking. <br/>
+					<br/>
+					The whole food service industry had really hard time last year due to the pandemic of COVID-19. <br/>
+					I think all small business owners tried their best to overcome the crisis.  <br/>
+					<br/>
+					Recently, people are paying more attention to health and safe foods among many issues such as quarantine, and there have been sharp increase in the demand of delivery services thanks to the change of eat-out patterns. <br/>
+					<br/>
+					With the expertise that has been accumulated by the pho delivery service since 2014, and the harmful food blocking system through MOU with Hyundai Green Food in 2016, PhoMein has practiced honest foods and perfect services, making efforts to maintain initial resolution in the crisis. <br/>
+					<br/>
+					Especially in 2015, as we established PHO SEASON, local corporation pho factory, and released ‘Freshly Harvested Rice Noodles’, the only pho made with fresh new rice by our exclusive R&D, we proved solid brand competitiveness in the domestic pho market, which was full of rice noodles made with imported old rice.  <br/>
+					<br/>
+					The savor with no odor of pho’s noodles, plus the chewy texture completed with our exclusive technology.
+					Now, enjoy Pho with PhoMein’s ‘Freshly Harvested Rice Noodles’. 
+					<br/>
+					<br/>
+					Since the Bundang Jeongja Headquarters in 2006, PhoMein has led the Vietnamese food industry in Korea, and we celebrate the 15th anniversary this year. 
+					<br/>
+					Today, we try our best pursuing ‘the essence of pho’ with enthusiasm and passion on ‘how to make’ instead of marketing strategies on ‘how to sell’.<br/>
+					<br/>
+					In 2021, we will lead the change and challenge of the domestic pho market as Korea’s representative pho brand.<br>
+					We wish you good health and happiness. <br>
+					Thank you. 
+					<br/>
 				</p>
-				<p class="txt02">
-					<span>Welcoming the 15th year<br>as of today, We will continue to keep our own principles.</span>
-				</p>
-				<p class="txt03">
-					<span>
-						Since opening of the Head Store in Jeongja in 2006, we have fulfilled our promise of ‘Safe Food Ingredients and Honest Food’. We have steadily worked to honor it with the establishment of &lt;PHO SEASON&gt;>, a rice noodle manufacturing factory in Vietnam and business agreement with &lt;Hyundai Green Food&gt;, a comprehensive food company which introduced the hazardous product blocking system in 2016.<br><br>
-
-						As the result of 'our own principle', you will be able to meet Fresh Rice Noodles only at all franchise stores of Phomein in 2019. In the rice noodle market that depends on imported rice noodles mixed with old rice. Making a bowl of rice noodles only with fresh rice requires care and sincerity which heightened as the cooking process became more delicate.<br><br>
-
-						Please experience the appropriate glutinosity, the softness, and the chewiness of Phomein’s Fresh Rice Noodles which were born with Phomein’s exclusive low-temperature ripening technique. This process helps to avoid using unnecessary chemical additives.
-						<br><br>
-
-						Even with our reputation of being the best for a long time, we promise to serve fresh ingredients and healthy table every day without losing modesty. Thank you.
-					</span>
-				</p>
-				<p class="txt04">CEO of DAILYKING INC. Kim Dae-il</p>
+				<p class="txt04">Kim Dae-il, CEO of DailyKing</p>
 			</div>
-		</div>
+ 		</div>
 		<!-- //content -->
 	</div>
 	<!-- //container -->

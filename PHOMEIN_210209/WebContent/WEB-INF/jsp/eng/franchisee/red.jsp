@@ -249,7 +249,7 @@ h1, h2, h3, h4, h5, h6, th {font-weight: 400;}
 							</div>
 							<div class="red03-in clear">
 								<div class="red03-box">
-									<img src="/company/images/red/red03-icon01.png" alt="소자본 1억 창업">
+									<img src="/eng/images/red/red03-icon01.png" alt="소자본 1억 창업">
 									<p>Small capital start-up </p>
 									<i class="bar"></i>
 									<span>We have reduced the start-up cost <br/>
@@ -319,7 +319,7 @@ h1, h2, h3, h4, h5, h6, th {font-weight: 400;}
 											<p>Headquarters <br>competitiveness </p>
 										</td>
 										<td class="td-icon">
-											<img src="/company/images/red/red05-tbl-img02-15.png" alt="아이콘">
+											<img src="/eng/images/red/red05-tbl-img02-15.png" alt="아이콘">
 											<p class="m2">15 years of experience as <br>franchise brand PhoMein</p>
 										</td>
 									</tr>
@@ -519,7 +519,7 @@ h1, h2, h3, h4, h5, h6, th {font-weight: 400;}
 						<div class="red09-inner">
 							<h4 class="red09-tit02">INTERVIEW</h4>
 							<p class="red09-tit03">PhoMein for the last 10 years<br>PhoMein RED for the coming 10 years</p>
-							<img src="../images/red/red9-img.png" alt="">
+							<img src="/company/images/red/red9-img.png" alt="">
 							<span class="red09-img-span">An interview with Kim Ji-yeon,<br> the store owner of Dogok Branch, the first PhoMein RED restaurant </span>
 							<div class="interview_con">
 								<div class="icon">

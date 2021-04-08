@@ -60,10 +60,10 @@
 							<p class="txt02">
 								<span class="sep">“</span>
 								<span>
-									<b>어떻게 만들까</b>에 대한<br/>
-									고민과 열정으로<br/>
-									<b>쌀국수 본질</b>을 좇으며<br/>
-									노력하고 있습니다.
+									We try our best pursuing<br/>
+									<b>'The Essence of Pho'</b><br/>
+									with enthusiasm and<br/>
+									passion on <b>'How to Make'</b>
 								</span>
 								<span class="sep" style="margin-top: 20px;">”</span>
 							</p>
