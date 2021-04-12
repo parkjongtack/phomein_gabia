@@ -44,6 +44,7 @@
 							<ul class="nav-list">
 								<li><a href="/brand/menu/menu_list.do">메뉴</a></li>
 								<li><a href="/company/franchisee/rice.do">국내유일 햅쌀면</a></li>
+								<li><a href="/company/franchisee/exclusive.do">포메인 전용상품</a></li>
 							</ul>
 						</li>
 						<li class="depth02" style="display:none;">

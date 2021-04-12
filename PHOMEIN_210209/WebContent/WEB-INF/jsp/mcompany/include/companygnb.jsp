@@ -40,6 +40,7 @@
 								<li><a href="/mbrand/menu/menu_list.do">메뉴</a></li>
 								<li style="display: none;"><a href="/mbrand/menu/red_menu_list.do">메뉴</a></li>
 								<li><a href="/mcompany/franchisee/rice.do">국내유일 햅쌀면</a></li>
+								<li><a href="/mcompany/franchisee/exclusive.do">포메인 전용상품</a></li>
 							</ul>
 						</li>
 						<li>
