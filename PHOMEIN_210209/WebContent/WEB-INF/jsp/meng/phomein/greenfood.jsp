@@ -40,7 +40,7 @@
 	<div id="container">
 		<!-- sub visual -->
 		<div class="sub_visual sv1">
-			<h3>PHO SEASON</h3>
+			<h3>Hyundai Green Food MOU</h3>
 		</div>
 		<!-- 상단비쥬얼 영역
 			PHOMEIN   : class="sub_visual sv1"
@@ -57,7 +57,7 @@
 		<div id="content" class="rnd">
  			<div class="mou">
 				<div class="tit_area">
-					<h4>'Supply of Safe Food Ingredients MOU' <br>with Hyundai Green Food</h4>
+					<h4 style="font-size:22px;">'Supply of Safe Food Ingredients MOU' <br>with Hyundai Green Food</h4>
 				</div>
 				<div class="content">
 					<p class="txt1">
@@ -77,7 +77,7 @@
 					<p class="img"><img src="../common/images/content/mark_mou.png" alt="Relief Phomein 인증마크"></p>
 				</div>
 				<div class="tit_area" style="margin-top: 30vw; padding-bottom: 30px;">
-					<h4>현대그린푸드<br>‘안전한 식자재 공급 MOU’</h4>
+					<h4>포메인, 현대그린푸드와 <br>‘안전한 식자재 공급’ MOU 체결</h4>
 				</div>
 				<p style="margin-top: 20px;">
 					<img src="/mcompany/common/images/layout/img_new_01.jpg" alt="" />

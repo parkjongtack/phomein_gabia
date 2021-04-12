@@ -29,7 +29,7 @@
 	<!-- container -->
 	<div id="container">
 		<!-- sub visual -->
-		<div class="sub_visual sv1">
+		<div class="sub_visual sv1_1">
 			<h3>DAILYKING</h3>
 		</div>
 		<!-- 상단비쥬얼 영역
@@ -63,7 +63,7 @@ In the rice noodle market, which depends on imported rice noodles made of an old
 					</p>
 					
 					<div class="rice-noodle">
-						<p class="tit">포메인 ‘햅쌀 쌀국수면’은</p>
+						<p class="tit">phomein ‘Freshly Harvested Rice Noodles’</p>
 						<ul>
 							<li>
 								<p class="img"><img src="/mcompany/common/images/content/dailyking_img_01.png" alt=""/></p>
@@ -93,7 +93,7 @@ In the rice noodle market, which depends on imported rice noodles made of an old
 					</p>
 					<div class="pho-season">
 						<span><em>Safe Ingredients Honest food, </em><br>PHO SEASON</span>
-						<a href="/mcompany/rnd/phoseason.do" class="btn-pho-season">Check-out PHO SEASON</a>
+						<a href="/meng/phomein/phoseason.do" class="btn-pho-season">Check-out PHO SEASON</a>
 					</div>
 				</div>
 			</div>

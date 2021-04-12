@@ -40,9 +40,9 @@
 						<li>
 							<a href="#none">FRANCHISE</a>
 							<ul class="gnbs">
-								<li><a href="/meng/franchisee/terms.do">FRANCHISE GUIDANCE</a></li>
-								<li><a href="/meng/franchisee/terms.do">FRANCHISE INQUIRY</a></li>
-								<li><a href="/meng/franchisee/terms.do">EDUCATION SYSTEM</a></li>
+								<li><a href="/meng/franchisee/step01.do" style="font-size:14px;">FRANCHISE GUIDANCE</a></li>
+								<li><a href="/meng/franchisee/step02.do">FRANCHISE INQUIRY</a></li>
+								<li><a href="/meng/franchisee/educ.do">EDUCATION SYSTEM</a></li>
 							</ul>
 						</li>
 							<li>

@@ -408,7 +408,6 @@ $(function(){
 		}
 		return "";
 	}
-
 	//팝업 관리
 	$.ajax({
 	    url: "/mbrand/main/show_popup.do",

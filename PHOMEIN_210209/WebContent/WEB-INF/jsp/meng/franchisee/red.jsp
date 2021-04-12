@@ -222,7 +222,7 @@ line-height: 1; letter-spacing: -0.5px; font-weight: 400;}
 					<div class="red01-inner">
 						<img src="/mcompany/images/red/phomein-brown.png" alt="phomein">
 						<p>We suggest a new paradigm of<br> a small capital franchise business of pho.</p>
-						<span>DailyKing established in 2006 has settled ‘PhoMein’, a pho franchise brand, and popularized Vietnamese restaurant culture in Korea. <br/>With the changing trend and market environment, we have launched ‘PhoMein RED’, a little capital franchise brand. <br/><br/>PhoMein RED is a brand made by a franchise company DailyKing that has operated PhoMein for 15 years under the transparent management policy. <br/>We guarantee ‘definite competitiveness’ with the expertise of No. 1 long-lived brand and the solid operation system combined. </span>
+						<span>DailyKing established in 2006 has settled ‘PhoMein’,<br> a pho franchise brand, and popularized Vietnamese restaurant culture in Korea. <br/>With the changing trend and market environment, we have launched ‘PhoMein RED’, a little capital franchise brand. <br/><br/>PhoMein RED is a brand made by a franchise company DailyKing that has operated PhoMein for 15 years under the transparent management policy. <br/>We guarantee ‘definite competitiveness’ with the expertise of No. 1 long-lived brand and the solid operation system combined. </span>
 					</div>
 				</div>
 				<div class="red02-wrap red02-bg">
@@ -465,9 +465,9 @@ natural spices</b> and the meat stock <b>from Australian clean beef</b> boiled f
 				<div class="red07-wrap">
 					<div class="red07-inner">
 						<img src="/mcompany/images/red/red07-img.png" alt="사진">
-						<p>DailyKing that has operated PhoMein, Korea’s representative pho brand,<br>
-							intends to take a leap towards coming 10 years with<br>
-							the perspective of 15 years and the everlasting first resolution.</p>
+						<p>DailyKing that has operated PhoMein,<br> Korea’s representative pho brand,
+							intends to take <br> a leap towards coming 10 years with
+							the perspective <br>of 15 years and the everlasting first resolution.</p>
 						<div class="hbar"></div>
 						<div class="red07-in">
 							<img src="/mcompany/images/red/red07-poslogo.png" alt="로고" class="red07-posimg">
@@ -475,7 +475,7 @@ natural spices</b> and the meat stock <b>from Australian clean beef</b> boiled f
 							<h4 class="red07-tit02">PHOMEIN RED</h4>
 							<i class="bar"></i>
 							<span class="red07-txt01">In the environment where there are too many <br>restaurant brands,
-								we invite another business owner <br>who will grow with the history of<br>
+								we invite another business <br>owner who will grow with the history of<br>
 								PhoMein RED with the ‘pride’ as the best pho<br>
 								and the artisan spirit that research masterpiece pho.</span>
 							<span class="red07-txt02">For more details, please contact us.</span>
@@ -493,7 +493,7 @@ natural spices</b> and the meat stock <b>from Australian clean beef</b> boiled f
 						<h4 class="red08-tit02">INTERIOR</h4>
 						<!--p class="red08-tit01">도곡점</p-->
 						<div class="red08-in" style="margin-bottom:80px;">
-							<img src="../images/red/red8-img.png" alt="">
+							<img src="/mcompany/images/red/red8-img.png" alt="">
 						</div>
 						<!-- 2020-04-01 숨김요청
 						<h4 class="red08-tit02">INFOMATION</h4>
@@ -564,7 +564,7 @@ natural spices</b> and the meat stock <b>from Australian clean beef</b> boiled f
 								PhoMein RED for the coming 10 years</p>
 							<img src="/mcompany/images/red/red9-img.png" alt="">
 							<span class="red09-img-span">An interview with Kim Ji-yeon,<br>
-								the store owner of Dogok Branch, the first PhoMein RED restaurant</span>
+								the store owner of Dogok Branch, <br>the first PhoMein RED restaurant</span>
 							<div class="interview_con">
 								<div class="icon">
 									<img src="/mcompany/images/red/red9-icon.png" alt="" style="width:50px;">

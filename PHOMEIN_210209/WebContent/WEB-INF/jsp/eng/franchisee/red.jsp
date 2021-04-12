@@ -100,8 +100,8 @@ h1, h2, h3, h4, h5, h6, th {font-weight: 400;}
 .red05-inner table tr td.td-icon p{margin-top: 35px; font-size: 17px; line-height:28px; letter-spacing:0; font-weight: 400; color: #666;}
 .red05-inner table tr td.td-icon p b{font-weight: bold; color: #333;}
 .red05-inner table tr td.td-icon p.m2{margin-top: 20px;}
-.red05-inner table tr td.td-bg{text-align: center;}
-.red05-inner table tr td.td-bg p{font-size: 20px;  height: 271px; letter-spacing:0; font-weight: bold; color: #333; background: url(../images/red/red05-tbl-bg01.png) center center no-repeat; background-size: cover; margin: 0 auto; display:flex; align-items:center; justify-content:center;}
+.red05-inner table tr td.td-bg{text-align: center; position:relative;}
+.red05-inner table tr td.td-bg p{font-size: 18px;  width:153px; height:153px; letter-spacing:0; font-weight: bold; color: #333; background: url(/company/images/red/red05-tbl-bg01.png) center center no-repeat; background-size: cover; margin: 0 auto; display:flex; align-items:center; justify-content:center; position:absolute; left:50%; top:50%; transform:translate(-50%,-50%);}
 /* red05 */
 
 /* red06 */
@@ -272,7 +272,7 @@ h1, h2, h3, h4, h5, h6, th {font-weight: 400;}
 									<img src="/company/images/red/red03-icon03.png" alt="딜리버리 특화">
 									<p>Specialized in delivery</p>
 									<i class="bar"></i>
-									<span>We create constantly increasing sales and <br>new customers with our expertise on <br>the delivery and take-out services 									 									<br> accumulated by <b> the first adoption of the <br> delivery service in 2014</b>,<br> and the package developed by numerous R&Ds.</span>
+									<span>We create constantly increasing sales and <br>new customers with our expertise on <br>the delivery and take-out services 									 									<br> accumulated by <b> the first adoption of  <br>the delivery service in 2014</b>,<br> and the package developed by numerous R&Ds.</span>
 								</div>
 							</div>
 						</div>

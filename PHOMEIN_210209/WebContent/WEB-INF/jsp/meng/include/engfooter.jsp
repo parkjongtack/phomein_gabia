@@ -13,14 +13,14 @@
 		</div> -->
 		<!-- //family-site -->
 		<ul class="foot_menu">
-			<li><a href="/mbrand/cs_center/cs_terms.do">Contact Us</a></li>
+			<li><a href="/meng/franchisee/terms.do">Contact Us</a></li>
 			<li><a href="/mbrand/phomein/mileage_01.do">Mileage Inquiry</a></li>
 			<li><a href="/mbrand/phomein/coupon_01.do">Gift Vouchers</a></li>
 			<li><a href="http://www.phomein.com/store/login.do">Intranet</a></li>
 		</ul>
 		<p class="copyright">
-			가맹문의  대표번호: 1899-2422(연결 1번)<br>
-			직통번호: 031-780-1500 | 이메일: help@phomein.com<br>
+			TEL: 1899-2422(NUMBER 1)<br>
+			DIRECT: 031-780-1500 | E-mail: help@phomein.com<br>
 			COPYRIGHT© DAILYKING INC. ALL RIGHT RESERVED.
 		</p>
 	</footer>

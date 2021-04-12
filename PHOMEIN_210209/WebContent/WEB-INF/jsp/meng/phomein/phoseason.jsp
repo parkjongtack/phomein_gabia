@@ -167,7 +167,7 @@
 				<div class="cont">
 					<strong><em>PhoMein makes all products</em><br/>from one grain of rice to<br> a bowl of pho.</strong>
 					<p>
-						The freshly harvested rice noodles provide the savor of just cooked fresh new rice with clear color unlike other rice noodles made from the mixture of an old rice and flour or starch. <br>
+						The freshly harvested rice noodles provide the savor of just cooked fresh new rice with clear color unlike other rice noodles made from the mixture of an old rice and flour or starch. 
 						Herb-Bags made with deep and rich natural spices and the broth of Australian clean beef brewed for 14 hours will be powerful competitiveness in today’s society when the importance of food ingredients is emphasized. 
 	
 					</p>

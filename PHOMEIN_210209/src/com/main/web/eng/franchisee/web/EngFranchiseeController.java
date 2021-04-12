@@ -199,7 +199,7 @@ public class EngFranchiseeController {
 		String deviceType = getDeviceType(request);
 
 		if(!deviceType.equals("normal")){
-			return M_NAMESPACE + "status";
+			return M_NAMESPACE + "step01";
 		}
 		return NAMESPACE + "step01";
 	}
@@ -210,7 +210,7 @@ public class EngFranchiseeController {
 		String deviceType = getDeviceType(request);
 
 		if(!deviceType.equals("normal")){
-			return M_NAMESPACE + "system";
+			return M_NAMESPACE + "step02";
 		}
 		return NAMESPACE + "step02";
 	}
@@ -221,7 +221,7 @@ public class EngFranchiseeController {
 		String deviceType = getDeviceType(request);
 
 		if(!deviceType.equals("normal")){
-			return M_NAMESPACE + "step";
+			return M_NAMESPACE + "step03";
 		}
 		return NAMESPACE + "step03";
 	}

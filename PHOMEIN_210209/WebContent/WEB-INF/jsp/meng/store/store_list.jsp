@@ -50,7 +50,7 @@
 			</div>
 
 			<!-- //마커 표시 -->
-			<div class="store_search" style="z-index:20;">
+			<div class="store_search">
 				<h3>FIND A STORE</h3>
 				<ul class="nav">
 					<li><a href="#none" onclick="layerOpen('layerStoreName');">NAME</a></li><!-- 레이어 팝업 띄우기 : layerOpen('Id') -->

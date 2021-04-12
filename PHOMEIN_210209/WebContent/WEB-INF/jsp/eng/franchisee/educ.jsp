@@ -68,14 +68,14 @@
 
 			<div class="rnd-con">
 				<div class="con-title">
-					<h3 class="h3-type load-fadein">Systematic and reliable curriculum, operation of special education system</h3>
+					<h3 class="h3-type load-fadein">Systematic and reliable curriculum,<br> operation of special education system</h3>
 					<p class="txt load-fadein">For new founders and franchisees to deliver healthy tables to customers based on stable store operation <br>[Bundang Jeongja Headquarters] is the first professional training center in the industry to provide <br>a systematic curriculum and conducting training for store operation.</p>
 				</div>
 
 				<!-- educ-box -->
 				<div class="inner02">
 					<div class="educ-box">
-						<p class="tit load-fadein">Systematic and Reliable Curriculum, 15-year-long Expertise</p>
+						<p class="tit load-fadein">Systematic and Reliable Curriculum,<br> 15-year-long Expertise</p>
 						<!-- <p class="txt load-fadein">㈜데일리킹 전문교육장에서는 메뉴 조리법은 물론 식자재 및 주방 위생 관리법, 고객 응대,<br>POS 사용, 식자재 발주 등 매장 운영에 있어 필요한 모든 사항을 배우고 익힐 수 있습니다.<br>교육이 끝난 후에도 담당 슈퍼바이저와의 지속적인 사후관리로 믿고 함께할 수 있는 상생을 실천합니다.<br><br>또한 전문교육장에서는 트렌드 분석과 R&D 전문인력의 체계적인 신메뉴 개발로 꾸준한 매출 증대를 도모합니다. </p> -->
 						<p class="txt load-fadein">DailyKing Co., Ltd. Specialized in menu recipes, food materials and kitchen hygiene management, customer service, etc.<br/>You can learn and master everything you need to run a store.<br/>Even after the training is over, we practive mutual growth that we can trust through continuous follow-up management with our supervisor.<br/><br/>In addition, professional training centers promote steady sales growth through trend analysis <br>and systematic new menu development by R&D experts.</p>
 						<div class="educ-visual">
@@ -99,10 +99,10 @@
 	<!-- 20190318 수정 s -->
 	<!-- 메인 페이지 반영 제외 -->
 	<div class="quick-menu">
-		<a href="/company/franchisee/rice.do" class="btn-menu quick01">Freshly<br/>Harvested<br/>Rice Noodles</a>
+		<a href="/eng/franchisee/rice.do" class="btn-menu quick01">Freshly<br/>Harvested<br/>Rice Noodles</a>
 		<!--<a href="/brand/community/sns/community_list.do?cate=109203" target="_blank" class="btn-company">SNS</a>-->
 		<a href="/brand/community/sns/community_list.do?cate=109203" target="_blank" class="btn-company quick02">SNS</a>
-		<a href="/brand/store/store_list.do" target="_blank" class="btn-franchisee quick03">FIND<br>STORES</a>
+		<a href="/eng/store/store_list.do" target="_blank" class="btn-franchisee quick03">FIND<br>STORES</a>
 		<a href="javascript:front.common.moveScroll(0, 750);" class="btn-top">TOP</a>
 	</div>
 	<!-- //20190318 수정 e -->

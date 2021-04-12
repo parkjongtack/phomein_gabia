@@ -26,11 +26,11 @@
     display: inline-block;
     left: 50%;
     bottom: 0.8%;
-    transform: translateX(-50%);
+	margin-left: -12.5px;
     padding-bottom: 0.5%;
     color: #969696;
-    width:40px;
-    height:40px;
+    width:25px;
+    height:25px;
     animation: scroll 1.3s infinite;
     z-index: 3;
     font-family: 'Montserrat', sans-serif;
@@ -94,7 +94,7 @@
 								<span><b style="color:#ab3221;">R</b>ice noodle <b style="color:#ab3221;">E</b>xpress <b style="color:#ab3221;">D</b>elivery</span>
 								
 								</p>
-								<a href="/company/franchisee/red.do" style="display:inline-block; margin-top:50px; padding:13px 24px; background-color:#8a382c; color:#fff; font-size:16px;">Check-out Brand Story</a>
+								<a href="/eng/franchisee/red.do" style="display:inline-block; margin-top:50px; padding:13px 24px; background-color:#8a382c; color:#fff; font-size:16px;">Check-out Brand Story</a>
 
 								<p class="visual-dot-nav">PHOMEIN RED</p>
 							</div>
@@ -157,6 +157,9 @@
 							<p><img src="../images/icon/ico_sales_volume.png" alt=""/></p>
 						</div>
 					</div>
+					<div id="sc_down_box">
+						<a href="#secondPage"><img src="../images/icon/down_ic.png" alt=""/></a>
+					</div>
 				</div>
 				<!-- //section 2 -->
 				<!-- section 3 -->
@@ -164,7 +167,7 @@
 					<div class="menu-section">
 						<div class="top-box">
 							<p class="tit"><span>32 kinds of Vietnamese Dishes <br>Will Impress You.</span></p>
-							<p class="btn"><a href="/brand/menu/menu_list.do">PHOMEIN MENU</a></p>
+							<p class="btn"><a href="/eng/menu/menu_list.do">PHOMEIN MENU</a></p>
 							<p class="txt">* The menu for each store can be different.</p>
 						</div>
 						<div class="bottom-box">
@@ -193,6 +196,9 @@
 							</ul>
 						</div>
 					</div>
+					<div id="sc_down_box">
+						<a href="#secondPage"><img src="../images/icon/down_ic.png" alt=""/></a>
+					</div>
 				</div>
 				<!-- //section 3 -->
 				<!-- section 4 -->
@@ -211,12 +217,15 @@
 								</a>
 							</div>
 							<div class="right">
-								<span class="img01"><a href="/brand/store/store_list.do"><img src="../../brand/images/icon/ico_moto_01.png" alt=""/></a></span>
+								<span class="img01"><a href="/eng/store/store_list.do"><img src="../../brand/images/icon/ico_moto_01.png" alt=""/></a></span>
 								<span class="img02"><img src="../../brand/images/icon/ico_moto_02.png" alt=""/></span>
 								<span class="img03"><img src="../../brand/images/icon/ico_moto_03.png" alt=""/></span>
 								<p class="txt">PhoMein <strong>Delivery Store</strong></p>
 							</div>
 						</div>
+					</div>
+					<div id="sc_down_box">
+						<a href="#secondPage"><img src="../images/icon/down_ic.png" alt=""/></a>
 					</div>
 				</div>
 				<!-- //section 4 -->
@@ -228,8 +237,11 @@
 							<p class="txt">With its warm rice noodles, PhoMein makes a heart-warming world.</p>
 						</div>
 						<div class="bottom-box">
-						<p class="img"><a href="/brand/phomein/phoever.do"><img src="../images/icon/ico_csr.png" alt=""/></a></p>
+						<p class="img"><a href="/eng/phomein/phoever.do"><img src="../images/icon/ico_csr.png" alt=""/></a></p>
 						</div>
+					</div>
+					<div id="sc_down_box">
+						<a href="#secondPage"><img src="../images/icon/down_ic.png" alt=""/></a>
 					</div>
 				</div>
 				<!-- //section 5 -->
@@ -321,7 +333,7 @@
 								</div>
 							</div>
 							</a>
-							<a href="/company/franchisee/terms.do" target="_blank">
+							<a href="/eng/franchisee/terms.do" target="_blank">
 							<div class="franchisee-box" style="background-image:url('../../brand/images/content/main_franchisee.jpg');">
 								<div class="con">
 									<span class="label">FRANCHISE</span>
@@ -425,37 +437,37 @@
 				}
 				
 				switch(index){
-					case 1:
-						$('#sc_down_box a').show();
-						$('#sc_down_box a').attr("href", "#secondPage")
-						break;
-/* 					case 2:
-						$('#sc_down_box a').show();
-						$('#sc_down_box a').attr("href", "#thirdPage")
-						break;
-					case 3:
-						$('#sc_down_box a').show();
-						$('#sc_down_box a').attr("href", "#fourthPage")
-						break;
-					case 4:
-						$('#sc_down_box a').show();
-						$('#sc_down_box a').attr("href", "#fifthPage")
-						break;
-					case 5:
-						$('#sc_down_box a').show();
-						$('#sc_down_box a').attr("href", "#sixthPage")
-						break;
-					case 6:
-						$('#sc_down_box a').show();
-						$('#sc_down_box a').attr("href", "#seventhPage")
-						break;
-					case 7:
-						$('#sc_down_box a').show();
-						$('#sc_down_box a').attr("href", "#footer")
-						break;
-						 */
-					/* default:
-						$('#sc_down_box a').hide(); */
+				case 1:
+					$('#sc_down_box a').show();
+					$('#sc_down_box a').attr("href", "#secondPage")
+					break;
+					case 2:
+					$('#sc_down_box a').show();
+					$('#sc_down_box a').attr("href", "#thirdPage")
+					break;
+				case 3:
+					$('#sc_down_box a').show();
+					$('#sc_down_box a').attr("href", "#fourthPage")
+					break;
+				case 4:
+					$('#sc_down_box a').show();
+					$('#sc_down_box a').attr("href", "#fifthPage")
+					break;
+				case 5:
+					$('#sc_down_box a').show();
+					$('#sc_down_box a').attr("href", "#sixthPage")
+					break;
+				case 6:
+					$('#sc_down_box a').show();
+					$('#sc_down_box a').attr("href", "#seventhPage")
+					break;
+				case 7:
+					$('#sc_down_box a').show();
+					$('#sc_down_box a').attr("href", "#footer")
+					break;
+					 
+				/* default:
+					$('#sc_down_box a').hide(); */
 				}
 			}
 		});

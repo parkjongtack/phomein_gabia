@@ -29,7 +29,7 @@
 	<div id="container">
 		<!-- sub visual -->
 		<div class="sub_visual sv4">
-			<h3>EVENT</h3>
+			<h3>SNS</h3>
 		</div>
 		<!-- 상단비쥬얼 영역
 			PHOMEIN   : class="sub_visual sv1"

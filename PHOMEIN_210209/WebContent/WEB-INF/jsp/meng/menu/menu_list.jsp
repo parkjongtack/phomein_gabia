@@ -55,8 +55,8 @@
 		<!-- content -->
 		<div id="content" class="menu">
 			<ul class="nav_cate_wrap">
-				<li class="nav_cate_btn on"><a href="/meng/menu/menu_list.do">포메인</a></li>
-				<li class="nav_cate_btn"><a href="/meng/menu/red_menu_list.do">포메인레드</a></li>
+				<li class="nav_cate_btn on"><a href="/meng/menu/menu_list.do">PHOMAIN</a></li>
+				<li class="nav_cate_btn"><a href="/meng/menu/red_menu_list.do">PHOMAIN RED</a></li>
 			</ul>
 			<input type="hidden" id="pageIndex" name="pageIndex" value="${pageIndex }"/>
 			<div class="select_cate">

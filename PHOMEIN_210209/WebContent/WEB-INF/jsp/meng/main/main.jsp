@@ -77,7 +77,7 @@
 								<div class="con con1" style="bottom:-39px;">
 									<span class="tit" style="font-size:40px; line-height:52px;"><em style="padding-bottom:15px;">A Premium Small-scale<br> Pho Brand<br></em>PhoMein RED</span>
 									<span class="desc" style="font-size:18px;"><b style="color:#ab3221;">R</b>ice noodle <b style="color:#ab3221;">E</b>xpress <b style="color:#ab3221;">D</b>elivery</span>
-									<a href="/company/franchisee/red.do" style="display:inline-block; margin-top:50px; padding:11px 21px; background-color:#8a382c; color:#fff; font-size:15px;">Check-out Brand Story</a>
+									<a href="/meng/franchisee/red.do" style="display:inline-block; margin-top:50px; padding:11px 21px; background-color:#8a382c; color:#fff; font-size:15px;">Check-out Brand Story</a>
 								</div>
 							</div>
 						</li>
@@ -144,7 +144,7 @@
 				<div class="cont">
 					<div class="con">
 						<span class="tit">32 kinds of Vietnamese Dishes<em>Will Impress You.</em></span>
-						<a href="/mbrand/menu/menu_list.do" class="btn">PHOMEIN MENU</a>
+						<a href="/meng/menu/menu_list.do" class="btn">PHOMEIN MENU</a>
 						<span class="caution"><em>*</em> The menu for each store can be different.</span>
 					</div>
 				</div>
@@ -177,7 +177,7 @@
 					<div class="con">
 						<ul>
 							<li><a href="https://gift.kakao.com/brand/2180?input_channel_id=2636" class="link_kakao main_04_mo gift_box_ico" target="_blank"><span>PhoMein <em>KakaoTalk Gift</em></span></a></li>
-							<li><a href="/mbrand/store/store_list.do" class="link_delivery main_04_mo"><span><em>PhoMein</em> Delivery Store</span></a></li>
+							<li><a href="/meng/store/store_list.do" class="link_delivery main_04_mo"><span><em>PhoMein</em> Delivery Store</span></a></li>
 						</ul>
 					</div>
 				</div>
@@ -188,7 +188,7 @@
 			<div class="section con_wrap" id="section5">
 				<div class="cont">
 					<div class="con">
-						<span class="tit"><em>PHOMEIN CSR</em>The World Created by PhoMein</span>
+						<span class="tit"><em>PHOMEIN CSR</em>The World Created <br>by PhoMein</span>
 						<span class="desc">
 							With its warm rice noodles, <br>
 							PhoMein makes a heart-warming world.
@@ -197,7 +197,7 @@
 				</div>
 				<div class="conb">
 					<div class="con">
-						<a href="/mbrand/phomein/phoever.do"><span class="ico"><em class="blind">사회공헌</em></span></a>
+						<a href="/meng/phomein/phoever.do"><span class="ico"><em class="blind">사회공헌</em></span></a>
 					</div>
 				</div>
 				<div id="sc_down_box">
@@ -279,7 +279,7 @@
 								</c:choose>
 							</li>
 							<li class="franch">
-								<a href="/mcompany/franchisee/terms.do" class="link" target="_blank">
+								<a href="/meng/franchisee/terms.do" class="link" target="_blank">
 									<span class="flag">FRANCHISE</span>
 									<span class="tit"><em class="blind">포메인</em>가맹문의<br>바로가기</span>
 								</a>
@@ -319,6 +319,60 @@
 <script src="../common/js/common.js"></script>
 <script src="../common/js/main.js"></script>
 <script type="text/javascript">
+$(function(){
+     $('#fullpage').fullpage({
+         anchors:['firstPage', 'secondPage', 'thirdPage', 'fourthPage', 'fifthPage', 'sixthPage', 'seventhPage'],
+         menu: '.right-nav',
+        afterLoad: function(anchorLink, index){
+             //console.log(index);
+             if(index == 2){
+                $('.volume').counterUp({delay: 10,time: 600});
+             }
+             if(index == 3){
+                 $('.volume2').counterUp({delay: 10,time: 600});
+             }
+             if(index == 8){
+                 $('#dHead').addClass('scroll');
+             }else{
+                 $('#dHead').removeClass('scroll');
+             }
+            
+             switch(index){
+                 case 1:
+                     $('#sc_down_box a').show();
+                     $('#sc_down_box a').attr("href", "#secondPage")
+                     break;
+                     /*  case 2:
+                     $('#sc_down_box a').show();
+                     $('#sc_down_box a').attr("href", "#thirdPage")
+                     break;
+                 case 3:
+                     $('#sc_down_box a').show();
+                     $('#sc_down_box a').attr("href", "#fourthPage")
+                     break;
+                 case 4:
+                     $('#sc_down_box a').show();
+                     $('#sc_down_box a').attr("href", "#fifthPage")
+                     break;
+                 case 5:
+                     $('#sc_down_box a').show();
+                     $('#sc_down_box a').attr("href", "#sixthPage")
+                     break;
+                 case 6:
+                     $('#sc_down_box a').show();
+                     $('#sc_down_box a').attr("href", "#seventhPage")
+                     break;
+                 case 7:
+                     $('#sc_down_box a').show();
+                     $('#sc_down_box a').attr("href", "#footer")
+                     break;
+                    
+                 /* default:
+                     $('#sc_down_box a').hide(); */
+             }
+         }
+     });
+});
 
 	function toggleCheckbox(_target) {
 		var _t = $(_target);

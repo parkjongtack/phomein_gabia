@@ -28,7 +28,7 @@
 								<li><a href="/eng/phomein/phoever.do">CSR</a></li>
 							</ul>
 						</li>
-							<li class="depth02" style="display:none;">
+						<li class="depth02" style="display:none;">
 							<a href="javascript:;" class="nav-title">BRAND</a>
 							<dd style="display:none;">BRAND</dd>
 							<ul class="nav-list">
@@ -41,9 +41,10 @@
 							<dd style="display:none;">MENU</dd>
 							<ul class="nav-list">
 								<li><a href="/eng/menu/menu_list.do">MENU</a></li>
+								<li style="display: none;"><a href="/eng/menu/red_menu_list.do">MENU</a></li>
 								<li><a href="/eng/franchisee/rice.do">Rice Noodle</a></li>
 							</ul>
-						</li>
+						</li>						
 						<li class="depth02" style="display:none;">
 							<a href="javascript:;" class="nav-title">STORE</a>
 							<dd style="display:none;">STORE</dd>
@@ -57,6 +58,8 @@
 							<dd style="display:none;">FRANCHISE</dd>
 							<ul class="nav-list">
 								<li><a href="/eng/franchisee/step01.do">FRANCHISE GUIDANCE</a></li>
+								<li style="display:none;"><a href="/eng/franchisee/step02.do">FRANCHISE GUIDANCE</a></li>
+								<li style="display:none;"><a href="/eng/franchisee/step03.do">FRANCHISE GUIDANCE</a></li>
 								<!-- <li><a href="/company/franchisee/estimate.do">가맹 비용</a></li> -->
 								<li><a href="/eng/franchisee/terms.do">FRANCHISE INQUIRY</a></li>
 								<li><a href="/eng/franchisee/educ.do">EDUCATION SYSTEM</a></li>
@@ -87,9 +90,6 @@
 			if($(this).attr("href") == url){
 				$(this).parent("li").attr("class", "actived"); // depth02 active
 				$(this).closest(".depth02").show(); // depth02 show
-				if($(this).text() == 'MENU') {
-					$(this).closest(".depth02").hide(); // depth02 hide
-				}
 				var aId = $(this).closest(".depth02").children('a').text();
 				$("#"+aId).attr("class", "actived"); // depth01 active
 				$(".depth01").children('a').text(aId); // depth01 text
@@ -98,3 +98,6 @@
 		});
 	});
 	</script>
+	<!--if($(this).text() == 'MENU') {
+					$(this).closest(".depth02").hide(); // depth02 hide
+				}-->

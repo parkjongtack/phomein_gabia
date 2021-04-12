@@ -38,7 +38,7 @@
 	<div id="container">
 		<!-- sub visual -->
 		<div class="sub_visual sv1_0">
-			<h3>포메인</h3>
+			<h3>PHOMEIN</h3>
 		</div>
 		<!-- 상단비쥬얼 영역
 			회사소개	: class="sub_visual sv1"
@@ -86,7 +86,7 @@
 			</div>
 			<div class="about_menu">
 				<span>32 kinds of Vietnamese dishes,<br><em>give you impression.</em></span>
-				<a href="/mbrand/menu/menu_list.do" class="link_menu">ALL MENU VIEW</a>
+				<a href="/meng/menu/menu_list.do" class="link_menu">ALL MENU VIEW</a>
 			</div>
  		</div>
 		<!-- //content -->

@@ -69,7 +69,7 @@
 						</p>
 
 						<div class="rice-noodle">
-							<p class="tit">포메인 ‘햅쌀 쌀국수면’은</p>
+							<p class="tit">phomein ‘Freshly Harvested Rice Noodles’</p>
 							<ul>
 								<li>
 									<p class="img"><img src="/company/images/content/dailyking_img_01.png" alt=""/></p>
@@ -104,7 +104,7 @@
 
 						<div class="pho-season">
 							<p class="txt"><span>Safe Ingredients Honest food, </span>PHO SEASON</p>
-							<a href="/company/rnd/phoseason.do" class="btn-pho-season">Check-out PHO SEASON</a>
+							<a href="/eng/phomein/phoseason.do" class="btn-pho-season">Check-out PHO SEASON</a>
 						</div>
 					</div>
 				</div>
@@ -120,10 +120,10 @@
 	<!-- 20190318 수정 s -->
 	<!-- 메인 페이지 반영 제외 -->
 	<div class="quick-menu">
-		<a href="/company/franchisee/rice.do" class="btn-menu quick01">Freshly<br/>Harvested<br/>Rice Noodles</a>
+		<a href="/eng/franchisee/rice.do" class="btn-menu quick01">Freshly<br/>Harvested<br/>Rice Noodles</a>
 		<!--<a href="/brand/community/sns/community_list.do?cate=109203" target="_blank" class="btn-company">SNS</a>-->
 		<a href="/brand/community/sns/community_list.do?cate=109203" target="_blank" class="btn-company quick02">SNS</a>
-		<a href="/brand/store/store_list.do" target="_blank" class="btn-franchisee quick03">FIND<br>STORES</a>
+		<a href="/eng/store/store_list.do" target="_blank" class="btn-franchisee quick03">FIND<br>STORES</a>
 		<a href="javascript:front.common.moveScroll(0, 750);" class="btn-top">TOP</a>
 	</div>
 	<!-- //20190318 수정 e -->

@@ -29,8 +29,8 @@
 	<!-- container -->
 	<div id="container">
 		<!-- sub visual -->
-		<div class="sub_visual sv1">
-			<h3>CEO</h3>
+		<div class="sub_visual sv1_3">
+			<h3>CEO greeting</h3>
 		</div>
 		<!-- 상단비쥬얼 영역
 			PHOMEIN   : class="sub_visual sv1"
@@ -46,7 +46,7 @@
 		<!-- content -->
 			<div id="content" class="company">
 			<div class="ceo_title">
-				<h4>CEO <em>인사말</em></h4>
+				<h4>CEO <em>greeting</em></h4>
 			</div>
 			<div class="ceo_intro">
 				<!-- <h5 style="font-size: 14px; font-weight: 500; margin-bottom: 20px;">
