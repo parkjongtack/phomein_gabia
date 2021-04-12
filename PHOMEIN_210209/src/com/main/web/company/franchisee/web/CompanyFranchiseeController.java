@@ -302,6 +302,17 @@ public class CompanyFranchiseeController {
 		returnMap.put("result", "SUCCESS");
 		return returnMap;
 	}
+	
+	@RequestMapping(value = "exclusive.do", method = { RequestMethod.GET, RequestMethod.POST })
+	public String exclusive(@RequestParam Map param, HttpSession session, ModelMap model, HttpServletRequest request,
+			HttpServletResponse response) throws Exception {
+		String deviceType = getDeviceType(request);
+
+		if(!deviceType.equals("normal")){
+			return M_NAMESPACE + "exclusive";
+		}
+		return NAMESPACE + "exclusive";
+	}
 
 	private String getDeviceType(HttpServletRequest request) {
 		Device device = DeviceUtils.getCurrentDevice(request);
