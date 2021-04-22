@@ -53,7 +53,7 @@ public class EngFranchiseeController {
 	@Resource(name = "storeService")
 	private StoreService storeService;
 
-	@RequestMapping(value = "interior.do", method = { RequestMethod.GET, RequestMethod.POST })
+	@RequestMapping(value = "interior.do", method = { RequestMethod.GET, RequestMethod.POST }) 
 	public String interior(@RequestParam Map param,
 			@RequestParam(required = false, defaultValue = "1") String pageIndex, HttpSession session, ModelMap model,
 			HttpServletRequest request, HttpServletResponse response) throws Exception {

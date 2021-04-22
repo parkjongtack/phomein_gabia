@@ -40,7 +40,7 @@ public class EngPhomeinController {
 	@Resource(name = "customerService")
 	private CustomerService customerService;
 
-	// DAILYKING
+	// DAILYKING 
 	@RequestMapping(value = "dailyking.do", method = { RequestMethod.GET, RequestMethod.POST })
 	public String dailyking(@RequestParam Map param, HttpSession session, ModelMap model, HttpServletRequest request,
 			HttpServletResponse response) {
