@@ -54,14 +54,14 @@
 				</p>
 				<p class="desc" style="padding:10px 10px; border:1px solid #666; margin-top:30px;">
 					* Online consultation is availabe 365 days<br>
-					* 접수된 문의는 담당자 배정 후 상담이 진행됩니다.<br>
+					* Received inquiries will be consulted after the person in charge is assigned.<br>
 					* We`ll answer your Questions promptly
 				</p>
 			</div>
 			
 			<!-- 타이틀 영역 -->
  			<div class="tit_area">
-				<h4>개인정보 수집 및 이용동의</h4>
+				<h4>Personal Information Collection and Usage Agreement</h4>
 				<p class="desc">
 					Phomein collects minimum personal information for accurate consultation processing.
 					Please confirm the following and agree to the provision and use of personal information.
@@ -80,13 +80,13 @@
 				</div>
 				<form name="submitForm" method="post" action="/meng/franchisee/info.do">
 					<span class="checkbox">
-						<input type="checkbox" id="check0101" name="chk"><label for="check0101"><span class="fc_2">개인정보 수집 및 이용에 동의합니다.</span> (필수동의)</label>
+						<input type="checkbox" id="check0101" name="chk"><label for="check0101"><span class="fc_2">I agree to the collection and use of personal information.</span> (Required)</label>
 					</span>
 				</form>
 			</div>
 			<!-- 버튼 영역 -->
 			<div class="btn_area">
-				<a href="javascript:;" class="btn_tyf c_black" id="agreeBtn">확인</a>
+				<a href="javascript:;" class="btn_tyf c_black" id="agreeBtn">Check</a>
 			</div>
 			<!-- //버튼 영역 -->
 		</div>

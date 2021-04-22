@@ -174,7 +174,7 @@ line-height: 1; letter-spacing: -0.5px; font-weight: 400;}
 	<div id="container">
 		<!-- sub visual -->
 		<div class="sub_visual sv3" style="background-image: url('/mcompany/common/images/layout/img_sv7.jpg');">
-			<h3>국내유일 햅쌀면</h3>
+			<h3>The First and Only<br>  Freshly Harvested<br>  Rice Noodles in Korea</h3>
 		</div>
 		<!-- 상단비쥬얼 영역
 			회사소개	: class="sub_visual sv1"

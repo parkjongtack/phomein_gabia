@@ -304,7 +304,7 @@
 												<c:if test="${status.index < 4 }">
 													<fmt:parseDate value="${result.regdt}" var="regDt" pattern='yyyy-MM-dd HH:mm:ss'/>
 													<fmt:formatDate value="${regDt}" pattern='yyyy.MM.dd' var="regDttmp"/>
-													<li><a href="/brand/community/notice/community_view.do?seq=${result.seq }"><span><c:out value="${regDttmp }" /></span>${fnc:xssContents(result.title )}</a></li>
+													<li><a href="/eng/community/notice/community_view.do?seq=${result.seq }"><span><c:out value="${regDttmp }" /></span>${fnc:xssContents(result.title )}</a></li>
 												</c:if>
 											</c:forEach>
 										</c:when>
@@ -315,7 +315,7 @@
 							</div>
 						</div>
 						<div class="bottom-box">
-							<a href="/brand/community/event/community_list.do">
+							<a href="/eng/community/event/community_list.do">
 							<div class="event-box" style="background-image:url('../../brand/images/tmp/@img_main_event.jpg');">
 								<div class="con">
 									<span class="label">EVENT</span>
@@ -338,29 +338,29 @@
 								<div class="con">
 									<span class="label">FRANCHISE</span>
 									<p class="img"><img src="../images/content/main_franchisee_02.png" alt="phomein"/></p>
-									<p class="tit">가맹 문의</p>
+									<p class="tit">Franchise  Inquiry</p>
 									<!--p class="txt">대표번호 : 1899-2422(연결 1)  /  031-780-1500 (직통) <br>이메일 : help@phomein.com</p-->
 									<table cellpadding="0" cellspacing="0" style="margin-top:20px;">
 										<tbody>
 											<tr>
 												<td>
-													<span style="display:block; background-color:#fff; color:#222; font-weight:500; text-align:center; padding:2px 10px;">전화 가맹 문의</span>
+													<span style="display:block; background-color:#fff; color:#222; font-weight:500; text-align:center; padding:2px 5px; width:135px;">PHONE Consultation</span>
 												</td>
 												<td style="padding-bottom:17px;">
-													<p class="txt" style="margin-top:0; margin-left:20px;">· 대표번호 : 1899-2422(연결 1) · 직통 번호 : 031-780-1500 <br>* 전화 상담 가능 시간 : 평일 8:50AM~18:00PM(점심시간 11:50AM~13:00PM)</p>
+													<p class="txt" style="margin-top:0; margin-left:20px;">· Main Number : 1899-2422(direct 1) · Direct Number : 031-780-1500 <br>* Phone call available between 8:50AM ~ 18:00PM during week days<br> (Lunch hours 11:50AM ~ 13:00PM)</p>
 												</td>
 											</tr>
 											<tr>
 												<td>
-													<span style="display:block; background-color:#fff; color:#222; font-weight:500; text-align:center; padding:2px 10px;">온라인 가맹 문의</span>
+													<span style="display:block; background-color:#fff; color:#222; font-weight:500; text-align:center; padding:2px 5px; width:135px;">Online Consultation</span>
 												</td>
 												<td style="padding-bottom:10px;">
-													<p class="txt" style="margin-top:0; margin-left:20px;">기업 사이트 > 가맹 개설정보 > 가맹상담 신청 게시판 접수<br>* 온라인 가맹 문의는 365일 상시 가능합니다.</p>
+													<p class="txt" style="margin-top:0; margin-left:20px;">FRANCHISE > Franchise Consultation Register<br>* Online consultation is availabe 365 days</p>
 												</td>
 											</tr>
 											<tr>
 												<td colspan="2">
-													<p style="color:#fff;">* 접수된 문의는 담당자 배정 후 상담이 진행됩니다. * 어떤 문의든 신속하고 친절한 상담을 약속드립니다.</p>
+													<p style="color:#fff;">*Received inquiries will be consulted after the person in charge is assigned. * We`ll answer your Questions promptly</p>
 												</td>
 											</tr>
 										</tbody>

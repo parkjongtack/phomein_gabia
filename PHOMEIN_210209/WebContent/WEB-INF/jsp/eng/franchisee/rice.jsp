@@ -196,7 +196,7 @@ h1, h2, h3, h4, h5, h6, th {font-weight: 400;}
 		<!-- page-title -->
 		<div class="page-title">
 			<div class="visual" style="background-image:url('/company/images/content/sub_visual_07.jpg');"></div>
-			<h2 class="h2-type">국내유일 햅쌀면</h2>
+			<h2 class="h2-type">The First and Only Freshly Harvested<br> Rice Noodles in Korea</h2>
 			<!-- <span class="txt">소자본 쌀국수 창업 프랜차이즈의 새로운 패러다임을 제시합니다.</span> -->
 		</div>
 		<!-- //page-title -->

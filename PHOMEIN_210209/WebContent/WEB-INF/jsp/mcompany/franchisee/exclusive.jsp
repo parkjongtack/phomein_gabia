@@ -19,8 +19,8 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 h1, h2, h3, h4, h5, h6, th {font-weight: 400;}
 .exclusive{margin:0 auto;text-align: center;}
 .exclusive .ex_01{padding:70px 0 80px; width:50%;}
-.exclusive h4{font-size:24px; letter-spacing:-0.025em; color:#222; line-height:42px; padding-bottom:36px;}
-.exclusive .ex_p{font-size:12px; letter-spacing:-0.025em; color:#666; line-height:31px; font-weight:300; margin:16px 0;}
+.exclusive h4{font-size:15px; letter-spacing:-0.025em; color:#222; line-height:21px; padding-bottom:36px;}
+.exclusive .ex_p{font-size:10px; letter-spacing:-0.025em; color:#666; line-height:16px; font-weight:300; margin:16px 0;}
 .haccp { margin:44px 0 79px;}
 .haccp img{width:30%; margin-bottom:20px;}
 .haccp p{font-size:10px;font-weight:300;color:#666;letter-spacing:-0.025em;line-height:19px;text-align:left;margin-left:15px;}
@@ -68,9 +68,9 @@ h1, h2, h3, h4, h5, h6, th {font-weight: 400;}
 		<!-- content -->
 		<div id="content" class="franchisee exclusive">
 			<img src="/mcompany/common/images/content/exclusive_01.png" alt="" class="ex_01">
-			<h4>포메인은 ‘안전한 식재료 <br>정직한 먹거리’ 이념과<br>
-				투명한 제조 공정·위생적인 <br>작업 환경을 바탕으로<br>
-				꾸준히 고객과의<br> 약속을 실천하고 있습니다.
+			<h4>포메인은 ‘안전한 식재료 정직한 먹거리’ 이념과<br>
+				투명한 제조 공정·위생적인 작업 환경을 바탕으로<br>
+				꾸준히 고객과의 약속을 실천하고 있습니다.
 			</h4>
 			<p class="ex_p">
 				포메인은 ‘안전한 식재료 정직한 먹거리’ 이념과<br>

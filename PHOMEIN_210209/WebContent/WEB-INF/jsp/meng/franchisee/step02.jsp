@@ -89,8 +89,8 @@
 						</li>
 					</ol>
 					<span class="banner">
-						대한민국 쌀국수 전문 브렌드 포메인
-						<em>7년연속 가맹점<br>월평균 매출액 1위!</em>
+						Phomein, the Korean Vietnamese Rice Noodle Brand
+						<em>Ranked 1st in monthly average sales of its franchise stores for 7 consecutive years.</em>
 					</span>
 				</div>
 			</div>	 

@@ -56,7 +56,7 @@
 				</div> -->
 				<div class="con_main_img">
 					<img src="/company/images/content/phoseason_main_img.png" alt="">
-					<p style="font-size:17px; text-align:right; margin:5px auto 0; max-width: 1800px;">* 베트남 롱안성에서 운영 중인 포시즌 공장 전경 이미지입니다.</p>
+					<p style="font-size:17px; text-align:right; margin:5px auto 0; max-width: 1800px;">*This is a picture of the Pho Seasons factory operating in Long An Province, Vietnam</p>
 				</div>
 				<div class="phoseason-box">
 					<div class="top-visual-con">

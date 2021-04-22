@@ -58,7 +58,7 @@
 				<!-- step-list -->
 				<div class="inner02">
 					<div class="step-list">
-						<h4>가맹 절차</h4>
+						<h4>Opening Process</h4>
 						<ul>
 							<li>
 								<span>1</span>
@@ -127,7 +127,7 @@
 							<li style="padding-top:0; ">
 								<a href="http://www.phomein.com/company/franchisee/terms.do" style="display:block; width: 100%; height: 100%; padding-top:40px;">
 									<p class="tit" style="font-size:20px; margin-top:0;">PHOMEIN <br>FRANCHISE INQUIRY</p>
-									<p style="display:inline-block; font-size:15px; margin-top:10px; padding:6px 18px; background-color:#525252; color:#fff; border-radius:4px;">바로가기</p>
+									<p style="display:inline-block; font-size:15px; margin-top:10px; padding:6px 18px; background-color:#525252; color:#fff; border-radius:4px;">Click Here</p>
 									<p class="txt" style="font-size:18px; margin-top:10px;">Main Number<br>1899-2422</p>
 								</a>
 							</li>

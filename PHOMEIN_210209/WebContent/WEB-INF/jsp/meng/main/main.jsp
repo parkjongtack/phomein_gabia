@@ -281,7 +281,7 @@
 							<li class="franch">
 								<a href="/meng/franchisee/terms.do" class="link" target="_blank">
 									<span class="flag">FRANCHISE</span>
-									<span class="tit"><em class="blind">포메인</em>가맹문의<br>바로가기</span>
+									<span class="tit"><em class="blind">PhoMein</em>Franchise<br>Inquiry</span>
 								</a>
 							</li>
 						</ul>

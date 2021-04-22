@@ -51,7 +51,7 @@
 				</div> -->
 				<div class="intro">
 				</div>
-				<p style="text-align:center; font-size:10px; color:#888; margin-top: 10px">* 베트남 롱안성에서 운영 중인 포시즌 공장 전경 이미지입니다.</p>
+				<p style="text-align:center; font-size:10px; color:#888; margin-top: 10px">* This is a picture of the Pho Seasons factory operating <br>in Long An Province, Vietnam</p>
 
 				<div class="intro_text">
 					<strong>Vietnamese Corporation <br>Rice Noodle Factory<br><em>PHO SEASON INC.</em></strong>

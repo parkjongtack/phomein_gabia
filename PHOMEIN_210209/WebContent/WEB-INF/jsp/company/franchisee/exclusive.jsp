@@ -18,8 +18,8 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 h1, h2, h3, h4, h5, h6, th {font-weight: 400;}
 .exclusive{margin:0 auto; width:1200px; text-align: center;}
 .exclusive .ex_01{padding:140px 0 160px;}
-.exclusive h4{font-size:51px; letter-spacing:-0.025em; color:#222; line-height:84px; padding-bottom:72px;}
-.exclusive .ex_p{font-size:26px; letter-spacing:-0.025em; color:#666; line-height:62px; font-weight:300; margin:32px 0;}
+.exclusive h4{font-size:25px; letter-spacing:-0.025em; color:#222; line-height:40px; padding-bottom:72px;}
+.exclusive .ex_p{font-size:19px; letter-spacing:-0.025em; color:#666; line-height:30px; font-weight:300; margin:32px 0;}
 .haccp {display:flex;justify-content: center;align-items: center; margin:88px 0 157px;}
 .haccp p{font-size:16px;font-weight:300;color:#666;letter-spacing:-0.025em;line-height:38px;text-align:left;margin-left:30px;}
 .img_box ul{display:flex;justify-content: space-between;align-items: center;flex-wrap:wrap;}

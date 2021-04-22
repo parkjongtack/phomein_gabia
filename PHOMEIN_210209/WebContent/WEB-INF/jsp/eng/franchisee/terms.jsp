@@ -53,9 +53,9 @@
 							<span>Direct Number : 031-780-1500</span>
 						</p>
 						<p style="font-size:18px; color:#444; margin:20px 0 50px;">Phone call available between 8:50AM ~ 18:00PM during week days (Lunch hours 11:50AM ~ 13:00PM)</p>
-						<p style="font-size:17px; color:#555; width: 360px; padding:20px 30px; border:1px solid #222; text-align:left; margin:0 auto; line-height:29px;">
+						<p style="font-size:17px; color:#555; width: 553px; padding:20px 30px; border:1px solid #222; text-align:left; margin:0 auto; line-height:29px;">
 							* Online consultation is availabe 365 days<br>
-							* 접수된 문의는 담당자 배정 후 상담이 진행됩니다.<br>
+							* Received inquiries will be consulted after the person in charge is assigned.<br>
 							* We`ll answer your Questions promptly
 						</p>
 					</div>
@@ -63,7 +63,7 @@
 
 					<div class="con-title">
 						<h3 class="h3-type" style="margin-bottom:70px;">Online Consultation</h3>
-						<h3 class="h3-type" style="font-size:25px;">개인정보 수집 및 이용동의</h3>
+						<h3 class="h3-type" style="font-size:25px;">Personal Information Collection and Usage Agreement</h3>
 						<span class="txt">Phomein collects minimum personal information for accurate consultation processing. <br>Please confirm the following and agree to the provision and use of personal information. </span>
 					</div>
 
@@ -81,12 +81,12 @@
 						</div>
 					</div>
 					<form name="submitForm" method="post" action="/eng/franchisee/info.do">
-						<p class="chk-type01"><input type="checkbox" id="check0101" name="chk"><label for="check0101"><span></span>개인정보 수집 및 이용에 동의합니다.<strong>(필수동의)</strong></label></p>
+						<p class="chk-type01"><input type="checkbox" id="check0101" name="chk"><label for="check0101"><span></span>I agree to the collection and use of personal information.<strong>(Required)</strong></label></p>
 					</form>
 
 					<!-- btn-box -->
 					<div class="btn-box mt50">
-						<a href="javascript:;" class="btn-01 type-01" id="agreeBtn">확인</a>
+						<a href="javascript:;" class="btn-01 type-01" id="agreeBtn">Check</a>
 					</div>
 					<!-- //btn-box -->
 				</div>

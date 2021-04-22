@@ -35,7 +35,7 @@
 		<div class="page-title">
 			<div class="visual" style="background-image:url('/company/images/content/sub_visual_02_1.jpg');"></div>
 			<h2 class="h2-type">Hyundai Green Food MOU</h2>
-			<span class="txt">포메인은 ‘안전한 식재료∙정직한 먹거리’를 약속하며<br>포메인만의 특별한 차이를 만들어갑니다.</span>
+			<span class="txt">Phomein promises 'Safe Food Ingredients∙Honest Food'<br> and makes a special difference.</span>
 		</div>
 		<!-- //page-title -->
 
@@ -58,19 +58,19 @@
 				
 				<div class="con-title">
 					<div class="inner">
-						<h3 class="h3-type" style="margin: 40px 0;">포메인, 현대그린푸드와 ‘안전한 식자재 공급’ MOU 체결</h3>
+						<h3 class="h3-type" style="margin: 40px 0;">Phomein, 'Supply of Safe Food Ingredients MOU' <br>with Hyundai Green Food</h3>
 						<div class="img_box">
 							<img src="/company/images/content/greenfood_01_new.png" alt=""  style=""/>
 						</div>
-						<p class="txt load-fadein active" style="font-size: 12px;">오흥용 현대그린푸드 대표이사(사진 왼쪽) / 김대일 ㈜데일리킹 대표이사(사진 오른쪽)</p>
+						<p class="txt load-fadein active" style="font-size: 12px;">Heung-Yong Oh, CEO of Hyundai Green Food (Left) / Daeil Kim, CEO of Dailyking</p>
 						<p class="txt load-fadein active" style="text-align:left;">
-							2016년 국내 베트남 쌀국수 업계 1위 브랜드 포메인이 종합식품기업 현대그린푸드와 함께 ‘안전하고 우수한 품질의 식자재 공급’을 위한 업무협약(MOU)을 체결했다고 밝혔다.
+							In 2016, Phomein, the No. 1 Korean Vietnamese Rice Noodle brand, announced that it signed a business agreement (MOU) with Hyundai Green Food, a general food company, to “supply safe and high-quality food ingredients”.
 							<br/><br/>
-							현대그린푸드는 이번 업무협약을 통해 연간 100억원 규모의 식자재를 포메인 가맹점에 공급할 예정이다.
+							Through this business agreement, Hyundai Green Food plans to supply food materials worth 10 billion won per year to Phomein's franchise stores.
 							<br/><br/>
-							포메인은 식품 원자재의 안전성을 높이기 위해 ‘위해상품 판매차단시스템’을 도입한 식품 안전 우수기업인 현대그린푸드와 협약을 맺고, 120여 개 가맹점에 일반 식자재 공급 일원화를 추진한다. 이로써 현대그린푸드를 통해 포메인에 유통되는 식자재 중 불량하다고 판단되거나, 위해 성분이 검출된 상품은 물류센터, 배송 차량, 각 가맹점 등에서 거점별로 실시간 원천 차단이 가능해진다.
+							Phomein signed an agreement with Hyundai Green Food, an excellent food safety company that introduced the “Hazardous Product Sales Blocking System,” to increase the safety of food raw materials, and promoted unified supply of general food materials to more than 120 franchise stores. As a result, it is possible to block real-time sources for products that are judged to be defective or in which hazardous ingredients are detected among food materials distributed to Phomein through Hyundai Green Food, at each base in distribution centers, delivery vehicles, and franchise stores.
 							<br/><br/>
-							현대그린푸드는 선진화된 위생시스템을 바탕으로 기존 산업체·​병원 급식 업체에 안전성이 검증된 상품을 공급해 왔으며, 이번 포메인과의 MOU 체결로 외식 프랜차이즈 업체로까지 그 영역을 확대하게 됐다.
+							Based on an advanced hygiene system, Hyundai Green Food has been supplying products with proven safety to existing industries and hospital food service providers, and with this MOU with Phomein, it has expanded its scope to food service franchises.
 						</p>
 					</div>
 				</div>
