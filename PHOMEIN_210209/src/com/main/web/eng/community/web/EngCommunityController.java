@@ -103,7 +103,8 @@ public class EngCommunityController {
 		param.put("startCount", 0);
 		param.put("useyn", 1);
 		List<Map> resultList = storeService.selectPaging(param);
-		// 방문매장 리스트 조회
+		// 방문매장 리스트 조회  
+		
 		Collections.sort(resultList, new Comparator<Map>() {
 			@Override
 			public int compare(Map o1, Map o2) {

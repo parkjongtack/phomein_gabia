@@ -85,7 +85,8 @@ public class EngFranchiseeController {
 		return NAMESPACE + "interior";
 	}
 
-	// 매장 리스트 AJAX 조회
+	
+	// 매장 리스트 AJAX 조회  
 	@RequestMapping(value = "/get_interior_list_ajax.do", method = RequestMethod.POST)
 	public @ResponseBody Map<String, Object> get_interior_list_ajax(@RequestParam Map param,
 			@RequestParam(required = false, defaultValue = "1") String pageIndex, HttpServletRequest request)

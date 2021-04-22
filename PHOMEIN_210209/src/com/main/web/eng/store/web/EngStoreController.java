@@ -52,7 +52,8 @@ public class EngStoreController {
 		return NAMESPACE + "store_best";
 	}
 
-	// TODO /brand/store/store_list.do
+	// TODO /brand/store/store_list.do   
+	
 	@RequestMapping(value = "store_list.do", method = { RequestMethod.GET, RequestMethod.POST })
 	public String storeList(@RequestParam Map param, HttpSession session, ModelMap model, HttpServletRequest request,
 			HttpServletResponse response, @RequestParam(value = "", required = false) String storeName)
