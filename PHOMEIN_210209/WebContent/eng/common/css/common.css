@@ -81,20 +81,20 @@ html.fix {overflow-y:hidden;}
 .header-wrap #header_s_form input::placeholder{color:#ddd; text-align:center;}
 .header-wrap #header_s_form button {display:inline-block; width:20px; height:20px; background:url('/asset/images/icon/h_search.png') no-repeat center/cover; margin-top:4px;}
 .header-wrap {position:relative; width:100%; height:89px; border-bottom:1px solid rgba(255, 255, 255,0.1);z-index:100;}
-.header-wrap .inner {position:relative; width:1200px; height:89px; margin:0 auto; padding:0; box-sizing:border-box;}
+.header-wrap .inner {position:relative; width:1300px; height:89px; margin:0 auto; padding:0; box-sizing:border-box;}
 .header-wrap .inner h1 a {position:absolute; top:0; left:0; display:block; width:101px; height:42px; margin-top:25px; background:url('../../images/common/logo.png') 0 0 no-repeat; text-indent:-5000px; background-size: contain;}
 .header-wrap .inner #gnb {float:left; margin-left:150px;}
 .header-wrap .inner #gnb:after {content:''; display:block; clear:both;}
 .header-wrap .inner #gnb ul > li {float:left; width:180px;}
 .header-wrap .inner #gnb ul > li a {display:block; color:#fff; font-size:17px; line-height:89px; padding-left:0px; text-align:left; letter-spacing:0.06em;}
-.header-wrap .inner #gnb > ul > li:nth-child(1) {width:180px;}
-.header-wrap .inner #gnb > ul > li:nth-child(2) {width:150px;}
-.header-wrap .inner #gnb > ul > li:nth-child(3) {width:150px;}
-.header-wrap .inner #gnb > ul > li:nth-child(4) {width:150px;}
-.header-wrap .inner #gnb > ul > li:nth-child(5) {width:180px;}
+.header-wrap .inner #gnb > ul > li:nth-child(1) {width:170px;}
+.header-wrap .inner #gnb > ul > li:nth-child(2) {width:140px;}
+.header-wrap .inner #gnb > ul > li:nth-child(3) {width:140px;}
+.header-wrap .inner #gnb > ul > li:nth-child(4) {width:140px;}
+.header-wrap .inner #gnb > ul > li:nth-child(5) {width:170px;}
 .header-wrap .inner #gnb > ul > li:nth-child(6) {width:160px;}
 .header-wrap .inner #gnb ul > li > ul {display:none;}
-.header-wrap .inner .btn-franchisee {position:absolute; top:0; right:0; margin-top:30px; border-radius:20px;}
+.header-wrap .inner .btn-franchisee {position:absolute; top:0; right:126px; margin-top:30px; border-radius:20px;}
 .header-wrap .inner .btn-franchisee a {display:inline-block; width:100px; height:30px; line-height:28px; color:#546220; font-size:13px; /*border:1px solid rgba(255, 255, 255,0.4);*/ background-color:transparent; border-radius:20px; box-sizing:border-box; text-align:center; border: 1px solid rgba(255,255,255, 0.4); color: #fff;}
 /* .header-wrap .inner .btn-franchisee a:first-child {background-color:#546220; color:#fff; border-radius:6px 0 0 6px;} */
 .header-wrap .btn-country {position:absolute; top:0; right:0; background-color:rgba(0, 0, 0,0.8); opacity:1; transition:all 0.45s ease;}
@@ -115,7 +115,7 @@ html.fix {overflow-y:hidden;}
 #dHead.scroll.on .header-wrap {background-color:rgba(0, 0, 0,0.0); transition:all 0.45s ease;}
 .on .header-wrap #header_s_form{position:absolute; top:0; right:40px; margin-top:30px;}
 .on .header-wrap {border-bottom:none;}
-.on .header-wrap .inner {position:absolute; top:0; left:50%; width:1280px; height:350px; margin:0 0 0 -640px; padding:0 40px 40px 40px; background-color:rgba(0, 0, 0,0.95); box-sizing:border-box;}
+.on .header-wrap .inner {position:absolute; top:0; left:50%;  width:1340px; height:350px; margin:0 0 0 -690px; padding:0 10px 40px 40px; background-color:rgba(0, 0, 0,0.95); box-sizing:border-box;}
 .on .header-wrap .inner h1 a {left:40px;}
 .on .header-wrap .inner #gnb ul > li a {display:block; color:rgba(255, 255, 255,0.8);}
 .on .header-wrap .inner #gnb ul > li > ul {display:block; transition:all 1.2s ease-in-out;}
@@ -124,7 +124,7 @@ html.fix {overflow-y:hidden;}
 .on .header-wrap .inner #gnb ul > li > ul > li.actived a {color:#fff;}
 .on .header-wrap .btn-country {opacity:0;}
 
-.on .header-wrap .inner .btn-franchisee {right:40px; margin-top:30px;}
+.on .header-wrap .inner .btn-franchisee {right:126px; margin-top:30px;}
 .on .header-wrap .inner .btn-franchisee a {color:rgba(255, 255, 255,0.6); border:none; background-color:rgba(255, 255, 255,0.1);}
 .on .header-wrap .btn-system {opacity:0;}
 .on .header-wrap .btn-system2 {display:none; position:absolute; top:88px; right:50px; opacity:1;}

@@ -12,6 +12,11 @@
 				<input type="text" placeholder="search" name="search_key" value="${param.search_key}" />
 				<button type="submit"></button>
 			</form>
+			<ul style="display:flex; align-items:center; margin-left:15px; color:#fff; font-size:10px;">
+				<li><a href="/mbrand/main/main.do" style="color:#fff;">KOREAN</a></li>
+				<li>ㅣ</li>
+				<li><a href="/meng/main/main.do" style="color:#fff;">ENGLISH</a></li>
+			</ul>
 		</div>
 		<div class="gnb_container">
 			<div class="inner">

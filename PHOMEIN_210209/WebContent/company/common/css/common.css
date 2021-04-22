@@ -91,14 +91,14 @@ html.fix {overflow-y:hidden;}
 .header-wrap .inner #gnb ul > li:nth-child(6) {width:142px;}
 .header-wrap .inner #gnb ul > li > ul {display:none;}
  */
-.header-wrap #header_s_form{position:absolute; top:0; right:0; margin-top:30px;}
+.header-wrap #header_s_form{position:absolute; top:0; right:140px; margin-top:30px;}
 .header-wrap #header_s_form input{display:inline-block; width:100px; height:30px; font-size:12px; padding: 5px 20px; background-color: rgba(140, 149, 151, 0.5); border: 0; border-radius: 20px; margin-right: 10px; color: #bbb; }
 .header-wrap #header_s_form input::placeholder{color: #bbb; text-align: center;}
 .header-wrap #header_s_form input::placeholder{text-align: center;}
 .header-wrap #header_s_form input::placeholder{text-align: center;}
 .header-wrap #header_s_form input::placeholder{text-align: center;}
 .header-wrap #header_s_form button{display:inline-block; width: 20px; height: 20px; background: url('../../images/common/h_search.png') no-repeat; background-size: contain; margin-top: 4px;}
-.header-wrap .inner .btn-franchisee {position:absolute; top:0; right:150px; margin-top:30px; border-radius:20px;}
+.header-wrap .inner .btn-franchisee {position:absolute; top:0; right:282px; margin-top:30px; border-radius:20px;}
 .header-wrap .inner .btn-franchisee a {display:inline-block; width:80px; height:30px; line-height:28px; color:#546220; font-size:13px; /*border:1px solid rgba(255, 255, 255,0.4);*/ background-color:transparent; border-radius:20px; box-sizing:border-box; text-align:center; border: 1px solid rgba(255,255,255, 0.4); color: #fff;}
 /* .header-wrap .inner .btn-franchisee a:first-child {background-color:#546220; color:#fff; border-radius:6px 0 0 6px;} */
 .header-wrap .btn-country {position:absolute; top:0; right:0; background-color:rgba(0, 0, 0,0.8); opacity:1; transition:all 0.45s ease;}

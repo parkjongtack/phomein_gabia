@@ -1,6 +1,11 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 	<div id="gnb">
 		<div class="gnb_head">
+			<ul style="display:flex; align-items:center; margin:18px 0 0 165px; color:#fff; font-size:10px;">
+				<li><a href="/mbrand/main/main.do" style="color:#fff;">KOREAN</a></li>
+				<li>ㅣ</li>
+				<li><a href="/meng/main/main.do" style="color:#fff;">ENGLISH</a></li>
+			</ul>
 		</div>
 		<div class="gnb_container">
 			<div class="inner">
