@@ -299,7 +299,4 @@ table.view2 > tbody > tr.bg-col td.td-con {color:#fff; text-align:center;}
 /* ===========================
 	media
 =========================== */
-@media screen and (max-width:1280px){
-	.header-wrap .inner .btn-franchisee {opacity:0;}
-	.on .header-wrap .inner .btn-franchisee {opacity:1;}
-}
+

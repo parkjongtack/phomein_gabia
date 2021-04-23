@@ -19,7 +19,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 h1, h2, h3, h4, h5, h6, th {font-weight: 400;}
 .exclusive{margin:0 auto;text-align: center;}
 .exclusive .ex_01{padding:70px 0 80px; width:50%;}
-.exclusive h4{font-size:15px; letter-spacing:-0.025em; color:#222; line-height:21px; padding-bottom:36px;}
+.exclusive h4{font-size:15px; letter-spacing:-0.025em; color:#222; line-height:27px; padding-bottom:36px;}
 .exclusive .ex_p{font-size:10px; letter-spacing:-0.025em; color:#666; line-height:16px; font-weight:300; margin:16px 0;}
 .haccp { margin:44px 0 79px;}
 .haccp img{width:30%; margin-bottom:20px;}
