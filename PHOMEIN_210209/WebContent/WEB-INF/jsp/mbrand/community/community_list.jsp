@@ -19,6 +19,14 @@
 	#snsUl li.ico-i .icon:after {background:url('/brand/images/icon/ico_w_i.png') center center no-repeat; background-size: contain;}
 </style>
 </head>
+<c:choose>
+	<c:when test="${path[0] eq 'eng'}">
+		<c:set var="lang_type" value="/eng" />
+	</c:when>
+	<c:otherwise>
+		<c:set var="lang_type" value="" />							
+	</c:otherwise>
+</c:choose>
 <body>
 <!-- wrap -->
 <div id="wrap">
@@ -267,7 +275,16 @@
 								<c:forEach items="${resultList }" var="result" varStatus="status" >
 									<li class=<c:if test="${result.cate == '109205' }">"ico-y"</c:if><c:if test="${result.cate == '109204' }">"ico-b"</c:if><c:if test="${result.cate == '109203' }">"ico-i"</c:if> >
 									<a href="${result.url}">
-                                    <span class="icon"></span><img src="${result.m_thimg }" alt="${result.m_alt }">
+	                                    <span class="icon"></span>
+										<c:choose>
+											<c:when test="${path[0] eq 'eng'}">
+												<img src="${result.m_thimg }" alt="${result.m_alt }">															
+											</c:when>
+											<c:otherwise>
+												<img src="${result.m_thimg }" alt="${result.en_m_alt }">															
+											</c:otherwise>
+										</c:choose>	                                    
+                                    	
                                     </a>
 									</li>
 								</c:forEach>
@@ -302,6 +319,116 @@
 <script src="/mbrand/common/js/jquery-1.12.4.min.js"></script>
 <script src="/mbrand/common/js/swiper.min.js"></script>
 <script src="/mbrand/common/js/common.js"></script>
+<c:choose>
+	<c:when test="${path[0] eq 'eng'}">
+		<script>
+
+			function selectSnsMore(){
+				var pageIndex = Number($("#snsIndex").val())+1;
+				var boardType = $("#boardType").val();
+				var cate = $("#cate").val();
+	
+				$.ajax({
+			     	url: "/mbrand/community/"+boardType+"/selectCommunityList.do",
+			        type: "POST",
+			        data: {
+			        	'pageIndex' : pageIndex,
+			        	'boardType' : boardType,
+			        	'cate' : cate
+			        },
+			        dataType: 'json',
+			        success: function (data) {
+	
+			        	var $html = "";
+			    	    if(data.resultList.length > 0) {
+							$.each(data.resultList, function(key, index){
+								$html = '';
+								$html += '<li class=';
+								if(data.resultList[key].cate == '109205'){
+									$html += 'ico-y';
+								}else if(data.resultList[key].cate == '109204'){
+									$html += 'ico-b';
+								}else if(data.resultList[key].cate == '109203'){
+									$html += 'ico-i';
+								}
+								$html += '>';
+								$html += '<a href=\''+data.resultList[key].url+'\'><span class="icon"></span><img src=\''+data.resultList[key].m_thimg+'\' alt=\''+data.resultList[key].en_m_alt+'\'></a></li>';
+								$('#snsUl').append($html);
+			    			});
+						}
+			    	    $("#snsIndex").val(data.currentPage);
+	
+			    	    if(data.lastPage <= data.currentPage){
+			    	    	$("#snsMoreDiv").hide();
+			    	    }
+			        },
+			        error: function (xhr, status, error) {
+			            if (xhr.status == 500) {
+			            	alert('Internal error: ' + xhr.responseText);
+			            } else {
+			                alert('Unexpected error.');
+			            }
+			        }
+			    });
+			}
+		
+		</script>															
+	</c:when>
+	<c:otherwise>
+		<script>
+
+			function selectSnsMore(){
+				var pageIndex = Number($("#snsIndex").val())+1;
+				var boardType = $("#boardType").val();
+				var cate = $("#cate").val();
+	
+				$.ajax({
+			     	url: "/mbrand/community/"+boardType+"/selectCommunityList.do",
+			        type: "POST",
+			        data: {
+			        	'pageIndex' : pageIndex,
+			        	'boardType' : boardType,
+			        	'cate' : cate
+			        },
+			        dataType: 'json',
+			        success: function (data) {
+	
+			        	var $html = "";
+			    	    if(data.resultList.length > 0) {
+							$.each(data.resultList, function(key, index){
+								$html = '';
+								$html += '<li class=';
+								if(data.resultList[key].cate == '109205'){
+									$html += 'ico-y';
+								}else if(data.resultList[key].cate == '109204'){
+									$html += 'ico-b';
+								}else if(data.resultList[key].cate == '109203'){
+									$html += 'ico-i';
+								}
+								$html += '>';
+								$html += '<a href=\''+data.resultList[key].url+'\'><span class="icon"></span><img src=\''+data.resultList[key].m_thimg+'\' alt=\''+data.resultList[key].m_alt+'\'></a></li>';
+								$('#snsUl').append($html);
+			    			});
+						}
+			    	    $("#snsIndex").val(data.currentPage);
+	
+			    	    if(data.lastPage <= data.currentPage){
+			    	    	$("#snsMoreDiv").hide();
+			    	    }
+			        },
+			        error: function (xhr, status, error) {
+			            if (xhr.status == 500) {
+			            	alert('Internal error: ' + xhr.responseText);
+			            } else {
+			                alert('Unexpected error.');
+			            }
+			        }
+			    });
+			}
+		
+		</script>																
+	</c:otherwise>
+</c:choose>	 
 <script>
 // 20190219 추가 (common.js 에서는 삭제)
 // 카테고리 메뉴
@@ -459,55 +586,6 @@
     	    	$("#eventIndex").val(data.currentPage);
 	    	    if(data.lastPage <= data.currentPage){
 	    	    	$("#eventMoreDiv").hide();
-	    	    }
-	        },
-	        error: function (xhr, status, error) {
-	            if (xhr.status == 500) {
-	            	alert('Internal error: ' + xhr.responseText);
-	            } else {
-	                alert('Unexpected error.');
-	            }
-	        }
-	    });
-	}
-
-	function selectSnsMore(){
-		var pageIndex = Number($("#snsIndex").val())+1;
-		var boardType = $("#boardType").val();
-		var cate = $("#cate").val();
-
-		$.ajax({
-	     	url: "/mbrand/community/"+boardType+"/selectCommunityList.do",
-	        type: "POST",
-	        data: {
-	        	'pageIndex' : pageIndex,
-	        	'boardType' : boardType,
-	        	'cate' : cate
-	        },
-	        dataType: 'json',
-	        success: function (data) {
-
-	        	var $html = "";
-	    	    if(data.resultList.length > 0) {
-					$.each(data.resultList, function(key, index){
-						$html = '';
-						$html += '<li class=';
-						if(data.resultList[key].cate == '109205'){
-							$html += 'ico-y';
-						}else if(data.resultList[key].cate == '109204'){
-							$html += 'ico-b';
-						}else if(data.resultList[key].cate == '109203'){
-							$html += 'ico-i';
-						}
-						$html += '>';
-						$html += '<a href=\''+data.resultList[key].url+'\'><span class="icon"></span><img src=\''+data.resultList[key].m_thimg+'\' alt=\''+data.resultList[key].m_alt+'\'></a></li>';
-						$('#snsUl').append($html);
-	    			});
-				}
-	    	    $("#snsIndex").val(data.currentPage);
-
-	    	    if(data.lastPage <= data.currentPage){
-	    	    	$("#snsMoreDiv").hide();
 	    	    }
 	        },
 	        error: function (xhr, status, error) {

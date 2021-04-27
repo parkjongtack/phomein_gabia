@@ -315,6 +315,122 @@
 <!-- //wrap -->
 
 <script src="/brand/common/js/front_ui.js"></script>
+<c:choose>
+	<c:when test="${path[0] eq 'eng'}">
+		<script>
+			function selectSnsMore(){
+				var pageIndex = Number($("#snsIndex").val())+1;
+				var boardType = $("#boardType").val();
+				var cate = $("#cate").val();
+				
+				$.ajax({
+			     	url: "/brand/community/"+boardType+"/selectCommunityList.do",
+			        type: "POST",
+			        data: {
+			        	'pageIndex' : pageIndex,
+			        	'boardType' : boardType,
+			        	'cate' : cate
+			        },
+			        dataType: 'json',
+			        success: function (data) {
+			        	
+			        	var $html = "";
+			    	    if(data.resultList.length > 0) {
+							$.each(data.resultList, function(key, index){
+								$html = '';
+								$html += '<li class=';
+								if(data.resultList[key].cate == '109205'){
+									$html += 'ico-y';
+								}else if(data.resultList[key].cate == '109204'){
+									$html += 'ico-b';
+								}else if(data.resultList[key].cate == '109203'){
+									$html += 'ico-i';
+								}
+								$html += '>';
+								$html += '<p class="img"><img alt="" src="'+data.resultList[key].pc_thimg+'"></p>'
+								$html += '<a href="'+ data.resultList[key].url+'" target="_blank">';
+								$html += '<span class="icon"></span>';
+								$html += '<span class="txt">'+data.resultList[key].en_title+'</span>';
+								$html += '</a>';
+								$html += '</li>';
+								$('#snsUl').append($html);
+			    			});
+						}
+			    	    $("#snsIndex").val(data.currentPage);
+			    	    
+			    	    if(data.lastPage <= data.currentPage){
+			    	    	$("#snsMoreDiv").hide();
+			    	    }
+			        },
+			        error: function (xhr, status, error) {
+			            if (xhr.status == 500) {
+			            	alert('Internal error: ' + xhr.responseText);
+			            } else {
+			                alert('Unexpected error.');
+			            }
+			        }
+			    });
+			}		
+		</script>															
+	</c:when>
+	<c:otherwise>
+		<script>
+			function selectSnsMore(){
+				var pageIndex = Number($("#snsIndex").val())+1;
+				var boardType = $("#boardType").val();
+				var cate = $("#cate").val();
+				
+				$.ajax({
+			     	url: "/brand/community/"+boardType+"/selectCommunityList.do",
+			        type: "POST",
+			        data: {
+			        	'pageIndex' : pageIndex,
+			        	'boardType' : boardType,
+			        	'cate' : cate
+			        },
+			        dataType: 'json',
+			        success: function (data) {
+			        	
+			        	var $html = "";
+			    	    if(data.resultList.length > 0) {
+							$.each(data.resultList, function(key, index){
+								$html = '';
+								$html += '<li class=';
+								if(data.resultList[key].cate == '109205'){
+									$html += 'ico-y';
+								}else if(data.resultList[key].cate == '109204'){
+									$html += 'ico-b';
+								}else if(data.resultList[key].cate == '109203'){
+									$html += 'ico-i';
+								}
+								$html += '>';
+								$html += '<p class="img"><img alt="" src="'+data.resultList[key].pc_thimg+'"></p>'
+								$html += '<a href="'+ data.resultList[key].url+'" target="_blank">';
+								$html += '<span class="icon"></span>';
+								$html += '<span class="txt">'+data.resultList[key].title+'</span>';
+								$html += '</a>';
+								$html += '</li>';
+								$('#snsUl').append($html);
+			    			});
+						}
+			    	    $("#snsIndex").val(data.currentPage);
+			    	    
+			    	    if(data.lastPage <= data.currentPage){
+			    	    	$("#snsMoreDiv").hide();
+			    	    }
+			        },
+			        error: function (xhr, status, error) {
+			            if (xhr.status == 500) {
+			            	alert('Internal error: ' + xhr.responseText);
+			            } else {
+			                alert('Unexpected error.');
+			            }
+			        }
+			    });
+			}		
+		</script>															
+	</c:otherwise>
+</c:choose>	 
 <script>
 	$(function(){
 		
@@ -473,59 +589,7 @@
 	}
 	
 	
-	function selectSnsMore(){
-		var pageIndex = Number($("#snsIndex").val())+1;
-		var boardType = $("#boardType").val();
-		var cate = $("#cate").val();
-		
-		$.ajax({
-	     	url: "/brand/community/"+boardType+"/selectCommunityList.do",
-	        type: "POST",
-	        data: {
-	        	'pageIndex' : pageIndex,
-	        	'boardType' : boardType,
-	        	'cate' : cate
-	        },
-	        dataType: 'json',
-	        success: function (data) {
-	        	
-	        	var $html = "";
-	    	    if(data.resultList.length > 0) {
-					$.each(data.resultList, function(key, index){
-						$html = '';
-						$html += '<li class=';
-						if(data.resultList[key].cate == '109205'){
-							$html += 'ico-y';
-						}else if(data.resultList[key].cate == '109204'){
-							$html += 'ico-b';
-						}else if(data.resultList[key].cate == '109203'){
-							$html += 'ico-i';
-						}
-						$html += '>';
-						$html += '<p class="img"><img alt="" src="'+data.resultList[key].pc_thimg+'"></p>'
-						$html += '<a href="'+ data.resultList[key].url+'" target="_blank">';
-						$html += '<span class="icon"></span>';
-						$html += '<span class="txt">'+data.resultList[key].title+'</span>';
-						$html += '</a>';
-						$html += '</li>';
-						$('#snsUl').append($html);
-	    			});
-				}
-	    	    $("#snsIndex").val(data.currentPage);
-	    	    
-	    	    if(data.lastPage <= data.currentPage){
-	    	    	$("#snsMoreDiv").hide();
-	    	    }
-	        },
-	        error: function (xhr, status, error) {
-	            if (xhr.status == 500) {
-	            	alert('Internal error: ' + xhr.responseText);
-	            } else {
-	                alert('Unexpected error.');
-	            }
-	        }
-	    });
-	}
+
 	
 	function fnDetailView(url , seq){
 		location.href=url+'?seq='+seq;
