@@ -10,7 +10,15 @@
 <!-- skip-link -->
 <a href="#dBody" id="skip-link">본문 바로가기</a>
 <!-- //skip-link -->
-
+<c:set var="path" value="${fn:split(requestScope['javax.servlet.forward.servlet_path'],'/')}" /> 
+<c:choose>
+	<c:when test="${path[0] eq 'eng'}">
+		<c:set var="lang_type" value="/eng" />
+	</c:when>
+	<c:otherwise>
+		<c:set var="lang_type" value="" />							
+	</c:otherwise>
+</c:choose>
 <!-- wrap -->
 <div id="wrap">
 	<!-- dHead -->
@@ -93,17 +101,19 @@
 						</ul>
 					</c:if>
 					<c:if test="${searchVO.boardType == 'sns'}">
+						
+							
 						<ul>
 							<%-- <li <c:if test="${searchVO.cate == ''}"> class=actived </c:if> ><a href="/brand/community/sns/community_list.do">전체</a></li> --%>
 							<c:forEach var="codeResult" items="${ fnc:codeListSub('109') }" varStatus="status">
 								<c:if test="${codeResult.code == '109203'}">
-	                      			<li <c:if test="${searchVO.cate == codeResult.code}"> class='actived' </c:if> ><a href="/brand/community/sns/community_list.do?cate=${codeResult.code}"><c:out value="${codeResult.name}"/></a></li>
+	                      			<li <c:if test="${searchVO.cate == codeResult.code}"> class='actived' </c:if> ><a href="${lang_type}/brand/community/sns/community_list.do?cate=${codeResult.code}"><c:if test="${lang_type eq '/eng'}">INSTAGRAM</c:if><c:if test="${lang_type eq ''}"><c:out value="${codeResult.name}"/></c:if></a></li>
 	                      		</c:if>
 	                      		<c:if test="${codeResult.code == '109204'}">
-	                      			<li <c:if test="${searchVO.cate == codeResult.code}"> class='actived' </c:if> ><a href="/brand/community/sns/community_list.do?cate=${codeResult.code}"><c:out value="${codeResult.name}"/></a></li>
+	                      			<li <c:if test="${searchVO.cate == codeResult.code}"> class='actived' </c:if> ><a href="${lang_type}/brand/community/sns/community_list.do?cate=${codeResult.code}"><c:if test="${lang_type eq '/eng'}">BLOG</c:if><c:if test="${lang_type eq ''}"><c:out value="${codeResult.name}"/></c:if></a></li>
 	                      		</c:if>
 	                      		<c:if test="${codeResult.code == '109205'}">
-	                      			<li <c:if test="${searchVO.cate == codeResult.code}"> class='actived' </c:if> ><a href="/brand/community/sns/community_list.do?cate=${codeResult.code}"><c:out value="${codeResult.name}"/></a></li>
+	                      			<li <c:if test="${searchVO.cate == codeResult.code}"> class='actived' </c:if> ><a href="${lang_type}/brand/community/sns/community_list.do?cate=${codeResult.code}"><c:if test="${lang_type eq '/eng'}">YOUTUBE</c:if><c:if test="${lang_type eq ''}"><c:out value="${codeResult.name}"/></c:if></a></li>
 	                      		</c:if>
 	                      	</c:forEach>
 						</ul>
@@ -230,6 +240,10 @@
 				</c:if>
 				
 				<c:if test="${searchVO.boardType == 'sns'}">
+					<!-- 
+					 value="${requestScope['javax.servlet.forward.servlet_path']}"
+					 -->
+									
 					<input type="hidden" id="snsIndex" name="snsIndex" value="${currentPage}"/>
 					<div class="sns-list">
 						<!-- img-board-list -->
@@ -242,7 +256,15 @@
 												<p class="img"><img alt="" src="${result.pc_thimg }"></p>
 												<a href="${result.url}" target="_blank">
 													<span class="icon"></span>
-													<span class="txt">${fnc:xssContents(result.title )}</span>
+													<c:choose>
+														<c:when test="${path[0] eq 'eng'}">
+															<span class="txt">${fnc:xssContents(result.en_title )}</span>															
+														</c:when>
+														<c:otherwise>
+															<span class="txt">${fnc:xssContents(result.title )}</span>															
+														</c:otherwise>
+													</c:choose>
+
 												</a>
 											</li>
 										</c:forEach>

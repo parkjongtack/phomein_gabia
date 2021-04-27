@@ -32,7 +32,7 @@ import com.main.cmmn.web.GOdukAbstractController;
 import egovframework.rte.ptl.mvc.tags.ui.pagination.PaginationInfo;
 
 @Controller
-@RequestMapping({ "/brand/community/*" , "/mbrand/community/*"})
+@RequestMapping({ "/brand/community/*" , "/mbrand/community/*", "/eng/brand/community/*"})
 public class BrandCommunityController extends GOdukAbstractController{
 	
 	private final Logger logger = LoggerFactory.getLogger(getClass());
@@ -234,6 +234,7 @@ public class BrandCommunityController extends GOdukAbstractController{
 		
 		return nameSpace + "community_list";
 	}
+	
 	
 	
 	// TODO /brand/community/{boardType}/selectCommunityList.do

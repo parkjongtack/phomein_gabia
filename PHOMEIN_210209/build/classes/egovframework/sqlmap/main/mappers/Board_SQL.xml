@@ -84,6 +84,9 @@
                  		 ELSE 'N' END newYn
                   , pc_thorinm, m_thorinm, file1_orinm, file2_orinm, file3_orinm, file4_orinm, file5_orinm
                   , source
+                  , en_title
+                  , en_pc_alt
+                  , en_m_alt
 			FROM tb_board
         ]]>
 		<where>
@@ -196,6 +199,9 @@
 				  , filename5
 				  , pc_thorinm, m_thorinm, file1_orinm, file2_orinm, file3_orinm, file4_orinm, file5_orinm
 				  , source
+                  , en_title
+                  , en_pc_alt
+                  , en_m_alt				  
 			FROM tb_board
         ]]>
 		<where>
@@ -203,6 +209,7 @@
 			AND board_type = #{boardType}
 			AND seq = #{seq}
 		</where>
+				
 	</select>
 	
 	<select id="selectPreOne" parameterType="hashmap" resultType="hashmap">
@@ -323,7 +330,10 @@
 			    stitle,
 			    </if>
 				 modid, 
-				 moddt
+				 moddt,
+				 en_title,
+				 en_pc_alt,
+				 en_m_alt
 				 ) 
 		VALUES (#{boardType},
 			    #{cate},
@@ -393,7 +403,10 @@
 			    #{stitle},
 			    </if>
 			    #{modid}, 
-			    NOW()
+			    NOW(),
+				#{en_title},
+				#{en_pc_alt},
+				#{en_m_alt}			    
 			    );			    
 	</insert>
 	
@@ -497,7 +510,10 @@
 			    stitle = #{stitle},
 			    </if>
 			   modid = #{modid}, 
-			   moddt = NOW()
+			   moddt = NOW(),
+			   en_title = #{en_title},
+			   en_pc_alt = #{en_pc_alt},
+			   en_m_alt = #{en_m_alt}				   
 		 WHERE board_type = #{boardType}
 		   AND seq = #{seq}
 	</update>

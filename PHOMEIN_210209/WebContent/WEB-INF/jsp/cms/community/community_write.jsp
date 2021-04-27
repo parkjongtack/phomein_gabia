@@ -179,7 +179,7 @@
 								<tr>
 									<th scope="row">영문제목 <span class="need"></span></th>
 									<td>
-										<input type="text" name="" id="" placeholder="영문 제목을 입력하세요" style="width:100%" value="">
+										<input type="text" name="en_title" id="en_title" placeholder="영문 제목을 입력하세요" style="width:100%" value="${result.en_title }">
 									</td>
 								</tr>
 								</c:if>
@@ -252,7 +252,7 @@
 								<tr>
 									<th scope="row">영문 PC 대체텍스트 <span class="need"></span></th>
 									<td>
-										<input type="text" name="" id="" style="width:100%" value="">
+										<input type="text" name="en_pc_alt" id="en_pc_alt" style="width:100%" value="${result.en_pc_alt }">
 									</td>
 								</tr>
 								</c:if>
@@ -299,7 +299,7 @@
 								<tr>
 									<th scope="row">영문 MOBILE 대체텍스트 <span class="need"></span></th>
 									<td>
-										<input type="text" name="" id="" style="width:100%" value="">
+										<input type="text" name="en_m_alt" id="en_m_alt" style="width:100%" value="${result.en_m_alt }">
 									</td>
 								</tr>
 								</c:if>

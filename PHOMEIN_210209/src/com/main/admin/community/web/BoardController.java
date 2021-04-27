@@ -136,6 +136,8 @@ public class BoardController extends GOdukAbstractController{
 			model.addAttribute("result", boardService.selectCommunityOne(param));
 		}
 		
+		System.out.println(seq);
+		
 		model.addAttribute("searchVO", param);
 		
 		return NAMESPACE + "community_write";
@@ -259,6 +261,10 @@ public class BoardController extends GOdukAbstractController{
     		}else{
     			param.put("file05_del", "Y");
     		}
+			
+			param.put("en_title", param.get("en_title"));
+			param.put("en_pc_alt", param.get("en_pc_alt"));
+			param.put("en_m_alt", param.get("en_m_alt"));
 			
 			if (seq != null && !seq.equals("")) {	
 				boardService.updateComuunityBoard(param);
