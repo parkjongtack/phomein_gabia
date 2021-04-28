@@ -76,21 +76,34 @@
 			<a href="#none">COMMUNITY</a>
 			<dd style="display:none;">COMMUNITY</dd>
 			<ul class="dep_list">
-				<li><a href="/meng/community/sns/community_list.do">INSTAGRAM</a></li>
-				<li><a href="/meng/community/sns/community_list.do">BLOG</a></li>
-				<li><a href="/meng/community/sns/community_list.do">YOUTUBE</a></li>
-				<li><a href="/meng/community/sns/community_list.do">NOTICE & PRESS</a></li>
-				<li><a href="/meng/community/sns/community_list.do">GIFT CARD</a></li>
-				<li><a href="/meng/community/sns/community_list.do">MEMBERSHIP</a></li>
+				<li><a href="/meng/community/sns/community_list.do?cate=109203">INSTAGRAM</a></li>
+				<li><a href="/meng/community/sns/community_list.do?cate=109204">BLOG</a></li>
+				<li><a href="/meng/community/sns/community_list.do?cate=109205">YOUTUBE</a></li>
 			</ul>
 		</div>		
 	</div>
 
 	<script>
 	$(document).ready(function () {
-		var url = $(location).attr("pathname");
+var url = $(location).attr("pathname");
+		
+		function getParameter(name) {
+		    name = name.replace(/[\[]/, "\\[").replace(/[\]]/, "\\]");
+		    var regex = new RegExp("[\\?&]" + name + "=([^&#]*)"),
+		        results = regex.exec(location.search);
+		    return results === null ? "" : decodeURIComponent(results[1].replace(/\+/g, " "));
+		}
+		
+		//console.log(url);
+		var params_name = getParameter("cate");
+		//console.log(params_name);
+		if(url.indexOf('/sns/community_list') != -1){
+			url = url+'?cate='+params_name;
+		}
+		//console.log(url);
+		
 		$(".dep2 ul li a").each(function(index) {
-			if($(this).attr("href") == url){
+			if($(this).attr("href").indexOf(url) != -1){
 				$(this).parent("li").attr("class", "actived"); // depth02 active
 				$(this).closest(".dep2").show(); // depth02 show
 				var aId = $(this).closest(".dep2").children('a').text();

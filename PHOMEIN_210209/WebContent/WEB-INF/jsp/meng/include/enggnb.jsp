@@ -53,12 +53,9 @@
 							<li>
 							<a href="#none">COMMUNITY</a>
 							<ul class="gnbs">
-								<li><a href="/meng/community/sns/community_list.do">INSTAGRAM</a></li>
-								<li><a href="/meng/community/sns/community_list.do">BLOG</a></li>
-								<li><a href="/meng/community/sns/community_list.do">YOUTUBE</a></li>
-								<li><a href="/meng/community/sns/community_list.do">NOTICE & PRESS</a></li>
-								<li><a href="/meng/community/sns/community_list.do">GIFT CARD</a></li>
-								<li><a href="/meng/community/sns/community_list.do">MEMBERSHIP</a></li>
+								<li><a href="/meng/community/sns/community_list.do?cate=109203">INSTAGRAM</a></li>
+								<li><a href="/meng/community/sns/community_list.do?cate=109204">BLOG</a></li>
+								<li><a href="/meng/community/sns/community_list.do?cate=109205">YOUTUBE</a></li>
 							</ul>
 						</li>
 					</ul>

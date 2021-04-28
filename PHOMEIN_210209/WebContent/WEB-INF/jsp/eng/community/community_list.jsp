@@ -97,13 +97,13 @@
 							<%-- <li <c:if test="${searchVO.cate == ''}"> class=actived </c:if> ><a href="/eng/community/sns/community_list.do">ALL</a></li> --%>
 							<c:forEach var="codeResult" items="${ fnc:codeListSub('109') }" varStatus="status">
 								<c:if test="${codeResult.code == '109203'}">
-	                      			<li <c:if test="${searchVO.cate == codeResult.code}"> class='actived' </c:if> ><a href="/eng/community/sns/community_list.do?cate=${codeResult.code}"><c:out value="${codeResult.name}"/></a></li>
+	                      			<li <c:if test="${searchVO.cate == codeResult.code}"> class='actived' </c:if> ><a href="/eng/community/sns/community_list.do?cate=${codeResult.code}">INSTAGRAM</a></li>
 	                      		</c:if>
 	                      		<c:if test="${codeResult.code == '109204'}">
-	                      			<li <c:if test="${searchVO.cate == codeResult.code}"> class='actived' </c:if> ><a href="/eng/community/sns/community_list.do?cate=${codeResult.code}"><c:out value="${codeResult.name}"/></a></li>
+	                      			<li <c:if test="${searchVO.cate == codeResult.code}"> class='actived' </c:if> ><a href="/eng/community/sns/community_list.do?cate=${codeResult.code}">BLOG</a></li>
 	                      		</c:if>
 	                      		<c:if test="${codeResult.code == '109205'}">
-	                      			<li <c:if test="${searchVO.cate == codeResult.code}"> class='actived' </c:if> ><a href="/eng/community/sns/community_list.do?cate=${codeResult.code}"><c:out value="${codeResult.name}"/></a></li>
+	                      			<li <c:if test="${searchVO.cate == codeResult.code}"> class='actived' </c:if> ><a href="/eng/community/sns/community_list.do?cate=${codeResult.code}">YOUTUBE</a></li>
 	                      		</c:if>
 	                      	</c:forEach>
 						</ul>
@@ -238,7 +238,7 @@
 								<c:choose>
 									<c:when test="${not empty resultList }" >
 										<c:forEach items="${resultList }" var="result" varStatus="status" >
-											<li class=<c:if test="${result.cate == '109201' }">"ico-f"</c:if><c:if test="${result.cate == '109202' }">"ico-b"</c:if><c:if test="${result.cate == '109203' }">"ico-i"</c:if> >
+											<li class=<c:if test="${result.cate == '109205' }">"ico-y"</c:if><c:if test="${result.cate == '109204' }">"ico-b"</c:if><c:if test="${result.cate == '109203' }">"ico-i"</c:if> >
 												<p class="img"><img alt="" src="${result.pc_thimg }"></p>
 												<a href="${result.url}" target="_blank">
 													<span class="icon"></span>

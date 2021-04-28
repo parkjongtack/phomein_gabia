@@ -73,12 +73,11 @@
 							</ul>
 						</li>
 						<li>
-							<a href="/brand/community/sns/community_list.do?cate=109203">COMMUNITY</a>
+							<a href="/eng/community/sns/community_list.do?cate=109203">COMMUNITY</a>
 							<ul>
-								<li><a href="/brand/community/sns/community_list.do?cate=109203">INSTAGRAM</a></li>
-								<li><a href="/brand/community/sns/community_list.do?cate=109204">BLOG</a></li>
-								<li><a href="/brand/community/sns/community_list.do?cate=109205">YOUTUBE</a></li>
-								<li><a href="/brand/community/notice/community_list.do">NOTICE & PRESS</a></li>
+								<li><a href="/eng/community/sns/community_list.do?cate=109203">INSTAGRAM</a></li>
+								<li><a href="/eng/community/sns/community_list.do?cate=109204">BLOG</a></li>
+								<li><a href="/eng/community/sns/community_list.do?cate=109205">YOUTUBE</a></li>
 								<!-- <li><a href="/brand/phomein/coupon_01.do">상품권</a></li>
 								<li style="display:none;"><a href="/brand/phomein/coupon_02.do">상품권</a></li>
 								<li style="display:none;"><a href="/brand/phomein/coupon_03.do">상품권</a></li>

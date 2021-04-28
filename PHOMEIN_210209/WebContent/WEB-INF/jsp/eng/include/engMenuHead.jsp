@@ -70,10 +70,9 @@
 							<a href="javascript:;" class="nav-title">COMMUNITY</a>
 							<dd style="display:none;">COMMUNITY</dd>
 							<ul class="nav-list">
-								<li><a href="/brand/community/sns/community_list.do?cate=109203">INSTAGRAM</a></li>
-								<li><a href="/brand/community/sns/community_list.do?cate=109204">BLOG</a></li>
-								<li><a href="/brand/community/sns/community_list.do?cate=109205">YOUTUBE</a></li>
-								<li><a href="/brand/community/notice/community_list.do">NOTICE & PRESS</a></li>
+								<li><a href="/eng/community/sns/community_list.do?cate=109203">INSTAGRAM</a></li>
+								<li><a href="/eng/community/sns/community_list.do?cate=109204">BLOG</a></li>
+								<li><a href="/eng/community/sns/community_list.do?cate=109205">YOUTUBE</a></li>
 							</ul>
 						</li>
 					</ul>
@@ -85,11 +84,28 @@
 
 	<script>
 	$(document).ready(function () {
-		var url = $(location).attr("pathname");
+		var url = fnParsingUrl($(location).attr("pathname"));
+
+		function getParameter(name) {
+		    name = name.replace(/[\[]/, "\\[").replace(/[\]]/, "\\]");
+		    var regex = new RegExp("[\\?&]" + name + "=([^&#]*)"),
+		        results = regex.exec(location.search);
+		    return results === null ? "" : decodeURIComponent(results[1].replace(/\+/g, " "));
+		}
+		
+		//console.log(url);
+		var params_name = getParameter("cate");
+		if(url.indexOf('/sns/community_list') != -1){
+			url = url+'?cate='+params_name;
+		}
+		
 		$(".depth02 ul li a").each(function(index) {
 			if($(this).attr("href") == url){
 				$(this).parent("li").attr("class", "actived"); // depth02 active
 				$(this).closest(".depth02").show(); // depth02 show
+				if($(this).text() == '메뉴소개') {
+					$(this).closest(".depth02").hide(); // depth02 show
+				}
 				var aId = $(this).closest(".depth02").children('a').text();
 				$("#"+aId).attr("class", "actived"); // depth01 active
 				$(".depth01").children('a').text(aId); // depth01 text
@@ -97,6 +113,13 @@
 			}
 		});
 	});
+	
+	var fnParsingUrl = function(url) {
+		if (url.indexOf('coupon') > -1) 		url = '/brand/phomein/coupon_01.do';
+		else if (url.indexOf('mileage') > -1)	url = '/brand/phomein/member_ship.do';
+		
+		return url;
+	};
 	</script>
 	<!--if($(this).text() == 'MENU') {
 					$(this).closest(".depth02").hide(); // depth02 hide
