@@ -94,9 +94,15 @@
 					</c:if>
 					<c:if test="${searchVO.boardType == 'sns'}">
 						<ul>
-							<li <c:if test="${searchVO.cate == ''}"> class=actived </c:if> ><a href="/eng/community/sns/community_list.do">ALL</a></li>
+							<%-- <li <c:if test="${searchVO.cate == ''}"> class=actived </c:if> ><a href="/eng/community/sns/community_list.do">ALL</a></li> --%>
 							<c:forEach var="codeResult" items="${ fnc:codeListSub('109') }" varStatus="status">
 								<c:if test="${codeResult.code == '109203'}">
+	                      			<li <c:if test="${searchVO.cate == codeResult.code}"> class='actived' </c:if> ><a href="/eng/community/sns/community_list.do?cate=${codeResult.code}"><c:out value="${codeResult.name}"/></a></li>
+	                      		</c:if>
+	                      		<c:if test="${codeResult.code == '109204'}">
+	                      			<li <c:if test="${searchVO.cate == codeResult.code}"> class='actived' </c:if> ><a href="/eng/community/sns/community_list.do?cate=${codeResult.code}"><c:out value="${codeResult.name}"/></a></li>
+	                      		</c:if>
+	                      		<c:if test="${codeResult.code == '109205'}">
 	                      			<li <c:if test="${searchVO.cate == codeResult.code}"> class='actived' </c:if> ><a href="/eng/community/sns/community_list.do?cate=${codeResult.code}"><c:out value="${codeResult.name}"/></a></li>
 	                      		</c:if>
 	                      	</c:forEach>
@@ -236,7 +242,7 @@
 												<p class="img"><img alt="" src="${result.pc_thimg }"></p>
 												<a href="${result.url}" target="_blank">
 													<span class="icon"></span>
-													<span class="txt">${fnc:xssContents(result.title )}</span>
+													<span class="txt">${fnc:xssContents(result.en_title )}</span>
 												</a>
 											</li>
 										</c:forEach>
