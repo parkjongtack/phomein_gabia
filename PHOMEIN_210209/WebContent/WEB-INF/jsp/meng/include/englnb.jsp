@@ -8,7 +8,7 @@
 				<li id="MENU"><a href="/meng/menu/menu_list.do">MENU</a></li>
 				<li id="STORE"><a href="/meng/store/store_list.do">STORE</a></li>
 				<li id="FRANCHISE"><a href="/meng/franchisee/step01.do">FRANCHISE</a></li>
-				<li id="COMMUNITY"><a href="/meng/community/sns/community_list.do">COMMUNITY</a></li>
+				<li id="COMMUNITY"><a href="/meng/community/sns/community_list.do?cate=109203">COMMUNITY</a></li>
 			</ul>
 		</div>
 		<div class="dep dep2" style="display:none;">
@@ -85,7 +85,7 @@
 
 	<script>
 	$(document).ready(function () {
-var url = $(location).attr("pathname");
+		var url = $(location).attr("pathname");
 		
 		function getParameter(name) {
 		    name = name.replace(/[\[]/, "\\[").replace(/[\]]/, "\\]");

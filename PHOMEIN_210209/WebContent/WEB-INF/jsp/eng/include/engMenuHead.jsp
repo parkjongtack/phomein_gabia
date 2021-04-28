@@ -14,7 +14,7 @@
 								<li id="MENU"><a href="/eng/menu/menu_list.do">MENU</a></li>
 								<li id="STORE"><a href="/eng/store/store_list.do">STORE</a></li>
 								<li id="FRANCHISE"><a href="/eng/franchisee/step01.do">FRANCHISE</a></li>
-								<li id="COMMUNITY"><a href="#">COMMUNITY</a></li>
+								<li id="COMMUNITY"><a href="/eng/community/sns/community_list.do?cate=109203">COMMUNITY</a></li>
 							</ul>
 						</li>
 						<li class="depth02" style="display:none;">
@@ -121,6 +121,7 @@
 		return url;
 	};
 	</script>
+
 	<!--if($(this).text() == 'MENU') {
 					$(this).closest(".depth02").hide(); // depth02 hide
 				}-->
