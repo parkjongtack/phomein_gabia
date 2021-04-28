@@ -8,7 +8,7 @@
 					<li><a href="/brand/etc/terms.do">이용약관</a></li>
 					<li class="em"><a href="/brand/etc/privacy.do">개인정보 취급방침</a></li>
 					<li><a href="/brand/etc/email.do">이메일 무단 수집 거부</a></li>
-					<li><a href="/company/main/main.do" target="_blank">(주)데일리킹</a></li>
+					<li><a href="/company/company/dailyking.do" target="_blank">(주)데일리킹</a></li>
 					<li><a href="/brand/cs_center/cs_terms.do">고객의 소리</a></li>
 				</ul>
 				<ul class="list2">
