@@ -455,6 +455,7 @@
 	        	
 	        	var $html = "";
 	    	    if(data.resultList.length > 0) {
+	    	    	console.log(data.resultList);
 					$.each(data.resultList, function(key, index){
 						$html = '';
 						$html += '<li class=';
@@ -469,7 +470,7 @@
 						$html += '<p class="img"><img alt="" src="'+data.resultList[key].pc_thimg+'"></p>'
 						$html += '<a href="'+ data.resultList[key].url+'" target="_blank">';
 						$html += '<span class="icon"></span>';
-						$html += '<span class="txt">'+data.resultList[key].title+'</span>';
+						$html += '<span class="txt">'+data.resultList[key].en_title+'</span>';
 						$html += '</a>';
 						$html += '</li>';
 						$('#snsUl').append($html);

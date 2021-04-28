@@ -221,7 +221,7 @@
 						<c:when test="${not empty resultList }" >
 							<ul id="snsUl">
 								<c:forEach items="${resultList }" var="result" varStatus="status" >
-									<li><a href="${result.url}"><img src="${result.m_thimg }" alt="${result.m_alt }"></a></li>
+									<li><a href="${result.url}"><img src="${result.m_thimg }" alt="${result.en_m_alt }"></a></li>
 								</c:forEach>
 							</ul>
 						</c:when>
@@ -430,7 +430,7 @@
 	    	    if(data.resultList.length > 0) {
 					$.each(data.resultList, function(key, index){
 						$html = '';
-						$html += '<li><a href=\''+data.resultList[key].url+'\'><img src=\''+data.resultList[key].m_thimg+'\' alt=\''+data.resultList[key].m_alt+'\'></a></li>';
+						$html += '<li><a href=\''+data.resultList[key].url+'\'><img src=\''+data.resultList[key].m_thimg+'\' alt=\''+data.resultList[key].en_m_alt+'\'></a></li>';
 						$('#snsUl').append($html);
 	    			});
 				}
