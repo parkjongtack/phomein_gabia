@@ -10,7 +10,15 @@
 <!-- skip-link -->
 <a href="#dBody" id="skip-link">본문 바로가기</a>
 <!-- //skip-link -->
-
+<c:set var="path" value="${fn:split(requestScope['javax.servlet.forward.servlet_path'],'/')}" /> 
+<c:choose>
+	<c:when test="${path[0] eq 'eng'}">
+		<c:set var="lang_type" value="/eng" />
+	</c:when>
+	<c:otherwise>
+		<c:set var="lang_type" value="" />							
+	</c:otherwise>
+</c:choose>
 <!-- wrap -->
 <div id="wrap">
 	<!-- dHead -->
@@ -93,17 +101,19 @@
 						</ul>
 					</c:if>
 					<c:if test="${searchVO.boardType == 'sns'}">
+						
+							
 						<ul>
 							<%-- <li <c:if test="${searchVO.cate == ''}"> class=actived </c:if> ><a href="/brand/community/sns/community_list.do">전체</a></li> --%>
 							<c:forEach var="codeResult" items="${ fnc:codeListSub('109') }" varStatus="status">
 								<c:if test="${codeResult.code == '109203'}">
-	                      			<li <c:if test="${searchVO.cate == codeResult.code}"> class='actived' </c:if> ><a href="/brand/community/sns/community_list.do?cate=${codeResult.code}"><c:out value="${codeResult.name}"/></a></li>
+	                      			<li <c:if test="${searchVO.cate == codeResult.code}"> class='actived' </c:if> ><a href="${lang_type}/brand/community/sns/community_list.do?cate=${codeResult.code}"><c:if test="${lang_type eq '/eng'}">INSTAGRAM</c:if><c:if test="${lang_type eq ''}"><c:out value="${codeResult.name}"/></c:if></a></li>
 	                      		</c:if>
 	                      		<c:if test="${codeResult.code == '109204'}">
-	                      			<li <c:if test="${searchVO.cate == codeResult.code}"> class='actived' </c:if> ><a href="/brand/community/sns/community_list.do?cate=${codeResult.code}"><c:out value="${codeResult.name}"/></a></li>
+	                      			<li <c:if test="${searchVO.cate == codeResult.code}"> class='actived' </c:if> ><a href="${lang_type}/brand/community/sns/community_list.do?cate=${codeResult.code}"><c:if test="${lang_type eq '/eng'}">BLOG</c:if><c:if test="${lang_type eq ''}"><c:out value="${codeResult.name}"/></c:if></a></li>
 	                      		</c:if>
 	                      		<c:if test="${codeResult.code == '109205'}">
-	                      			<li <c:if test="${searchVO.cate == codeResult.code}"> class='actived' </c:if> ><a href="/brand/community/sns/community_list.do?cate=${codeResult.code}"><c:out value="${codeResult.name}"/></a></li>
+	                      			<li <c:if test="${searchVO.cate == codeResult.code}"> class='actived' </c:if> ><a href="${lang_type}/brand/community/sns/community_list.do?cate=${codeResult.code}"><c:if test="${lang_type eq '/eng'}">YOUTUBE</c:if><c:if test="${lang_type eq ''}"><c:out value="${codeResult.name}"/></c:if></a></li>
 	                      		</c:if>
 	                      	</c:forEach>
 						</ul>
@@ -230,6 +240,10 @@
 				</c:if>
 				
 				<c:if test="${searchVO.boardType == 'sns'}">
+					<!-- 
+					 value="${requestScope['javax.servlet.forward.servlet_path']}"
+					 -->
+									
 					<input type="hidden" id="snsIndex" name="snsIndex" value="${currentPage}"/>
 					<div class="sns-list">
 						<!-- img-board-list -->
@@ -242,7 +256,15 @@
 												<p class="img"><img alt="" src="${result.pc_thimg }"></p>
 												<a href="${result.url}" target="_blank">
 													<span class="icon"></span>
-													<span class="txt">${fnc:xssContents(result.title )}</span>
+													<c:choose>
+														<c:when test="${path[0] eq 'eng'}">
+															<span class="txt">${fnc:xssContents(result.en_title )}</span>															
+														</c:when>
+														<c:otherwise>
+															<span class="txt">${fnc:xssContents(result.title )}</span>															
+														</c:otherwise>
+													</c:choose>
+
 												</a>
 											</li>
 										</c:forEach>
@@ -293,6 +315,122 @@
 <!-- //wrap -->
 
 <script src="/brand/common/js/front_ui.js"></script>
+<c:choose>
+	<c:when test="${path[0] eq 'eng'}">
+		<script>
+			function selectSnsMore(){
+				var pageIndex = Number($("#snsIndex").val())+1;
+				var boardType = $("#boardType").val();
+				var cate = $("#cate").val();
+				
+				$.ajax({
+			     	url: "/brand/community/"+boardType+"/selectCommunityList.do",
+			        type: "POST",
+			        data: {
+			        	'pageIndex' : pageIndex,
+			        	'boardType' : boardType,
+			        	'cate' : cate
+			        },
+			        dataType: 'json',
+			        success: function (data) {
+			        	
+			        	var $html = "";
+			    	    if(data.resultList.length > 0) {
+							$.each(data.resultList, function(key, index){
+								$html = '';
+								$html += '<li class=';
+								if(data.resultList[key].cate == '109205'){
+									$html += 'ico-y';
+								}else if(data.resultList[key].cate == '109204'){
+									$html += 'ico-b';
+								}else if(data.resultList[key].cate == '109203'){
+									$html += 'ico-i';
+								}
+								$html += '>';
+								$html += '<p class="img"><img alt="" src="'+data.resultList[key].pc_thimg+'"></p>'
+								$html += '<a href="'+ data.resultList[key].url+'" target="_blank">';
+								$html += '<span class="icon"></span>';
+								$html += '<span class="txt">'+data.resultList[key].en_title+'</span>';
+								$html += '</a>';
+								$html += '</li>';
+								$('#snsUl').append($html);
+			    			});
+						}
+			    	    $("#snsIndex").val(data.currentPage);
+			    	    
+			    	    if(data.lastPage <= data.currentPage){
+			    	    	$("#snsMoreDiv").hide();
+			    	    }
+			        },
+			        error: function (xhr, status, error) {
+			            if (xhr.status == 500) {
+			            	alert('Internal error: ' + xhr.responseText);
+			            } else {
+			                alert('Unexpected error.');
+			            }
+			        }
+			    });
+			}		
+		</script>															
+	</c:when>
+	<c:otherwise>
+		<script>
+			function selectSnsMore(){
+				var pageIndex = Number($("#snsIndex").val())+1;
+				var boardType = $("#boardType").val();
+				var cate = $("#cate").val();
+				
+				$.ajax({
+			     	url: "/brand/community/"+boardType+"/selectCommunityList.do",
+			        type: "POST",
+			        data: {
+			        	'pageIndex' : pageIndex,
+			        	'boardType' : boardType,
+			        	'cate' : cate
+			        },
+			        dataType: 'json',
+			        success: function (data) {
+			        	
+			        	var $html = "";
+			    	    if(data.resultList.length > 0) {
+							$.each(data.resultList, function(key, index){
+								$html = '';
+								$html += '<li class=';
+								if(data.resultList[key].cate == '109205'){
+									$html += 'ico-y';
+								}else if(data.resultList[key].cate == '109204'){
+									$html += 'ico-b';
+								}else if(data.resultList[key].cate == '109203'){
+									$html += 'ico-i';
+								}
+								$html += '>';
+								$html += '<p class="img"><img alt="" src="'+data.resultList[key].pc_thimg+'"></p>'
+								$html += '<a href="'+ data.resultList[key].url+'" target="_blank">';
+								$html += '<span class="icon"></span>';
+								$html += '<span class="txt">'+data.resultList[key].title+'</span>';
+								$html += '</a>';
+								$html += '</li>';
+								$('#snsUl').append($html);
+			    			});
+						}
+			    	    $("#snsIndex").val(data.currentPage);
+			    	    
+			    	    if(data.lastPage <= data.currentPage){
+			    	    	$("#snsMoreDiv").hide();
+			    	    }
+			        },
+			        error: function (xhr, status, error) {
+			            if (xhr.status == 500) {
+			            	alert('Internal error: ' + xhr.responseText);
+			            } else {
+			                alert('Unexpected error.');
+			            }
+			        }
+			    });
+			}		
+		</script>															
+	</c:otherwise>
+</c:choose>	 
 <script>
 	$(function(){
 		
@@ -451,59 +589,7 @@
 	}
 	
 	
-	function selectSnsMore(){
-		var pageIndex = Number($("#snsIndex").val())+1;
-		var boardType = $("#boardType").val();
-		var cate = $("#cate").val();
-		
-		$.ajax({
-	     	url: "/brand/community/"+boardType+"/selectCommunityList.do",
-	        type: "POST",
-	        data: {
-	        	'pageIndex' : pageIndex,
-	        	'boardType' : boardType,
-	        	'cate' : cate
-	        },
-	        dataType: 'json',
-	        success: function (data) {
-	        	
-	        	var $html = "";
-	    	    if(data.resultList.length > 0) {
-					$.each(data.resultList, function(key, index){
-						$html = '';
-						$html += '<li class=';
-						if(data.resultList[key].cate == '109205'){
-							$html += 'ico-y';
-						}else if(data.resultList[key].cate == '109204'){
-							$html += 'ico-b';
-						}else if(data.resultList[key].cate == '109203'){
-							$html += 'ico-i';
-						}
-						$html += '>';
-						$html += '<p class="img"><img alt="" src="'+data.resultList[key].pc_thimg+'"></p>'
-						$html += '<a href="'+ data.resultList[key].url+'" target="_blank">';
-						$html += '<span class="icon"></span>';
-						$html += '<span class="txt">'+data.resultList[key].title+'</span>';
-						$html += '</a>';
-						$html += '</li>';
-						$('#snsUl').append($html);
-	    			});
-				}
-	    	    $("#snsIndex").val(data.currentPage);
-	    	    
-	    	    if(data.lastPage <= data.currentPage){
-	    	    	$("#snsMoreDiv").hide();
-	    	    }
-	        },
-	        error: function (xhr, status, error) {
-	            if (xhr.status == 500) {
-	            	alert('Internal error: ' + xhr.responseText);
-	            } else {
-	                alert('Unexpected error.');
-	            }
-	        }
-	    });
-	}
+
 	
 	function fnDetailView(url , seq){
 		location.href=url+'?seq='+seq;

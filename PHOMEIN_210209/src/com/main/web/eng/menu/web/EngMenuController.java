@@ -84,7 +84,8 @@ public class EngMenuController {
 		return NAMESPACE + "menu_list";
 	}
 
-	// 메뉴 리스트 AJAX 조회
+	// 메뉴 리스트 AJAX 조회  
+	
 	@RequestMapping(value = "/get_menu_list_ajax.do", method = RequestMethod.POST)
 	public @ResponseBody Map<String, Object> get_menu_list_ajax(@RequestParam Map param,
 			@RequestParam(required = false, defaultValue = "1") String pageIndex,

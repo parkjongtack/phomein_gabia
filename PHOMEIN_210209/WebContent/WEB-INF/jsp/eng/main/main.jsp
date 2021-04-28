@@ -53,6 +53,15 @@
 		100% {opacity: 0.3;}
 	}
 </style>
+<c:set var="path" value="${fn:split(requestScope['javax.servlet.forward.servlet_path'],'/')}" /> 
+<c:choose>
+	<c:when test="${path[0] eq 'eng'}">
+		<c:set var="lang_type" value="/eng" />
+	</c:when>
+	<c:otherwise>
+		<c:set var="lang_type" value="" />							
+	</c:otherwise>
+</c:choose>
 <body>
 <!-- skip-link -->
 <a href="#dBody" id="skip-link">본문 바로가기</a>
@@ -265,7 +274,17 @@
 															<p class="img"><img alt="" src="${result.pc_thimg }"></p>
 															<a href="${result.url}" target="_blank">
 																<span class="icon"></span>
+																<c:choose>
+																	<c:when test="${path[0] eq 'eng'}">
+																		<span class="txt">${fnc:xssContents(result.en_title )}</span>															
+																	</c:when>
+																	<c:otherwise>
+																		<span class="txt">${fnc:xssContents(result.title )}</span>															
+																	</c:otherwise>
+																</c:choose>																
+																<!-- 
 																<span class="txt">${fnc:xssContents(result.title )}</span>
+																-->
 															</a>
 														</li>
 													</c:if>

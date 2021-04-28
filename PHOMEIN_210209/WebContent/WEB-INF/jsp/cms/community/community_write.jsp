@@ -175,6 +175,14 @@
 										<input type="text" name="title" id="title" placeholder="제목을 입력하세요" style="width:100%" value="${result.title }">
 									</td>
 								</tr>
+								<c:if test="${searchVO.boardType =='sns' || searchVO.boardType == 'sns' }">
+								<tr>
+									<th scope="row">영문제목 <span class="need"></span></th>
+									<td>
+										<input type="text" name="en_title" id="en_title" placeholder="영문 제목을 입력하세요" style="width:100%" value="${result.en_title }">
+									</td>
+								</tr>
+								</c:if>
 								<c:if test="${searchVO.boardType =='notice' || searchVO.boardType == 'event' }">
 								<tr>
 									<th scope="row">소제목 <span class="need"></span></th>
@@ -240,6 +248,14 @@
 										<input type="text" name="pcAlt" id="pcAlt" value="${result.pc_alt }" placeholder="" style="width:100%">
 									</td>
 								</tr>
+								<c:if test="${searchVO.boardType =='sns' || searchVO.boardType == 'sns' }">
+								<tr>
+									<th scope="row">영문 PC 대체텍스트 <span class="need"></span></th>
+									<td>
+										<input type="text" name="en_pc_alt" id="en_pc_alt" style="width:100%" value="${result.en_pc_alt }">
+									</td>
+								</tr>
+								</c:if>
 								<c:if test="${searchVO.boardType =='notice' || searchVO.boardType == 'event' }">
 									<tr>
 										<th scope="row">PC 내용 <span class="need"></span></th>
@@ -279,6 +295,14 @@
 										<input type="text" name="mAlt" id="mALt" value="${result.m_alt }" placeholder="" style="width:100%">
 									</td>
 								</tr>
+								<c:if test="${searchVO.boardType =='sns' || searchVO.boardType == 'sns' }">
+								<tr>
+									<th scope="row">영문 MOBILE 대체텍스트 <span class="need"></span></th>
+									<td>
+										<input type="text" name="en_m_alt" id="en_m_alt" style="width:100%" value="${result.en_m_alt }">
+									</td>
+								</tr>
+								</c:if>
 								<c:if test="${boardType =='notice' || boardType == 'event' }">
 									<tr>
 										<th scope="row">MOBILE 내용 <span class="need"></span></th>
